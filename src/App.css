@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+/* font-family: 'DM Sans',sans-serif;
+font-family: 'Pacifico',cursive;
+font-family: 'Roboto',sans-serif; */
+/* rgb(49, 131, 146); */
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: rgb(232, 244, 243);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.custom-toggler .navbar-toggler {
+  border-color: rgb(63, 22, 177);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex: column;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  color: rgb(166, 251, 244);
+  min-height: 200px;
+}
+
+.nav-link,
+.bi-search {
+  color: rgb(166, 251, 244);
+  font-size: 1.2em;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.btn-outline-success {
+  font-size: 1.5em;
+  border: none;
+}
+
+.form-control {
+  height: 50px;
+  width: 300px;
+}
+
+.navbar-brand {
+  color: rgb(166, 251, 244);
+  padding-right: 10px;
+  font-family: 'Pacifico';
+  font-size: 3em;
+}
+
+.dropdown-menu {
+  background-color: rgb(166, 251, 244);
+}
+
+.btnCartW {
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  margin-top: 1em;
+}
+
+.bi-cart3 {
+  font-size: 1.8em;
+  color: black;
+}
+
+.greeting {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
+  font-family: 'Pacifico';
+  font-size: 3em;
+  margin-top: 1em;
 }
