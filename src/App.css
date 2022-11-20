@@ -1,7 +1,6 @@
 /* font-family: 'DM Sans',sans-serif;
 font-family: 'Pacifico',cursive;
 font-family: 'Roboto',sans-serif; */
-/* rgb(49, 131, 146); */
 
 * {
   margin: 0;
@@ -9,24 +8,20 @@ font-family: 'Roboto',sans-serif; */
 }
 
 body{
-  background-color: rgb(232, 244, 243);
+  background-color: rgb(242, 242, 242);
 }
 
-.custom-toggler .navbar-toggler {
-  border-color: rgb(63, 22, 177);
-}
 .navbar {
   display: flex;
   flex: column;
   justify-content: space-between;
-  background-color: rgb(0, 0, 0);
-  color: rgb(166, 251, 244);
+  background-color: rgb(81,88,121);  
   min-height: 200px;
 }
 
 .nav-link,
 .bi-search {
-  color: rgb(166, 251, 244);
+  color: whitesmoke;
   font-size: 1.2em;
   font-family: 'DM Sans', sans-serif;
 }
@@ -46,10 +41,16 @@ body{
   padding-right: 10px;
   font-family: 'Pacifico';
   font-size: 3em;
+  font-weight: 200; 
 }
 
 .dropdown-menu {
-  background-color: rgb(166, 251, 244);
+  background-color: rgb(245, 245, 245); 
+}
+
+.dropdown-item{
+font-family: 'DM Sans', sans-serif;
+font-weight: 500;
 }
 
 .btnCartW {
@@ -62,6 +63,10 @@ body{
 .bi-cart3 {
   font-size: 1.8em;
   color: black;
+}
+
+.mCart{
+  background-color:rgba(81, 88, 121,0.7);
 }
 
 .greeting {
