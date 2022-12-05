@@ -3,31 +3,32 @@ import { useParams } from 'react-router-dom'
 import { books } from '../Assets/books'
 import { ItemList } from './ItemList'
 
+
 export const ItemListContainer = () => {
 
     const [bookList, setBookList] = useState([])
-    const { id } = useParams
+    const { id } = useParams()
 
     useEffect(() => {
         const data = new Promise((resolve) => {
             setTimeout(() => {
                 resolve(id ? books.filter(book => book.gender === id) : books)
-            },2000)
+            }, 2000)
         })
+
+       
+
 
         data.then((data) => {
             setBookList(data)
         })
-    }, [id])
-
-   
+    }, [id])   
 
     return (
         <div>
-            <ItemList bookList={bookList} />
+             <ItemList bookList={bookList} /> 
         </div>
     )
-
 
 }
 

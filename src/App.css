@@ -7,22 +7,42 @@ font-family: 'Roboto',sans-serif; */
   padding: 0;
 }
 
-body{
-  background-color: rgb(242, 242, 242);
+.App {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  background: rgba(195, 194, 184, 0.3);
+
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(114, 132, 119);
+  color: white;
+  height: 3.5em;
 }
 
 .navbar {
-  display: flex;
-  flex: column;
-  justify-content: space-between;
-  background-color: rgb(81,88,121);  
-  min-height: 200px;
+  background: rgb(185, 184, 176);
+  background: linear-gradient(180deg, rgb(116, 131, 121) 36%, rgb(185, 184, 176) 64%, rgb(240, 240, 240) 100%);
+  min-height: 100px;
+  color: orange;
 }
 
 .nav-link,
 .bi-search {
   color: whitesmoke;
-  font-size: 1.2em;
+  text-shadow: 1px 1px black;
+  font-size: 1.5em;
+  font-weight: 600;
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -38,42 +58,79 @@ body{
 
 .navbar-brand {
   color: rgb(166, 251, 244);
+  text-shadow: 1px 1px #1d201e;
   padding-right: 10px;
   font-family: 'Pacifico';
+  font-style: italic;
   font-size: 3em;
-  font-weight: 200; 
+  font-weight: 200;
 }
 
 .dropdown-menu {
-  background-color: rgb(245, 245, 245); 
+  background-color: rgb(245, 245, 245);
 }
 
-.dropdown-item{
-font-family: 'DM Sans', sans-serif;
-font-weight: 500;
+.dropdown-item {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
 }
 
 .btnCartW {
   background-color: transparent;
   border-radius: 5px;
   border: none;
-  margin-top: 1em;
-}
-
-.bi-cart3 {
-  font-size: 1.8em;
+  margin-top: 0.5em;
   color: black;
 }
 
-.mCart{
-  background-color:rgba(81, 88, 121,0.7);
+.mCart {
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
+  font-size: 1.1em;
+}
+
+.bi-cart3 {
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
+  font-size: 1.9em;
+  margin: 3px;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+  background-color: rgb(114, 132, 119);
+  font-size: 1.3em;
+  font-weight: 900;
 }
 
 .greeting {
+  /* background-image: url(./Images/BookCityd.jpg); */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+.greeting_text {
   font-family: 'Pacifico';
-  font-size: 3em;
-  margin-top: 1em;
+  font-size: 3.3em;
+  font-style: italic;
+  width: 35%;
+  align-self: flex-end;
+  color: rgb(237, 237, 230);
+  text-shadow: 2px 2px #404c44;
+}
+
+.greeting_data {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.7em;
+  font-style: italic;
+  width: 35%;
+  align-self: flex-end;
+  color: rgb(237, 237, 230);
+  text-shadow: 2px 2px #1d201e;
+  background-color: rgba(242, 242, 242, 0.2);
+  border-radius: 5px;
 }

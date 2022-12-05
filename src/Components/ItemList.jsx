@@ -3,10 +3,12 @@ import Item from './Item'
 
 export const ItemList = ({bookList}) => {
 
-  console.log(bookList)
-  
+ 
   return (
-    <div>
+    <div className="row d-flex flex-wrap d-flex justify-content-evenly m-5">
+      {
+        bookList.map(book=><Item key={book.id} book={book}/>)
+      }
      
     </div>
   )
