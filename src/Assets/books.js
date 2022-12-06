@@ -7,9 +7,9 @@ export const books =
             "genre": "Novela Histórica",
             "language": "Castellano",
             "description": "Una catedral construida por el pueblo y para el pueblo en la Barcelona medieval del Siglo XIV, es el escenario de una apasionante historia de intriga, violencia y pasión. ",
-            "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/436575.jpg",
+            "image": "https://static.cpau.org/revistanotas/contenidos/2020/46/cultura/libro.jpg",
             "price": "5.449",
-            "stock": "10"
+            "stock": "5"
         },
         {
             "id": "2",
@@ -18,7 +18,7 @@ export const books =
             "genre": "Novela Histórica",
             "language": "Castellano",
             "description": "En la España del siglo XVIII, una conmovedora historia de amistad, pasión y venganza une dos voces de mujer en un canto desgarrador por la libertad.",
-            "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/625750.jpg",
+            "image": "https://contentv2.tap-commerce.com/cover/large/9788490624029_1.jpg?id_com=1113",
             "price": "4.449",
             "stock": "10"
         },
@@ -29,7 +29,7 @@ export const books =
             "genre": "Novela Histórica",
             "language": "Castellano",
             "description": "En la opulenta Córdoba de la segunda mitad del siglo XVI, un joven morisco, desgarrado entre dos culturas y dos amores, inicia una ardiente lucha por la tolerancia religiosa y los derechos de su pueblo.",
-            "image": "https://books.google.com/books/content/images/frontcover/YQlJohWrlo4C?fife=w256-h256",
+            "image": "https://http2.mlstatic.com/D_NQ_NP_875696-MLM45575549626_042021-W.jpg",
             "price": "3.853",
             "stock": "10"
         },
@@ -99,7 +99,7 @@ export const books =
             "genre": "Novela Histórica",
             "language": "Castellano",
             "description": "Una gran novela que narra las vidas de cinco familias: una americana, una galesa, una inglesa, una alemana y una rusa, con el trasfondo de la Primera Guerra Mundial, la Revolución Rusa y los profundos cambios sociales que estas conllevaron.",
-            "image": "https://books.google.com/books/content/images/frontcover/3zhv1DcM51kC?fife=w256-h256",
+            "image": "https://quelibroleo.com/images/libros/libro_1361055429.jpg",
             "price": "5.999",
             "stock": "10"
         },
@@ -132,7 +132,7 @@ export const books =
             "genre": "Novela Histórica",
             "language": "Castellano",
             "description": "I: Ambientada en Inglaterra en la Edad Media, en concreto en el siglo XII, durante un periodo de guerra civil conocido como la anarquía inglesa, entre el hundimiento del White Ship y el asesinato del arzobispo Thomas Becket.",
-            "image": "https://books.google.com/books/content/images/frontcover/mKoInmOU130C?fife=w256-h256",
+            "image": "https://contentv2.tap-commerce.com/cover/large/9789506445430_1.jpg?id_com=1113",
             "price": "5.999",
             "stock": "10"
         },
@@ -143,7 +143,7 @@ export const books =
             "genre": "Novela Histórica",
             "language": "Castellano",
             "description": "II: Se trata de la segunda parte de la conocida obra Los pilares de la Tierra. Tiene lugar en la misma ciudad ficticia, Kingsbridge, pero 200 años después. Algunos personajes son descendientes de los de la primera novela. Describe la vida e instituciones que existían en esa época, las relaciones de poder entre la nobleza, el clero y el estado llano y como la peste negra alteró esta relación.",
-            "image": "https://books.google.com/books/content/images/frontcover/LdxH80NuzgAC?fife=w256-h256",
+            "image": "http://4.bp.blogspot.com/-Fxly5d1sVeE/UQ71tDuateI/AAAAAAAABWU/-SRX-ysQkR8/s1600/un-mundo-sin-fin-novela-autor-ken-follett_MLV-F-38326140_493.jpg",
             "price": "5.999",
             "stock": "10"
         },
@@ -154,7 +154,7 @@ export const books =
             "genre": "Novela Histórica",
             "language": "Castellano",
             "description": "III: Este libro es la tercera parte de la serie de Kingsbridge Los Pilares de la Tierra. La primicia es la guerra de religiones que se vivió en Europa a partir de 1562, además de la disputa por el trono inglés entre Isabel Tudor y María Estuardo.",
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/uJogDgAAQBAJ?fife=w256-h256",
+            "image": "https://ceasanfrancisco.com/wp-content/uploads/2019/11/Una-columna-de-fuego.png",
             "price": "5.999",
             "stock": "10"
         },
@@ -165,7 +165,7 @@ export const books =
             "genre": "Ficción",
             "language": "Castellano",
             "description": "Canción de Hielo y Fuego. En el legendario mundo de los Siete Reinos; donde el verano puede durar décadas y el invierno toda una vida; y donde rastros de una magia inmemorial surgen en los rincones más sombríos; la tierra del norte; Invernalia; está resguardada por un colosal muro de hielo que detiene a fuerzas oscuras y sobrenaturales.",
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/-c02AwAAQBAJ?fife=w256-h256",
+            "image": "https://www.nuevetrescuartos.com/imagenes/9789588/978958861715.GIF",
             "price": "8.999",
             "stock": "10"
         },
@@ -176,7 +176,7 @@ export const books =
             "genre": "Ficción",
             "language": "Castellano",
             "description": "Un cometa del color de la sangre hiende el cielo; cargado de malos augurios. Y hay razones sobradas para pensar así: los Siete Reinos se ven sacudidos por las luchas intestinas entre los nobles por la sucesión al Trono de Hierro. En la otra orilla del mar Angosto; la princesa Daenerys Targaryen conduce a su pueblo de jinetes salvajes a través del desierto. Y en los páramos helados del norte; más allá del Muro; un ejército implacable avanza hacia un territorio asolado por el caos y las guerras fratricidas.",
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/jM42AwAAQBAJ?fife=w256-h256",
+            "image": "https://contentv2.tap-commerce.com/cover/large/9789506442323_1.jpg?id_com=1113",
             "price": "8.999",
             "stock": "10"
         },
@@ -187,7 +187,7 @@ export const books =
             "genre": "Ficción",
             "language": "Castellano",
             "description": "La espada llameante dejó a su paso largas estelas de fuego... el acero cantó contra el acero» Arrasados por la guerra; los Siete Reinos pronto sufrirán el larguísimo invierno que se predice como inusitadamente crudo. Y mientras empeoran la violencia y el clima; los personajes entrañables e infames que ya conocemos continúan debatiéndose entre feroces batallas y perversas intrigas palaciegas",
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/Hc42AwAAQBAJ?fife=w256-h256",
+            "image": "https://images.cdn2.buscalibre.com/fit-in/360x360/23/8d/238d555b4fa3d31acce60caa634adf27.jpg",
             "price": "8.999",
             "stock": "10"
         },
@@ -198,7 +198,7 @@ export const books =
             "genre": "Ficción",
             "language": "Castellano",
             "description": "Luego de siglos de guerras descarnadas; los siete poderes que dividen la tierra se han diezmado unos a otros hasta alcanzar una difícil tregua. Muy pocos reclamos legítimos existen ya por el Trono de Hierro; y la guerra que ha convertido al mundo en poco más que un desierto al fin ha terminado. O eso parece. Pero no pasa mucho tiempo antes de que los sobrevivientes; los proscritos; los renegados y los carroñeros de los Siete Reinos se reúnan.",
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/tM82AwAAQBAJ?fife=w256-h256",
+            "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/552112.jpg",
             "price": "8.999",
             "stock": "10"
         },
@@ -209,7 +209,7 @@ export const books =
             "genre": "Ficción",
             "language": "Castellano",
             "description": "Después de una colosal batalla; el futuro de los Siete Reinos pende de un hilo; acuciado por nuevas amenazas que emergen de todos los rincones y en todas direcciones. En el este; Daenerys Targaryen; el último eslabón de la Casa Targaryen; gobierna con sus tres dragones como la reina de una ciudad construida sobre polvo y muerte.",
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/l849AwAAQBAJ?fife=w256-h256",
+            "image": "https://juegodetronosok.files.wordpress.com/2013/11/250px-danza_de_dragones.jpg",
             "price": "8.999",
             "stock": "10"
         },
@@ -265,8 +265,8 @@ export const books =
             "genre": "Novela Histórica",
             "language": "Castellano",
             "description": "Con las amenazas, la sed de venganza y muchas pasiones desatadas como telón de fondo, las vidas entrecruzadas de los Zucker y los Ziad conforman un mosaico de traiciones y sufrimientos, de amores posibles e imposibles, al tiempo que plasman la gran aventura de vivir y convivir en un territorio marcado por la intolerancia. Intensa y conmovedora crónica de dos sagas familiares, la nueva y esperadísima novela de Julia Navarro nos adentra en las vidas de personas con nombres y apellidos, que luchan por alcanzar sus sueños, y que son responsables de su propio destino.",
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/wQkOAAAAQBAJ?fife=w256-h256",
-            "price": "2.900",
+            "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/645212.jpg",
+            "price": "3.299",
             "stock": "10"
         },
 

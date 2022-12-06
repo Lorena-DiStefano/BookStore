@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { ItemCounter } from './ItemCounter'
 
 export const ItemDetail = ({ bookList }) => {
@@ -9,10 +9,12 @@ export const ItemDetail = ({ bookList }) => {
   return (
     <div className="card_detail">
       <img className="card_detail_img" src={image} alt={title} />
-
       <div className="card_detail_bodyContainer">
         <div className="card_detail_body">
-          <h2>{title}</h2>
+          <div className="card_detail_top">
+            <h2>{title}</h2>
+            <i class="bi bi-box-arrow-left btn"></i>
+          </div>
           <h5>Autor: {author}</h5>
           <p><b>Género:</b> {genre} </p>
           <p><b>Idioma:</b> {language}</p>
@@ -20,10 +22,7 @@ export const ItemDetail = ({ bookList }) => {
           <h5>${price}</h5>
         </div>
         <div className="card_detail_btn">
-          <ItemCounter />
-          <p>
-            Volver
-          </p>
+          <ItemCounter center />
         </div>
       </div>
     </div>
