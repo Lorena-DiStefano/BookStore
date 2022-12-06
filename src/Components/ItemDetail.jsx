@@ -1,24 +1,29 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import { ItemCounter } from './ItemCounter'
 
-export const ItemDetail = ({ book }) => {
+export const ItemDetail = ({ bookList }) => {
 
-  const { image, title, author, gender, language, description, price } = book
+  const { image, title, author, genre, language, description, price } = bookList
 
   return (
-    <div className="cardDetail">
-      <div className="row g-0">
-        <div className="col-5 col-sm-4">
-          <img src={image} alt={title}  />
+    <div className="card_detail">
+      <img className="card_detail_img" src={image} alt={title} />
+
+      <div className="card_detail_bodyContainer">
+        <div className="card_detail_body">
+          <h2>{title}</h2>
+          <h5>Autor: {author}</h5>
+          <p><b>Género:</b> {genre} </p>
+          <p><b>Idioma:</b> {language}</p>
+          <p><b>Sinopsis:</b> {description}</p>
+          <h5>${price}</h5>
         </div>
-        <div className="col-7 col-sm-8">
-          <div className="cardDetail-body">
-            <h5>{title}</h5>
-            <h6>"Autor:"{author}</h6>
-            <p>"Género:"{gender} </p>
-            <p>"Idioma:"{language}</p>
-            <p>"Sinopsis:"{description}</p>
-            <p>${price}</p>            
-          </div>
+        <div className="card_detail_btn">
+          <ItemCounter />
+          <p>
+            Volver
+          </p>
         </div>
       </div>
     </div>

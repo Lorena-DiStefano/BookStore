@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Products from './Products/ArrayProducts.json'
+
 
 export const ItemCounter = () => {   
 

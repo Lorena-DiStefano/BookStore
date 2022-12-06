@@ -11,7 +11,7 @@ export const ItemDetailContainer = () => {
   useEffect(() => {
     const data = new Promise((resolve) => {
       setTimeout(() => {
-        resolve(books.find(book => book.gender ===id))
+        resolve(books.find(book => book.id ===id))
       }, 2000)
     }) 
 
@@ -27,3 +27,4 @@ export const ItemDetailContainer = () => {
   )
 
 }
+console.log(books)

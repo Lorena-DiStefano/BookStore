@@ -12,16 +12,15 @@ export const ItemListContainer = () => {
     useEffect(() => {
         const data = new Promise((resolve) => {
             setTimeout(() => {
-                resolve(id ? books.filter(book => book.gender === id) : books)
+                resolve(id ? books.filter(book => book.genre === id) : books)
             }, 2000)
-        })
-
-       
-
+        })  
 
         data.then((data) => {
-            setBookList(data)
-        })
+                setBookList(data)
+            })
+
+        
     }, [id])   
 
     return (

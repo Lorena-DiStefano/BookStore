@@ -17,13 +17,13 @@ const NavBar = () => {
                                 <NavLink className="nav-link"  to={'/'} aria-current="page" >Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to={'/gender/Novela Histórica'} >Novela Histórica</NavLink>
+                                <NavLink className="nav-link" to={'/genre/Novela Histórica'} >Novela Histórica</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to={'/gender/Distopía'} >Distopía</NavLink>
+                                <NavLink className="nav-link" to={'/genre/Distopía'} >Distopía</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to={'/gender/Ficción'} >Ficción</NavLink>
+                                <NavLink className="nav-link" to={'/genre/Ficción'} >Ficción</NavLink>
                             </li>
                         </ul>
                         <form className="d-flex">

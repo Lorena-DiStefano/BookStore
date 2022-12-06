@@ -134,3 +134,33 @@ font-family: 'Roboto',sans-serif; */
   background-color: rgba(242, 242, 242, 0.2);
   border-radius: 5px;
 }
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+.card_detail {
+  background-color: whitesmoke;
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 15px;
+}
+
+.card_detail_img {
+  width: 300px;
+  height: 450px;
+  margin: 2em;
+  border-radius: 10px;
+}
+
+.card_detail_bodyContainer {
+  width: 50%;
+  margin: 2em;
+}
