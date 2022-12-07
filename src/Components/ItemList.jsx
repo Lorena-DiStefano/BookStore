@@ -1,9 +1,7 @@
 import Item from './Item'
 
-
 export const ItemList = ({bookList}) => {
 
- 
   return (
     <div className="itemListContainer">
       {

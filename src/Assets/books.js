@@ -160,6 +160,17 @@ export const books =
         },
         {
             "id": "15",
+            "title": "Las tinieblas y el alba",
+            "author": "Ken Follett",
+            "genre": "Novela Histórica",
+            "language": "Castellano",
+            "description": "IV: Un monje que sueña con convertir su abadía en un centro de sabiduría de referencia en toda Europa; una joven normanda que cruza el mar junto a su marido para descubrir una sociedad de costumbres extrañas; un constructor de barcos que está a punto de dar un giro definitivo a su vida.",
+            "image": "https://books.google.com/books/publisher/content/images/frontcover/dSnrDwAAQBAJ?fife=w256-h256",
+            "price": "5.999",
+            "stock": "10"
+        },
+        {
+            "id": "16",
             "title": "Juegos de Trono",
             "author": "George R.R. Martin",
             "genre": "Ficción",
@@ -170,7 +181,7 @@ export const books =
             "stock": "10"
         },
         {
-            "id": "16",
+            "id": "17",
             "title": "Choque de Reyes",
             "author": "George R.R. Martin",
             "genre": "Ficción",
@@ -181,7 +192,7 @@ export const books =
             "stock": "10"
         },
         {
-            "id": "17",
+            "id": "18",
             "title": "Tormenta de espadas",
             "author": "George R.R. Martin",
             "genre": "Ficción",
@@ -192,7 +203,7 @@ export const books =
             "stock": "10"
         },
         {
-            "id": "18",
+            "id": "19",
             "title": "Festín de cuervos",
             "author": "George R.R. Martin",
             "genre": "Ficción",
@@ -203,7 +214,7 @@ export const books =
             "stock": "10"
         },
         {
-            "id": "19",
+            "id": "20",
             "title": "Danza de dragones",
             "author": "George R.R. Martin",
             "genre": "Ficción",
@@ -214,7 +225,7 @@ export const books =
             "stock": "10"
         },
         {
-            "id": "20",
+            "id": "21",
             "title": "Los Juegos del hambre",
             "author": "Suzanne Collins",
             "genre": "Distopía",
@@ -225,7 +236,7 @@ export const books =
             "stock": "10"
         },
         {
-            "id": "21",
+            "id": "22",
             "title": "En llamas",
             "author": "Suzanne Collins",
             "genre": "Distopía",
@@ -236,7 +247,7 @@ export const books =
             "stock": "10"
         },
         {
-            "id": "22",
+            "id": "23",
             "title": "Sinsajo",
             "author": "Suzanne Collins",
             "genre": "Distopía",
@@ -247,7 +258,7 @@ export const books =
             "stock": "10"
         },
         {
-            "id": "23",
+            "id": "24",
             "title": "Fahrenheit 451",
             "author": "Ray Bradbury",
             "genre": "Distopía",
@@ -259,7 +270,7 @@ export const books =
         },
 
         {
-            "id": "24",
+            "id": "25",
             "title": "Dispara yo ya estoy muerto",
             "author": "Julia Navarro",
             "genre": "Novela Histórica",
@@ -267,6 +278,61 @@ export const books =
             "description": "Con las amenazas, la sed de venganza y muchas pasiones desatadas como telón de fondo, las vidas entrecruzadas de los Zucker y los Ziad conforman un mosaico de traiciones y sufrimientos, de amores posibles e imposibles, al tiempo que plasman la gran aventura de vivir y convivir en un territorio marcado por la intolerancia. Intensa y conmovedora crónica de dos sagas familiares, la nueva y esperadísima novela de Julia Navarro nos adentra en las vidas de personas con nombres y apellidos, que luchan por alcanzar sus sueños, y que son responsables de su propio destino.",
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/645212.jpg",
             "price": "3.299",
+            "stock": "10"
+        },
+        {
+            "id": "26",
+            "title": "Interview with the Vampire",
+            "author": "Anne Rice",
+            "genre": "Ficción",
+            "language": "Inglés",
+            "description": "A magnificent, compulsively readable thriller...Rice begins where Bram Stoker and the Hollywood versions leave off and penetrates directly to the true fascination of the myth—the education of the vampire”",
+            "image": "https://books.google.com/books/publisher/content/images/frontcover/OjgSBgAAQBAJ?fife=w256-h256",
+            "price": "2.699",
+            "stock": "10"
+        },
+        {
+            "id": "27",
+            "title": "The Vampire Armand",
+            "author": "Anne Rice",
+            "genre": "Ficción",
+            "language": "Inglés",
+            "description": 'Armand until now has played a small role in the Vampire Chronicles. Here he assumes center stage, relating his five hundred years of life to fledgling vampire David Talbot, who plays amanuensis to Armand as he did to Lestat ... It is not just the epic plot but Rice`s voluptuary worldview that`s the main attraction ... Elegant narrative has always been her hallmark ... Rice is equally effective in showing how Armand eventually loses his religion and becomes "the vagabond angel child of Satan," living under Paris cemeteries and foundling the Grand Guignol-ish Theatre des Vampires. In the twentieth century, a rehabilitated Armand regains faith but falls in love with two children who save his life. By the conclusion of Armand, the pupil has become the mentor.',
+            "image": "https://books.google.com/books/content/images/frontcover/xd-W59uNekMC?fife=w256-h256",
+            "price": "2.399",
+            "stock": "10"
+        },
+        {
+            "id": "28",
+            "title": "The Vampire Lestat",
+            "author": "Anne Rice",
+            "genre": "Ficción",
+            "language": "Inglés",
+            "description": "Once an aristocrat in the heady days of pre-revolutionary France, now Lestat is a rockstar in the demonic, shimmering 1980s. He rushes through the centuries in search of others like him, seeking answers to the mystery of his terrifying exsitence. His story, the second volume in Anne Rice's best-selling Vampire Chronicles, is mesmerizing, passionate, and thrilling.",
+            "image": "https://books.google.com/books/publisher/content/images/frontcover/OXwoAwAAQBAJ?fife=w256-h256",
+            "price": "2.399",
+            "stock": "10"
+        },
+        {
+            "id": "29",
+            "title": "La metamorfosis",
+            "author": "Franz Kafka",
+            "genre": "Ficción",
+            "language": "Castellano",
+            "description": 'La metamorfosis, es un relato de Franz Kafka, publicado en 1915 y que narra la historia de Gregorio Samsa, un comerciante de telas que vive con su familia a la que él mantiene con su sueldo, que un buen día amanece convertido en una criatura no identificada claramente en ningún momento, pero que tiende a ser reconocida como una especie de cucaracha gigante. Breve e intensa, es calificada a veces como "relato existencialista". En ocasiones el título es traducido como La transformación.',
+            "image": "https://books.google.com/books/content/images/frontcover/iH2hmR9DA7QC?fife=w256-h256",
+            "price": "1.999",
+            "stock": "10"
+        },
+        {
+            "id": "30",
+            "title": "And the Mountains Echoed",
+            "author": "Khaled Hosseini",
+            "genre": "Novela Histórica",
+            "language": "Inglés",
+            "description": "Afghanistan, 1952. Abdullah and his sister Pari live with their father and stepmother in the small village of Shadbagh. One day the siblings journey across the desert to Kabul with their father. Pari and Abdullah have no sense of the fate that awaits them there, for the event which unfolds will tear their lives apart; sometimes a finger must be cut to save the hand. Crossing generations and continents, moving from Kabul, to Paris,..",
+            "image": "https://wp-media.patheos.com/blogs/sites/92/2013/09/and-the-mountains-echoed.jpg",
+            "price": "2.799",
             "stock": "10"
         },
 

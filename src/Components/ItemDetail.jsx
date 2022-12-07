@@ -1,10 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate} from 'react-router-dom'
 import { ItemCounter } from './ItemCounter'
 
 export const ItemDetail = ({ bookList }) => {
 
-  const { image, title, author, genre, language, description, price } = bookList
+  const { image, title, author, genre, language, description, price,stock } = bookList
+  const navigate = useNavigate()
+  
+  const back = () => {
+    navigate(-1)
+  }
 
   return (
     <div className="card_detail">
@@ -13,7 +18,7 @@ export const ItemDetail = ({ bookList }) => {
         <div className="card_detail_body">
           <div className="card_detail_top">
             <h2>{title}</h2>
-            <i class="bi bi-box-arrow-left btn"></i>
+            <i onClick={back} class="bi bi-box-arrow-left btn"/>
           </div>
           <h5>Autor: {author}</h5>
           <p><b>Género:</b> {genre} </p>
@@ -22,7 +27,7 @@ export const ItemDetail = ({ bookList }) => {
           <h5>${price}</h5>
         </div>
         <div className="card_detail_btn">
-          <ItemCounter center />
+          <ItemCounter stock={stock}/>
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@ export const ItemDetailContainer = () => {
     const data = new Promise((resolve) => {
       setTimeout(() => {
         resolve(books.find(book => book.id ===id))
-      }, 2000)
+      }, 1000)
     }) 
 
     data.then((data) => {

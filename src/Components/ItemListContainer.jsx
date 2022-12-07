@@ -13,19 +13,19 @@ export const ItemListContainer = () => {
         const data = new Promise((resolve) => {
             setTimeout(() => {
                 resolve(id ? books.filter(book => book.genre === id) : books)
-            }, 2000)
-        })  
+            }, 1000)
+        })
 
         data.then((data) => {
-                setBookList(data)
-            })
+            setBookList(data)
+        })
 
-        
-    }, [id])   
+
+    }, [id])
 
     return (
         <div>
-             <ItemList bookList={bookList} /> 
+            <ItemList bookList={bookList} />
         </div>
     )
 
