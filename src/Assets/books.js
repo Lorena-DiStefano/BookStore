@@ -9,7 +9,7 @@ export const books =
             "description": "Una catedral construida por el pueblo y para el pueblo en la Barcelona medieval del Siglo XIV, es el escenario de una apasionante historia de intriga, violencia y pasión. ",
             "image": "https://static.cpau.org/revistanotas/contenidos/2020/46/cultura/libro.jpg",
             "price": "5.449",
-            "stock": "5"
+            "stock": "15"
         },
         {
             "id": "2",
@@ -20,7 +20,7 @@ export const books =
             "description": "En la España del siglo XVIII, una conmovedora historia de amistad, pasión y venganza une dos voces de mujer en un canto desgarrador por la libertad.",
             "image": "https://contentv2.tap-commerce.com/cover/large/9788490624029_1.jpg?id_com=1113",
             "price": "4.449",
-            "stock": "10"
+            "stock": "5"
         },
         {
             "id": "3",
@@ -31,7 +31,7 @@ export const books =
             "description": "En la opulenta Córdoba de la segunda mitad del siglo XVI, un joven morisco, desgarrado entre dos culturas y dos amores, inicia una ardiente lucha por la tolerancia religiosa y los derechos de su pueblo.",
             "image": "https://http2.mlstatic.com/D_NQ_NP_875696-MLM45575549626_042021-W.jpg",
             "price": "3.853",
-            "stock": "10"
+            "stock": "7"
         },
         {
             "id": "4",
@@ -53,8 +53,7 @@ export const books =
             "description": "Una poderosa historia de amor, pasión por el arte, revueltas sociales y venganza en la Barcelona modernista.",
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/667859.jpg",
             "price": "7.149",
-            "stock": "10"
-
+            "stock": "8"
         },
 
         {
@@ -66,7 +65,7 @@ export const books =
             "description": "Una historia fascinante que narra la apasionada lucha por la libertad de dos mujeres negras en épocas distintas: la Cuba esclavista colonial y la España del siglo XXI.",
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/697630.jpg",
             "price": "5.449",
-            "stock": "10"
+            "stock": "12"
         },
         {
             "id": "7",
@@ -77,7 +76,7 @@ export const books =
             "description": 'Escrito en 1948, "1984" fue la escalofriante profecía de George Orwell sobre el futuro. Y aunque "1984" ha ido y venido, la narración de Orwell es más actual que nunca. "1984" presenta una visión sorprendente e inquietante del mundo, tan poderosa que es completamente convincente desde el principio. Nadie puede negar el poder de esta novela, su influencia en la imaginación de múltiples generaciones de lectores o la resistencia de sus advertencias, un legado que parece crecer con el paso del tiempo.',
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/682424.jpg",
             "price": "3.159",
-            "stock": "10"
+            "stock": "20"
         },
         {
             "id": "8",
@@ -88,8 +87,7 @@ export const books =
             "description": "Una condena de la sociedad totalitaria, brillantemente pasmada en una ingeniosa fábula de carácter alegórico. Los animales de la granja de los Jones se sublevan contra sus dueños humanos y les vencen. Pero la rebelión fracasará al surgir entre ellos rivalidades y envidias, y al aliarse algunos con los amos que derrocaron, traicionando su propia identidad y los intereses de su clase. Aunque Rebelión en la granja fue concebida como una despiadada sátira del estalinismo, el carácter universal de su mensaje hace de este libro un extraordinario análisis de la corrupción que engendra el poder, una furibunda diatriba contra el totalitarismo de cualquier especie y un lúcido examen de las manipulaciones que sufre la verdad histórica en los momentos de transformación política. ",
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/652067.jpg",
             "price": "2.099",
-            "stock": "10"
-
+            "stock": "5"
         },
 
         {
@@ -134,7 +132,7 @@ export const books =
             "description": "I: Ambientada en Inglaterra en la Edad Media, en concreto en el siglo XII, durante un periodo de guerra civil conocido como la anarquía inglesa, entre el hundimiento del White Ship y el asesinato del arzobispo Thomas Becket.",
             "image": "https://contentv2.tap-commerce.com/cover/large/9789506445430_1.jpg?id_com=1113",
             "price": "5.999",
-            "stock": "10"
+            "stock": "12"
         },
         {
             "id": "13",
@@ -145,7 +143,7 @@ export const books =
             "description": "II: Se trata de la segunda parte de la conocida obra Los pilares de la Tierra. Tiene lugar en la misma ciudad ficticia, Kingsbridge, pero 200 años después. Algunos personajes son descendientes de los de la primera novela. Describe la vida e instituciones que existían en esa época, las relaciones de poder entre la nobleza, el clero y el estado llano y como la peste negra alteró esta relación.",
             "image": "http://4.bp.blogspot.com/-Fxly5d1sVeE/UQ71tDuateI/AAAAAAAABWU/-SRX-ysQkR8/s1600/un-mundo-sin-fin-novela-autor-ken-follett_MLV-F-38326140_493.jpg",
             "price": "5.999",
-            "stock": "10"
+            "stock": "12"
         },
         {
             "id": "14",
@@ -156,7 +154,7 @@ export const books =
             "description": "III: Este libro es la tercera parte de la serie de Kingsbridge Los Pilares de la Tierra. La primicia es la guerra de religiones que se vivió en Europa a partir de 1562, además de la disputa por el trono inglés entre Isabel Tudor y María Estuardo.",
             "image": "https://ceasanfrancisco.com/wp-content/uploads/2019/11/Una-columna-de-fuego.png",
             "price": "5.999",
-            "stock": "10"
+            "stock": "12"
         },
         {
             "id": "15",
@@ -167,7 +165,7 @@ export const books =
             "description": "IV: Un monje que sueña con convertir su abadía en un centro de sabiduría de referencia en toda Europa; una joven normanda que cruza el mar junto a su marido para descubrir una sociedad de costumbres extrañas; un constructor de barcos que está a punto de dar un giro definitivo a su vida.",
             "image": "https://books.google.com/books/publisher/content/images/frontcover/dSnrDwAAQBAJ?fife=w256-h256",
             "price": "5.999",
-            "stock": "10"
+            "stock": "3"
         },
         {
             "id": "16",
@@ -233,7 +231,7 @@ export const books =
             "description": "En una oscura versión del futuro próximo, doce chicos y doce chicas se ven obligados a participar en un reality show llamado los Juegos del Hambre. Solo hay una regla: matar o morir.",
             "image": "https://books.google.com/books/publisher/content/images/frontcover/8FjODwAAQBAJ?fife=w256-h256",
             "price": "3.256",
-            "stock": "10"
+            "stock": "7"
         },
         {
             "id": "22",
@@ -244,7 +242,7 @@ export const books =
             "description": "Contra todas las probabilidades; Katniss y su compañero tributo Peeta han regresado a su hogar luego de sobrevivir los Juegos del Hambre. Ganar significa que deberán abandonar a sus seres queridos y embarcarse en un Tour de la Victoria a través de los distritos. ",
             "image": "https://books.google.com/books/publisher/content/images/frontcover/N13ODwAAQBAJ?fife=w256-h256",
             "price": "3.256",
-            "stock": "10"
+            "stock": "7"
         },
         {
             "id": "23",
@@ -255,7 +253,7 @@ export const books =
             "description": 'El esperado desenlace de la trilogía "Los Juegos del Hambre". Katniss Everdeen, la chica en llamas, ha sobrevivido de nuevo a los Juegos, aunque no queda nada de su hogar.',
             "image": "https://books.google.com/books/publisher/content/images/frontcover/9FjODwAAQBAJ?fife=w256-h256",
             "price": "3.256",
-            "stock": "10"
+            "stock": "7"
         },
         {
             "id": "24",
@@ -278,7 +276,7 @@ export const books =
             "description": "Con las amenazas, la sed de venganza y muchas pasiones desatadas como telón de fondo, las vidas entrecruzadas de los Zucker y los Ziad conforman un mosaico de traiciones y sufrimientos, de amores posibles e imposibles, al tiempo que plasman la gran aventura de vivir y convivir en un territorio marcado por la intolerancia. Intensa y conmovedora crónica de dos sagas familiares, la nueva y esperadísima novela de Julia Navarro nos adentra en las vidas de personas con nombres y apellidos, que luchan por alcanzar sus sueños, y que son responsables de su propio destino.",
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/645212.jpg",
             "price": "3.299",
-            "stock": "10"
+            "stock": "15"
         },
         {
             "id": "26",
@@ -289,7 +287,7 @@ export const books =
             "description": "A magnificent, compulsively readable thriller...Rice begins where Bram Stoker and the Hollywood versions leave off and penetrates directly to the true fascination of the myth—the education of the vampire”",
             "image": "https://books.google.com/books/publisher/content/images/frontcover/OjgSBgAAQBAJ?fife=w256-h256",
             "price": "2.699",
-            "stock": "10"
+            "stock": "8"
         },
         {
             "id": "27",
@@ -300,7 +298,7 @@ export const books =
             "description": 'Armand until now has played a small role in the Vampire Chronicles. Here he assumes center stage, relating his five hundred years of life to fledgling vampire David Talbot, who plays amanuensis to Armand as he did to Lestat ... It is not just the epic plot but Rice`s voluptuary worldview that`s the main attraction ... Elegant narrative has always been her hallmark ... Rice is equally effective in showing how Armand eventually loses his religion and becomes "the vagabond angel child of Satan," living under Paris cemeteries and foundling the Grand Guignol-ish Theatre des Vampires. In the twentieth century, a rehabilitated Armand regains faith but falls in love with two children who save his life. By the conclusion of Armand, the pupil has become the mentor.',
             "image": "https://books.google.com/books/content/images/frontcover/xd-W59uNekMC?fife=w256-h256",
             "price": "2.399",
-            "stock": "10"
+            "stock": "8"
         },
         {
             "id": "28",
@@ -311,7 +309,7 @@ export const books =
             "description": "Once an aristocrat in the heady days of pre-revolutionary France, now Lestat is a rockstar in the demonic, shimmering 1980s. He rushes through the centuries in search of others like him, seeking answers to the mystery of his terrifying exsitence. His story, the second volume in Anne Rice's best-selling Vampire Chronicles, is mesmerizing, passionate, and thrilling.",
             "image": "https://books.google.com/books/publisher/content/images/frontcover/OXwoAwAAQBAJ?fife=w256-h256",
             "price": "2.399",
-            "stock": "10"
+            "stock": "8"
         },
         {
             "id": "29",
@@ -322,7 +320,7 @@ export const books =
             "description": 'La metamorfosis, es un relato de Franz Kafka, publicado en 1915 y que narra la historia de Gregorio Samsa, un comerciante de telas que vive con su familia a la que él mantiene con su sueldo, que un buen día amanece convertido en una criatura no identificada claramente en ningún momento, pero que tiende a ser reconocida como una especie de cucaracha gigante. Breve e intensa, es calificada a veces como "relato existencialista". En ocasiones el título es traducido como La transformación.',
             "image": "https://books.google.com/books/content/images/frontcover/iH2hmR9DA7QC?fife=w256-h256",
             "price": "1.999",
-            "stock": "10"
+            "stock": "5"
         },
         {
             "id": "30",
@@ -333,7 +331,7 @@ export const books =
             "description": "Afghanistan, 1952. Abdullah and his sister Pari live with their father and stepmother in the small village of Shadbagh. One day the siblings journey across the desert to Kabul with their father. Pari and Abdullah have no sense of the fate that awaits them there, for the event which unfolds will tear their lives apart; sometimes a finger must be cut to save the hand. Crossing generations and continents, moving from Kabul, to Paris,..",
             "image": "https://wp-media.patheos.com/blogs/sites/92/2013/09/and-the-mountains-echoed.jpg",
             "price": "2.799",
-            "stock": "10"
+            "stock": "13"
         },
 
     ]
