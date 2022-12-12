@@ -4,7 +4,7 @@ import { ItemCounter } from './ItemCounter'
 
 export const ItemDetail = ({ bookList }) => {
 
-  const { image, title, author, genre, language, description, price,stock } = bookList
+  const { image, title, author, genre, language, synopsis, price,stock } = bookList
   const navigate = useNavigate()
   
   const back = () => {
@@ -23,7 +23,7 @@ export const ItemDetail = ({ bookList }) => {
           <h5>Autor: {author}</h5>
           <p><b>Género:</b> {genre} </p>
           <p><b>Idioma:</b> {language}</p>
-          <p><b>Sinopsis:</b> {description}</p>
+          <p><b>Sinopsis:</b> {synopsis}</p>
           <h5>${price}</h5>
         </div>
         <div className="card_detail_btn">

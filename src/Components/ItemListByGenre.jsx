@@ -1,17 +1,20 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { books } from '../Assets/books'
+import { books } from '../Data/books'
+import { Loader } from '../OtherTools/Loader'
 import { ItemList } from './ItemList'
 
 
-export const ItemListContainer = () => {
+export const ItemListByGenre = () => {
 
     const [bookList, setBookList] = useState([])
+    const [loading, setLoading] = useState(true)
     const { id } = useParams()
 
     useEffect(() => {
         const data = new Promise((resolve) => {
             setTimeout(() => {
+                setLoading(false)
                 resolve(id ? books.filter(book => book.genre === id) : books)
             }, 1000)
         })
@@ -25,7 +28,9 @@ export const ItemListContainer = () => {
 
     return (
         <div>
-            <ItemList bookList={bookList} />
+            {
+                loading ? <Loader /> : <ItemList bookList={bookList} />
+            }
         </div>
     )
 

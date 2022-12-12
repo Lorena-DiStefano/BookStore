@@ -21,58 +21,53 @@ font-family: 'Roboto',sans-serif; */
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  background-color: rgb(114, 132, 119);
-  color: white;
-  height: 3.5em;
-}
-
+/* NavBar */
 .navbar {
-  background: rgb(185, 184, 176);
-  background: linear-gradient(180deg, rgb(116, 131, 121) 36%, rgb(185, 184, 176) 64%, rgb(240, 240, 240) 100%);
+  background: rgb(114, 132, 119);
+  background: linear-gradient(180deg, rgb(197, 205, 199) 36%, rgb(219, 224, 221) 64%, rgb(240, 240, 240) 100%);
   min-height: 100px;
-  color: orange;
 }
 
-.nav-link,
-.bi-search {
-  color: whitesmoke;
-  text-shadow: 1px 1px black;
+.nav-link {
+  color: #3d463f;
   font-size: 1.5em;
   font-weight: 600;
   font-family: 'DM Sans', sans-serif;
 }
 
-.btn-outline-success {
-  font-size: 1.5em;
-  border: none;
-}
-
-.form-control {
-  height: 50px;
-  width: 300px;
-}
-
-.navbar-brand {
-  color: rgb(166, 251, 244);
-  text-shadow: 1px 1px #1d201e;
-  padding-right: 10px;
-  font-family: 'Pacifico';
-  font-style: italic;
-  font-size: 3em;
-  font-weight: 200;
-}
-
 .dropdown-menu {
-  background-color: rgb(245, 245, 245);
+  background: rgb(210, 215, 211);
+  border-radius: 7px;
 }
 
 .dropdown-item {
   font-family: 'DM Sans', sans-serif;
+  font-size: 1.1em;
   font-weight: 500;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+  background-color: rgb(191, 204, 195);
+  font-size: 1.3em;
+  font-weight: 900;
+}
+
+/* 
+.btn-outline-success {
+    font-size: 1.5em;
+    border: none;
+} */
+
+.form-control {
+  height: 50px;
+  width: 300px;
+  box-shadow: 2px 2px rgba(0, 0, 0, .2)
+}
+
+.navbar-brand img {
+  width: 15rem;
+  height: 5rem;
 }
 
 .btnCartW {
@@ -89,12 +84,71 @@ font-family: 'Roboto',sans-serif; */
   font-size: 1.1em;
 }
 
+
+
 .bi-cart3 {
   color: whitesmoke;
   text-shadow: 1px 1px black;
   font-size: 1.9em;
   margin: 3px;
 }
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(175, 181, 177);
+  font-family: 'DM Sans',sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 0.8em;
+  color: #3d463f;
+  padding: 0.5em;
+}
+
+.footer a,
+.footer i {
+  color: rgb(61, 70, 63);
+  text-decoration: none;
+  font-size: 1.2em;
+  align-self: center;
+  margin: 0.3em;
+}
+
+/* Home */
+.greeting {
+  background-image: url(../public/images/bg_home_desk.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  filter: brightness(120%);
+  color: #3d463f;
+  line-height: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.greeting_text {
+  font-family: 'Parisienne', cursive;
+  /* font-family: 'Quintessential', cursive; */
+  font-size: 1.8em;
+  font-weight: 500;
+  text-align: right;
+  margin-right: 15%;
+  margin-top: 1.2em;
+}
+
+.greeting_data {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1em;
+  text-align: right;
+  margin-right: 15%;
+}
+
+/* ========= */
+
 
 .navbar-toggler,
 .navbar-toggler-icon {
@@ -163,12 +217,12 @@ font-family: 'Roboto',sans-serif; */
   margin: 2em;
 }
 
-.card {  
+.card {
   font-family: 'DM Sans', sans-serif;
   background-color: transparent;
   width: 250px;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, .8);
   margin: 0.5em;
