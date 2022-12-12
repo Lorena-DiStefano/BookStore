@@ -33,21 +33,14 @@ const NavBar = () => {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
-                                <NavLink className="nav-link dropdown-toggle" to={'/author/'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Autor</NavLink>
+                                <NavLink className="nav-link dropdown-toggle" to={'/saga/'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Colecciones</NavLink>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><Link className="dropdown-item" to={'/author/Anne Rice'}>Anne Rice</Link></li>
-                                    <li><Link className="dropdown-item" to={'/author/Darío Sztajnszrajber'}>Darío Sztajnszrajber</Link></li>
-                                    <li><Link className="dropdown-item" to={'/author/Franz Kafka'}>Franz Kafka</Link></li>
-                                    <li><Link className="dropdown-item" to={'/author/Felipe Pigna'}>Felipe Pigna</Link></li>
-                                    <li><Link className="dropdown-item" to={'/author/George Orwell'}>George Orwell</Link></li>
-                                    <li><Link className="dropdown-item" to={'/author/George R.R. Martin'}>George R.R. Martin</Link></li>
-                                    <li><Link className="dropdown-item" to={'/author/Ildefonso Falcones'}>Ildefonso Falcones </Link></li>
-                                    <li><Link className="dropdown-item" to={'/author/Julia Navarro'}>Julia Navarro</Link></li>
-                                    <li><Link className="dropdown-item" to={'/author/Ken Follett'}>Ken Follett</Link></li>
-                                    <li><Link className="dropdown-item" to={'/author/Khaled Hosseini'}>Khaled Hosseini</Link></li>
-                                    <li><Link className="dropdown-item" to={'/author/Paulina Cocina'}>Paulina Cocina</Link></li>
-                                    <li><Link className="dropdown-item" to={'/author/Ray Bradbury'}>Ray Bradbury</Link></li>
-                                    <li><Link className="dropdown-item" to={'/author/Suzanne Collins'}>Suzanne Collins</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/El Siglo'}>El Siglo - Ken Follet</Link></li>                                   
+                                    <li><Link className="dropdown-item" to={'/saga/Juego de Tronos'}>Juego de Tronos - G.R.R.Martin</Link></li>                
+                                    <li><Link className="dropdown-item" to={'/saga/Juegos del hambre'}>Juegos del Hambre - Suzanne Collins</Link></li>                
+                                    <li><Link className="dropdown-item" to={'/saga/Kingbridge'}>Kingbridge - Ken Follet</Link></li>                
+                                    <li><Link className="dropdown-item" to={'/saga/La Catedral del Mar'}>La Catedral del Mar - I. Falcones</Link></li>              
+                                    <li><Link className="dropdown-item" to={'/saga/The Vampire Chronicles'}>The Vampire Chronicles - Anne Rice</Link></li>              
                                 </ul>
                             </li>
                             <li className="nav-item">

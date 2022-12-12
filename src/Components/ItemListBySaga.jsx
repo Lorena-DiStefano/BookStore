@@ -4,7 +4,7 @@ import { books } from '../Data/books'
 import { Loader } from '../OtherTools/Loader'
 import { ItemList } from './ItemList'
 
-export const ItemListByAuthor = () => {
+export const ItemListBySaga = () => {
 
     const [bookList, setBookList] = useState([])
     const [loading, setLoading] = useState(true)
@@ -14,7 +14,7 @@ export const ItemListByAuthor = () => {
         const data = new Promise((resolve) => {
             setTimeout(() => {
                 setLoading(false)
-                resolve(id ? books.filter(book => book.author === id) : books)
+                resolve(id ? books.filter(book => book.saga === id) : books)
             }, 1000)
         })
 
@@ -33,4 +33,4 @@ export const ItemListByAuthor = () => {
     )
 }
 
-export default ItemListByAuthor
+export default ItemListBySaga
