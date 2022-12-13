@@ -7,8 +7,6 @@ import { ItemListByLanguage } from "./Components/ItemListByLanguage";
 import { ItemListBySaga } from "./Components/ItemListBySaga";
 import { Footer } from "./Components/Footer";
 
-
-
 function App() {
   return (
     <div className="App">

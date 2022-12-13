@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink, Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
 
 const NavBar = () => {
@@ -14,7 +14,7 @@ const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink className="nav-link"  to={'/'} aria-current="page" >Home</NavLink>
+                                <NavLink className="nav-link" to={'/'} aria-current="page" >Home</NavLink>
                             </li>
                             <li className="nav-item dropdown">
                                 <NavLink className="nav-link dropdown-toggle" to={'/genre/'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Género</NavLink>
@@ -35,20 +35,30 @@ const NavBar = () => {
                             <li className="nav-item dropdown">
                                 <NavLink className="nav-link dropdown-toggle" to={'/saga/'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Colecciones</NavLink>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><Link className="dropdown-item" to={'/saga/El Siglo'}>El Siglo - Ken Follet</Link></li>                                   
-                                    <li><Link className="dropdown-item" to={'/saga/Juego de Tronos'}>Juego de Tronos - G.R.R.Martin</Link></li>                
-                                    <li><Link className="dropdown-item" to={'/saga/Juegos del hambre'}>Juegos del Hambre - Suzanne Collins</Link></li>                
-                                    <li><Link className="dropdown-item" to={'/saga/Kingbridge'}>Kingbridge - Ken Follet</Link></li>                
-                                    <li><Link className="dropdown-item" to={'/saga/La Catedral del Mar'}>La Catedral del Mar - I. Falcones</Link></li>              
-                                    <li><Link className="dropdown-item" to={'/saga/The Vampire Chronicles'}>The Vampire Chronicles - Anne Rice</Link></li>              
+                                    <li><Link className="dropdown-item" to={'/saga/El Siglo'}>El Siglo - Ken Follet</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/Juego de Tronos'}>Juego de Tronos - G.R.R.Martin</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/Juegos del hambre'}>Juegos del Hambre - Suzanne Collins</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/Kingbridge'}>Kingbridge - Ken Follet</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/La Catedral del Mar'}>La Catedral del Mar - I. Falcones</Link></li>
                                 </ul>
                             </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to={'/language/Inglés'} >Inglés</NavLink>
+                            <li className="nav-item dropdown">
+                                <NavLink className="nav-link dropdown-toggle" to={'/genre/'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Inglés</NavLink>
+                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><Link className="dropdown-item" to={'/genre/Distopy'}>Distopy</Link></li>
+                                    <li><Link className="dropdown-item" to={'/genre/Fiction'}>Fiction</Link></li>
+                                    <li><Link className="dropdown-item" to={'/genre/Music'}>Music</Link></li>
+                                    <li><Link className="dropdown-item" to={'/genre/Novel'}>Novel</Link></li>
+                                    <li><Link className="dropdown-item" to={'/genre/Historical Novel'}>Historical Novel</Link></li>
+                                    <li><Link className="dropdown-item" to={'/genre/Romance Novel'}>Romance Novel</Link></li>
+                                    <li><p class="dropdown-divider"></p></li>
+                                    <li><Link className="dropdown-item" to={'/saga/The Vampire Chronicles'}>The Vampire Chronicles - Anne Rice</Link></li>
+                                </ul>
                             </li>
                         </ul>
                         <form className="d-flex">
-                            <input className="form-control m-1" type="search" placeholder="Título" aria-label="Search" />
+                            <input className="form-control m-1" type="search" placeholder="Título / Autor" aria-label="Search"  />
+                            {/* value={search} onChange={searcher} */}
                             <button className="btn" type="submit"><i class="bi bi-search"></i></button>
                         </form>
                     </div>

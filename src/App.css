@@ -1,6 +1,5 @@
 /* font-family: 'DM Sans',sans-serif;
-font-family: 'Pacifico',cursive;
-font-family: 'Roboto',sans-serif; */
+font-family: 'Quintessential'cursive; */
 
 * {
   margin: 0;
@@ -100,21 +99,22 @@ font-family: 'Roboto',sans-serif; */
   justify-content: space-between;
   align-items: center;
   background-color: rgb(175, 181, 177);
-  font-family: 'DM Sans',sans-serif;
-  font-size: 1em;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.1em;
   font-weight: 600;
   line-height: 0.8em;
   color: #3d463f;
   padding: 0.5em;
+  
 }
 
 .footer a,
 .footer i {
   color: rgb(61, 70, 63);
-  text-decoration: none;
-  font-size: 1.2em;
   align-self: center;
-  margin: 0.3em;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin-right: 0.5em;
 }
 
 /* Home */
@@ -131,10 +131,9 @@ font-family: 'Roboto',sans-serif; */
 }
 
 .greeting_text {
-  font-family: 'Parisienne', cursive;
-  /* font-family: 'Quintessential', cursive; */
-  font-size: 1.8em;
-  font-weight: 500;
+  font-family: 'Quintessential', cursive;
+  font-size: 1.9em;
+  font-weight: 600;
   text-align: right;
   margin-right: 15%;
   margin-top: 1.2em;
