@@ -1,11 +1,9 @@
-import { Link } from 'react-router-dom'
-
 
 export const Footer = () => {
     return (
         <div className='footer'>
             <div className= 'footer footer_text'>                
-                <p> <i class="bi bi-truck"></i> Envíos sin cargo</p>
+                <p> <i className="bi bi-truck"></i> Envíos sin cargo</p>
             </div>
             <div className='footer_data'>
                 <p><b>e-mail: </b>ventaonline@mundolibre.com</p>

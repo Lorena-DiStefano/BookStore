@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 import { ItemCounter } from './ItemCounter'
 
 export const ItemDetail = ({ bookList }) => {
@@ -18,7 +18,7 @@ export const ItemDetail = ({ bookList }) => {
         <div className="card_detail_body">
           <div className="card_detail_top">
             <h2>{title}</h2>
-            <i onClick={back} class="bi bi-box-arrow-left btn"/>
+            <i onClick={back} className="bi bi-box-arrow-left btn"/>
           </div>
           <h5>Autor: {author}</h5>
           <p><b>Género:</b> {genre} </p>

@@ -14,10 +14,10 @@ export const books =
         },
         {
             "id": "2",
-            "title": "La reina descalza  ",
+            "title": "La Reina Descalza  ",
             "author": "Ildefonso Falcones",
             "saga": "false",
-            "genre": "Novela Histórica",
+            "genre": "Novela",
             "language": "Castellano",
             "synopsis": "En la España del siglo XVIII, una conmovedora historia de amistad, pasión y venganza une dos voces de mujer en un canto desgarrador por la libertad.",
             "image": "https://contentv2.tap-commerce.com/cover/large/9788490624029_1.jpg?id_com=1113",
@@ -26,7 +26,7 @@ export const books =
         },
         {
             "id": "3",
-            "title": "La mano de Fatima  ",
+            "title": "La Mano de Fatima  ",
             "author": "Ildefonso Falcones",
             "saga": "false",
             "genre": "Novela Histórica",
@@ -38,7 +38,7 @@ export const books =
         },
         {
             "id": "4",
-            "title": "Los herederos de la tierra ",
+            "title": "Los Herederos de la Tierra ",
             "author": "Ildefonso Falcones",
             "saga": "La Catedral del Mar",
             "genre": "Novela Histórica",
@@ -50,7 +50,7 @@ export const books =
         },
         {
             "id": "5",
-            "title": "El pintor de almas  ",
+            "title": "El Pintor de Almas  ",
             "author": "Ildefonso Falcones",
             "saga": "false",
             "genre": "Novela Histórica",
@@ -63,7 +63,7 @@ export const books =
 
         {
             "id": "6",
-            "title": "Esclava de la libertad",
+            "title": "Esclava de la Libertad",
             "author": "Ildefonso Falcones",
             "saga": "false",
             "genre": "Novela Histórica",
@@ -87,20 +87,19 @@ export const books =
         },
         {
             "id": "8",
-            "title": "Rebelión en la granja ",
+            "title": "Rebelión en la Granja ",
             "author": "George Orwell",
             "saga": "false",
             "genre": "Novela",
             "language": "Castellano",
             "synopsis": "Una condena de la sociedad totalitaria, brillantemente pasmada en una ingeniosa fábula de carácter alegórico. Los animales de la granja de los Jones se sublevan contra sus dueños humanos y les vencen. Pero la rebelión fracasará al surgir entre ellos rivalidades y envidias, y al aliarse algunos con los amos que derrocaron, traicionando su propia identidad y los intereses de su clase. Aunque Rebelión en la granja fue concebida como una despiadada sátira del estalinismo, el carácter universal de su mensaje hace de este libro un extraordinario análisis de la corrupción que engendra el poder, una furibunda diatriba contra el totalitarismo de cualquier especie y un lúcido examen de las manipulaciones que sufre la verdad histórica en los momentos de transformación política. ",
-            "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/652067.jpg",
+            "image": "https://image.isu.pub/200422120038-fbd41b766f1f02d85ba58dd8edf41d89/jpg/page_1_thumb_large.jpg",
             "price": "2.099",
             "stock": "5"
         },
-
         {
             "id": "9",
-            "title": "La caída de los gigantes",
+            "title": "La Caída de los Gigantes",
             "author": "Ken Follett",
             "saga": "El Siglo",
             "genre": "Novela Histórica",
@@ -112,72 +111,72 @@ export const books =
         },
         {
             "id": "10",
-            "title": "El invierno del mundo",
+            "title": "El Invierno del Mundo",
             "author": "Ken Follett",
             "saga": "El Siglo",
             "genre": "Novela Histórica",
             "language": "Castellano",
-            "synopsis": "Los hijos de las cinco familias protagonistas de La caída de los gigantes forjarán su destino en los años turbulentos de la Segunda Guerra Mundial, la guerra civil española, el bombardeo de Pearl Harbor y la era de la bomba atómica.",
+            "synopsis": 'Los hijos de las cinco familias protagonistas de "La caída de los gigantes" forjarán su destino en los años turbulentos de la Segunda Guerra Mundial, la guerra civil española, el bombardeo de Pearl Harbor y la era de la bomba atómica.',
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/554723.jpg",
             "price": "5.999",
             "stock": "10"
         },
         {
             "id": "11",
-            "title": "El umbral de la eternidad",
+            "title": "El Umbral de la Eternidad",
             "author": "Ken Follett",
             "saga": "El Siglo",
             "genre": "Novela Histórica",
             "language": "Castellano",
-            "synopsis": "El umbral de la eternidad cierra esta gran trilogía y la crónica de un siglo turbulento. En ella vivimos la historia íntima y personal de tres generaciones de cinco familias cuyas vidas estuvieron marcadas por dos guerras mundiales, la Revolución rusa, la Guerra Civil española y la Guerra Fría, junto con los profundos cambios sociales que las acompañaron.",
+            "synopsis": '"El umbral de la eternidad" cierra esta gran trilogía y la crónica de un siglo turbulento. En ella vivimos la historia íntima y personal de tres generaciones de cinco familias cuyas vidas estuvieron marcadas por dos guerras mundiales, la Revolución rusa, la Guerra Civil española y la Guerra Fría, junto con los profundos cambios sociales que las acompañaron.',
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/610335.jpg",
             "price": "5.999",
             "stock": "10"
         },
         {
             "id": "12",
-            "title": "Los pilares de la tierra",
+            "title": "Los Pilares de la Tierra",
             "author": "Ken Follett",
-            "saga": "Kingbridge",
+            "saga": "Kingsbridge",
             "genre": "Novela Histórica",
             "language": "Castellano",
-            "synopsis": "I: Ambientada en Inglaterra en la Edad Media, en concreto en el siglo XII, durante un periodo de guerra civil conocido como la anarquía inglesa, entre el hundimiento del White Ship y el asesinato del arzobispo Thomas Becket.",
+            "synopsis": "Ambientada en Inglaterra en la Edad Media, en concreto en el siglo XII, durante un periodo de guerra civil conocido como la anarquía inglesa, entre el hundimiento del White Ship y el asesinato del arzobispo Thomas Becket.",
             "image": "https://contentv2.tap-commerce.com/cover/large/9789506445430_1.jpg?id_com=1113",
             "price": "5.999",
             "stock": "12"
         },
         {
             "id": "13",
-            "title": "Un mundo sin fin",
+            "title": "Un Mundo sin Fin",
             "author": "Ken Follett",
-            "saga": "Kingbridge",
+            "saga": "Kingsbridge",
             "genre": "Novela Histórica",
             "language": "Castellano",
-            "synopsis": "II: Se trata de la segunda parte de la conocida obra Los pilares de la Tierra. Tiene lugar en la misma ciudad ficticia, Kingsbridge, pero 200 años después. Algunos personajes son descendientes de los de la primera novela. Describe la vida e instituciones que existían en esa época, las relaciones de poder entre la nobleza, el clero y el estado llano y como la peste negra alteró esta relación.",
+            "synopsis":'Se trata de la segunda parte de la conocida obra "Los Pilares de la Tierra". Tiene lugar en la misma ciudad ficticia,"Kingsbridge", pero 200 años después. Algunos personajes son descendientes de los de la primera novela. Describe la vida e instituciones que existían en esa época, las relaciones de poder entre la nobleza, el clero y el estado llano y como la peste negra alteró esta relación.',
             "image": "http://4.bp.blogspot.com/-Fxly5d1sVeE/UQ71tDuateI/AAAAAAAABWU/-SRX-ysQkR8/s1600/un-mundo-sin-fin-novela-autor-ken-follett_MLV-F-38326140_493.jpg",
             "price": "5.999",
             "stock": "12"
         },
         {
             "id": "14",
-            "title": "Una columna de fuego",
+            "title": "Una Columna de Fuego",
             "author": "Ken Follett",
-            "saga": "Kingbridge",
+            "saga": "Kingsbridge",
             "genre": "Novela Histórica",
             "language": "Castellano",
-            "synopsis": "III: Este libro es la tercera parte de la serie de Kingsbridge Los Pilares de la Tierra. La primicia es la guerra de religiones que se vivió en Europa a partir de 1562, además de la disputa por el trono inglés entre Isabel Tudor y María Estuardo.",
+            "synopsis": 'Este libro es la tercera parte de la serie de "Kingsbridge Los Pilares de la Tierra". La primicia es la guerra de religiones que se vivió en Europa a partir de 1562, además de la disputa por el trono inglés entre Isabel Tudor y María Estuardo.',
             "image": "https://ceasanfrancisco.com/wp-content/uploads/2019/11/Una-columna-de-fuego.png",
             "price": "5.999",
             "stock": "12"
         },
         {
             "id": "15",
-            "title": "Las tinieblas y el alba",
+            "title": "Las Tinieblas y el Alba",
             "author": "Ken Follett",
-            "saga": "Kingbridge",
+            "saga": "false",
             "genre": "Novela Histórica",
             "language": "Castellano",
-            "synopsis": "IV: Un monje que sueña con convertir su abadía en un centro de sabiduría de referencia en toda Europa; una joven normanda que cruza el mar junto a su marido para descubrir una sociedad de costumbres extrañas; un constructor de barcos que está a punto de dar un giro definitivo a su vida.",
+            "synopsis": "Un monje que sueña con convertir su abadía en un centro de sabiduría de referencia en toda Europa; una joven normanda que cruza el mar junto a su marido para descubrir una sociedad de costumbres extrañas; un constructor de barcos que está a punto de dar un giro definitivo a su vida.",
             "image": "https://books.google.com/books/publisher/content/images/frontcover/dSnrDwAAQBAJ?fife=w256-h256",
             "price": "5.999",
             "stock": "3"
@@ -201,26 +200,26 @@ export const books =
             "saga": "Juego de Tronos",
             "genre": "Ficción",
             "language": "Castellano",
-            "synopsis": "Un cometa del color de la sangre hiende el cielo; cargado de malos augurios. Y hay razones sobradas para pensar así: los Siete Reinos se ven sacudidos por las luchas intestinas entre los nobles por la sucesión al Trono de Hierro. En la otra orilla del mar Angosto; la princesa Daenerys Targaryen conduce a su pueblo de jinetes salvajes a través del desierto. Y en los páramos helados del norte; más allá del Muro; un ejército implacable avanza hacia un territorio asolado por el caos y las guerras fratricidas.",
+            "synopsis": "Un cometa del color de la sangre hiende el cielo; cargado de malos augurios. Los Siete Reinos se ven sacudidos por las luchas intestinas entre los nobles por la sucesión al Trono de Hierro. En la otra orilla del mar Angosto; la princesa Daenerys Targaryen conduce a su pueblo de jinetes salvajes a través del desierto. Y en los páramos helados del norte; más allá del Muro; un ejército implacable avanza hacia un territorio asolado por el caos y las guerras fratricidas.",
             "image": "https://contentv2.tap-commerce.com/cover/large/9789506442323_1.jpg?id_com=1113",
             "price": "8.999",
             "stock": "10"
         },
         {
             "id": "18",
-            "title": "Tormenta de espadas",
+            "title": "Tormenta de Espadas",
             "author": "George R.R. Martin",
             "saga": "Juego de Tronos",
             "genre": "Ficción",
             "language": "Castellano",
-            "synopsis": "La espada llameante dejó a su paso largas estelas de fuego... el acero cantó contra el acero» Arrasados por la guerra; los Siete Reinos pronto sufrirán el larguísimo invierno que se predice como inusitadamente crudo. Y mientras empeoran la violencia y el clima; los personajes entrañables e infames que ya conocemos continúan debatiéndose entre feroces batallas y perversas intrigas palaciegas",
+            "synopsis": "La espada llameante dejó a su paso largas estelas de fuego... el acero cantó contra el acero. Arrasados por la guerra, los Siete Reinos pronto sufrirán el larguísimo invierno que se predice como inusitadamente crudo. Y mientras empeoran la violencia y el clima, los personajes entrañables e infames que ya conocemos continúan debatiéndose entre feroces batallas y perversas intrigas palaciegas",
             "image": "https://images.cdn2.buscalibre.com/fit-in/360x360/23/8d/238d555b4fa3d31acce60caa634adf27.jpg",
             "price": "8.999",
             "stock": "10"
         },
         {
             "id": "19",
-            "title": "Festín de cuervos",
+            "title": "Festín de Cuervos",
             "author": "George R.R. Martin",
             "saga": "Juego de Tronos",
             "genre": "Ficción",
@@ -232,36 +231,36 @@ export const books =
         },
         {
             "id": "20",
-            "title": "Danza de dragones",
+            "title": "Danza de Dragones",
             "author": "George R.R. Martin",
             "saga": "Juego de Tronos",
             "genre": "Ficción",
             "language": "Castellano",
-            "synopsis": "Después de una colosal batalla; el futuro de los Siete Reinos pende de un hilo; acuciado por nuevas amenazas que emergen de todos los rincones y en todas direcciones. En el este; Daenerys Targaryen; el último eslabón de la Casa Targaryen; gobierna con sus tres dragones como la reina de una ciudad construida sobre polvo y muerte.",
-            "image": "https://juegodetronosok.files.wordpress.com/2013/11/250px-danza_de_dragones.jpg",
+            "synopsis": "Después de una colosal batalla; el futuro de los Siete Reinos pende de un hilo; acuciado por nuevas amenazas que emergen de todos los rincones y en todas direcciones. En el este Daenerys Targaryen, el último eslabón de la Casa Targaryen, gobierna con sus tres dragones como la reina de una ciudad construida sobre polvo y muerte.",
+            "image": "https://libroscontigo.com/wp-content/uploads/2021/05/00000083_Geor-ge-R-R-Mar-tin_Can-cion-de-hi-elo-y-fu-ego-V-Da-nza-de-Dr-agones.jpg",
             "price": "8.999",
             "stock": "10"
         },
         {
             "id": "21",
-            "title": "Los Juegos del hambre",
+            "title": "Los Juegos del Hambre",
             "author": "Suzanne Collins",
             "saga": "Juegos del hambre",
             "genre": "Distopía",
             "language": "Castellano",
-            "synopsis": "En una oscura versión del futuro próximo, doce chicos y doce chicas se ven obligados a participar en un reality show llamado los Juegos del Hambre. Solo hay una regla: matar o morir.",
+            "synopsis": 'En una oscura versión del futuro próximo, doce chicos y doce chicas se ven obligados a participar en un reality show llamado los "Juegos del Hambre". Solo hay una regla: matar o morir.',
             "image": "https://books.google.com/books/publisher/content/images/frontcover/8FjODwAAQBAJ?fife=w256-h256",
             "price": "3.256",
             "stock": "7"
         },
         {
             "id": "22",
-            "title": "En llamas",
+            "title": "En Llamas",
             "author": "Suzanne Collins",
             "saga": "Juegos del hambre",
             "genre": "Distopía",
             "language": "Castellano",
-            "synopsis": "Contra todas las probabilidades; Katniss y su compañero tributo Peeta han regresado a su hogar luego de sobrevivir los Juegos del Hambre. Ganar significa que deberán abandonar a sus seres queridos y embarcarse en un Tour de la Victoria a través de los distritos. ",
+            "synopsis": "Contra todas las probabilidades; Katniss y, su compañero tributo, Peeta han regresado a su hogar luego de sobrevivir a los Juegos del Hambre. Ganar significa que deberán abandonar a sus seres queridos y embarcarse en un Tour de la Victoria a través de los distritos.",
             "image": "https://books.google.com/books/publisher/content/images/frontcover/N13ODwAAQBAJ?fife=w256-h256",
             "price": "3.256",
             "stock": "7"
@@ -273,7 +272,7 @@ export const books =
             "saga": "Juegos del hambre",
             "genre": "Distopía",
             "language": "Castellano",
-            "synopsis": 'El esperado desenlace de la trilogía "Los Juegos del Hambre". Katniss Everdeen, la chica en llamas, ha sobrevivido de nuevo a los Juegos, aunque no queda nada de su hogar.',
+            "synopsis": 'El esperado desenlace de la trilogía "Los Juegos del Hambre". Katniss Everdeen, la chica en llamas, ha sobrevivido de nuevo a los juegos, aunque no queda nada de su hogar.',
             "image": "https://books.google.com/books/publisher/content/images/frontcover/9FjODwAAQBAJ?fife=w256-h256",
             "price": "3.256",
             "stock": "7"
@@ -346,7 +345,7 @@ export const books =
             "genre": "Novela",
             "language": "Castellano",
             "synopsis": 'La metamorfosis, es un relato de Franz Kafka, publicado en 1915 y que narra la historia de Gregorio Samsa, un comerciante de telas que vive con su familia a la que él mantiene con su sueldo, que un buen día amanece convertido en una criatura no identificada claramente en ningún momento, pero que tiende a ser reconocida como una especie de cucaracha gigante. Breve e intensa, es calificada a veces como "relato existencialista". En ocasiones el título es traducido como La transformación.',
-            "image": "https://books.google.com/books/content/images/frontcover/iH2hmR9DA7QC?fife=w256-h256",
+            "image": "https://http2.mlstatic.com/D_NQ_NP_802778-MLM31299319391_072019-O.jpg",
             "price": "1.999",
             "stock": "5"
         },
@@ -380,7 +379,7 @@ export const books =
             "author": "Paulina Cocina",
             "genre": "Cocina",
             "language": "Castellano",
-            "synopsis": "Un libro que todos se animen a cocinar; con el estilo descontracturado de Paulina y la participación de Pablo Agustín; Hecatombe; Connie Isla; Merakio; Angie Sammartino y Lyna Vallejos.",
+            "synopsis": "Un libro para que todos se animen a cocinar; con el estilo descontracturado de Paulina y la participación de Pablo Agustín; Hecatombe; Connie Isla; Merakio; Angie Sammartino y Lyna Vallejos.",
             "image": "https://books.google.com/books/publisher/content/images/frontcover/1T-3DwAAQBAJ?fife=w256-h256",
             "price": "3.099",
             "stock": "5"
@@ -538,7 +537,7 @@ export const books =
             "genre": "Novela",
             "language": "Castellano",
             "synopsis": 'La novela relata la vida del hijo de un brahman (sacerdote), Siddharta, un joven hindú que busca su camino. Junto a él se encuentra Govinda, amigo del joven. En resolución común deciden ir a vivir con los Samanas, abandonando a sus familias.',
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/L5NUDAAAQBAJ?fife=w256-h256",
+            "image": "https://i.pinimg.com/originals/3e/58/c8/3e58c8e2d865614ea0bffb4ba491c22d.jpg",
             "price": "1.484",
             "stock": "7"
         },
@@ -550,7 +549,7 @@ export const books =
             "genre": "Novela",
             "language": "Castellano",
             "synopsis": 'El joven Emil Sinclair se siente dividido entre sus impulsos y el mundo ordenado de sus padres. Bajo la influencia de su amigo Demian, aprende a superar los contrastes y a aceptarse junto con su lado oscuro.',
-            "image": "https://books.google.com/books/content/images/frontcover/ENF-q_STYwsC?fife=w256-h256",
+            "image": "https://m.media-amazon.com/images/I/51iMK-j9gDS.jpg",
             "price": "965",
             "stock": "7"
         },
@@ -585,7 +584,7 @@ export const books =
             "saga": "false",
             "genre": "Novela",
             "language": "Castellano",
-            "synopsis": 'Una adolescente aparece quemada y descuartizada en un descampado. Treinta años después, el crimen sigue sin aclararse y su familia y entorno se han desmoronado. Hace treinta años, en un terreno baldío de un barrio tranquilo, apareció descuartizado y quemado el cadáver de una adolescente.',
+            "synopsis": 'Una adolescente aparece quemada y descuartizada en un descampado. Treinta años después, el crimen sigue sin aclararse y su familia y entorno se ha desmoronado.',
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/674378.jpg",
             "price": "2.428",
             "stock": "7"
@@ -594,7 +593,7 @@ export const books =
             "id": "55",
             "title": "Game of Thrones",
             "author": "George R.R. Martin",
-            "saga": "Games of Thrones",
+            "saga": "Game of Thrones",
             "genre": "Fiction",
             "language": "English",
             "synopsis": 'Song of ice and fire. In the legendary world of the Seven Kingdoms; where summer can last decades and winter a lifetime; and where traces of an immemorial magic arise in the darkest corners; the land of the north; winterfell; It is protected by a colossal wall of ice that stops dark and supernatural forces.',
@@ -606,7 +605,7 @@ export const books =
             "id": "56",
             "title": "A clash of Kings",
             "author": "George R.R. Martin",
-            "saga": "Games of Thrones",
+            "saga": "Game of Thrones",
             "genre": "Fiction",
             "language": "English",
             "synopsis": 'A comet the color of blood splits the sky; loaded with bad omens. And there are good reasons to think so: the Seven Kingdoms are shaken by infighting among nobles over the succession to the Iron Throne. On the other shore of the Narrow Sea; Princess Daenerys Targaryen leads her people of wild horsemen through the desert. And in the frozen wastes of the north; beyond the Wall; an implacable army advances towards a territory devastated by chaos and fratricidal wars.',
@@ -618,7 +617,7 @@ export const books =
             "id": "57",
             "title": "A storm of swords",
             "author": "George R.R. Martin",
-            "saga": "Games of Thrones",
+            "saga": "Game of Thrones",
             "genre": "Fiction",
             "language": "English",
             "synopsis": 'The flaming sword left behind long trails of fire... steel sang against steel» Torn away by war; the Seven Kingdoms will soon experience the very long winter that is predicted to be uncharacteristically harsh. And while the violence and the weather worsen; the endearing and infamous characters we already know continue to struggle between fierce battles and wicked palace intrigues',
@@ -630,7 +629,7 @@ export const books =
             "id": "58",
             "title": "A feast for crowds",
             "author": "George R.R. Martin",
-            "saga": "Games of Thrones",
+            "saga": "Game of Thrones",
             "genre": "Fiction",
             "language": "English",
             "synopsis": 'After centuries of stark wars; the seven powers that divide the earth have decimated each other until reaching an uneasy truce. Very few legitimate claims already exist for the Iron Throne; and the war that has turned the world into little more than a desert is finally over. Or so it seems. But it isn’t long before the survivors; the outlaws; the renegades and scavengers of the Seven Kingdoms gather.',
@@ -642,7 +641,7 @@ export const books =
             "id": "59",
             "title": "A dance with dragons",
             "author": "George R.R. Martin",
-            "saga": "Games of Thrones",
+            "saga": "Game of Thrones",
             "genre": "Fiction",
             "language": "English",
             "synopsis": 'After a colossal battle; the future of the Seven Kingdoms hangs in the balance; beset by new threats emerging from all corners and in all directions. In the East; Daenerys Targaryen; the last link of the Targaryen House; she rules with her three dragons as queen of a city built on dust and death.',
@@ -658,7 +657,7 @@ export const books =
             "genre": "Infantil",
             "language": "Castellano",
             "synopsis": 'Harry Potter y la piedra filosofal es el primer volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling.',
-            "image": "https://books.google.com/books/content/images/frontcover/2zgRDXFWkm8C?fife=w256-h256",
+            "image": "https://comicstores.es/imagenes_grandes/9788418/978841817300.JPG",
             "price": "2.534",
             "stock": "7"
         },
@@ -669,8 +668,8 @@ export const books =
             "saga": "Harry Potter",
             "genre": "Infantil",
             "language": "Castellano",
-            "synopsis": 'Harry Potter y la cámara secreta; el segundo volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling. ',
-            "image": "https://books.google.com/books/content/images/frontcover/zl13g5uRM4EC?fife=w256-h256",
+            "synopsis": 'Harry Potter y la cámara secreta es el segundo volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling. ',
+            "image": "https://libreriacaracter.com.mx/salic/inventarios/articulos/files/10562/105620.jpg",
             "price": "2.534",
             "stock": "7"
         },
@@ -681,8 +680,8 @@ export const books =
             "saga": "Harry Potter",
             "genre": "Infantil",
             "language": "Castellano",
-            "synopsis": 'Harry Potter y el prisionero de Azkaban; el tercer volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling. ',
-            "image": "https://books.google.com/books/content/images/frontcover/2EaOj7-ozKgC?fife=w256-h256",
+            "synopsis": 'Harry Potter y el prisionero de Azkaban es el tercer volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling. ',
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Ny0OcehuyG4iSf2fr7-OSNWE8oyIwVQZOFmpQwi-1w5THrgRNruFBEoYNwvj0TuHiig&usqp=CAU",
             "price": "2.534",
             "stock": "7"
         },
@@ -693,49 +692,49 @@ export const books =
             "saga": "Harry Potter",
             "genre": "Infantil",
             "language": "Castellano",
-            "synopsis": 'Harry Potter y el Caliz de fuego; el cuarto volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling.',
-            "image": "https://books.google.com/books/content/images/frontcover/R2daemCCiF8C?fife=w256-h256",
+            "synopsis": 'Harry Potter y el Caliz de fuego es el cuarto volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling.',
+            "image": "https://cdn.shopify.com/s/files/1/0266/3242/1433/products/9786073193030_grande.jpg?v=1669246727",
             "price": "2.534",
             "stock": "7"
         },
         {
-            "id": "64",
+            "id": "65",
             "title": "Y la Orden del Fenix",
             "author": "J. K. Rowling",
             "saga": "Harry Potter",
             "genre": "Infantil",
-            "language": "Castellano",
-            "synopsis": 'Harry Potter y la Orden del Fenix; el quinto volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling.',
-            "image": "https://books.google.com/books/content/images/frontcover/uUOBPgXQtvUC?fife=w256-h256",
+            "synopsis": 'Harry Potter y La Orden del Fenix es el quinto volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling.',
+            "image": "https://images.cdn2.buscalibre.com/fit-in/360x360/3e/02/3e02fe3dfc57f3aaa73154fc7f0d058a.jpg",
             "price": "2.534",
             "stock": "7"
+            
         },
         {
-            "id": "64",
+            "id": "66",
             "title": "Y el Misterio del Principe",
             "author": "J. K. Rowling",
             "saga": "Harry Potter",
             "genre": "Infantil",
             "language": "Castellano",
             "synopsis": 'Harry Potter y el misterio del Príncipe; el sexto volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling.',
-            "image": "https://books.google.com/books/content/images/frontcover/uZDYlfDVYmEC?fife=w256-h256",
+            "image": "https://images.cdn3.buscalibre.com/fit-in/360x360/25/6e/256e7ff6c6035aec4ecbb9479d688469.jpg",
             "price": "2.534",
             "stock": "7"
         },
         {
-            "id": "65",
+            "id": "67",
             "title": "Y las reliquias de la muerte",
             "author": "J. K. Rowling",
             "saga": "Harry Potter",
             "genre": "Infantil",
             "language": "Castellano",
             "synopsis": 'Harry Potter y las reliquias de la muerte; el septimo volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling.',
-            "image": "https://books.google.com/books/content/images/frontcover/Pd4Hy4Y-d9MC?fife=w256-h256",
+            "image": "https://http2.mlstatic.com/D_NQ_NP_962732-MLA47981299601_102021-O.webp",
             "price": "2.534",
             "stock": "7"
         },
         {
-            "id": "66",
+            "id": "68",
             "title": "The Hunger Games - Trilogy",
             "author": "Suzanne Collins",
             "saga": "The Hunger Games",
@@ -747,7 +746,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "67",
+            "id": "69",
             "title": "PS I love you",
             "author": "Cecelia Ahern",
             "saga": "false",
@@ -759,7 +758,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "68",
+            "id": "70",
             "title": "La casa de los espiritus",
             "author": "Isabel Allende",
             "saga": "false",
@@ -771,19 +770,19 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "69",
+            "id": "71",
             "title": "La Isla bajo el mar",
             "author": "Isabel Allende",
             "saga": "false",
             "genre": "Novela",
             "language": "Castellano",
             "synopsis": 'La azarosa historia de una esclava en el Santo Domingo del siglo XVIII que logrará librarse de los estigmas que la sociedad le ha impuesto para conseguir la libertad.',
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/o41IAgAAQBAJ?fife=w256-h256",
+            "image": "https://pbs.twimg.com/media/FjUCxKLXEAQq4tn.jpg",
             "price": "1.534",
             "stock": "7"
         },
         {
-            "id": "70",
+            "id": "72",
             "title": "Inés del alma mía",
             "author": "Isabel Allende",
             "saga": "false",
@@ -795,7 +794,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "71",
+            "id": "73",
             "title": "Más allá del Invierno",
             "author": "Isabel Allende",
             "saga": "false",
@@ -807,7 +806,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "72",
+            "id": "74",
             "title": "El amante japonés",
             "author": "Isabel Allende",
             "saga": "false",
@@ -819,11 +818,11 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "73",
+            "id": "75",
             "title": "Orgullo y Prejuicio",
             "author": "Jane Austen",
             "saga": "false",
-            "genre": "Novela Clásica",
+            "genre": "Romance",
             "language": "Castellano",
             "synopsis": 'Las hermanas Bennet, jóvenes casaderas de la Inglaterra del cambio de siglo (XVIII al XIX), y sus posibles pretendientes son el corazón de esta novela romántica de encuentros y desencuentros. El orgullo, las diferencias sociales, la hipocresía o la maledicencia acaban siendo superados por el amor. El libro se complementa con la magnífica serie de la BBC de 1995 protagonizada por Colin Firth y Jennifer Ehle.',
             "image": "https://covers.alibrate.com/b/59872eaecba2bce50c1f0f62/254d8fa9-0e76-4c81-b2d8-c61933efab16/share",
@@ -831,11 +830,11 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "74",
+            "id": "76",
             "title": "Persuasión",
             "author": "Jane Austen",
             "saga": "false",
-            "genre": "Novela Clásica",
+            "genre": "Romance",
             "language": "Castellano",
             "synopsis": 'Persuasión narra la historia de una mujer madura, sensible y menospreciada, que años después de haber rechazado al hombre que amaba, persuadida por un mal consejo, ve cómo este reaparece en su vida, rico y honorable pero aún despechado.',
             "image": "https://http2.mlstatic.com/D_NQ_NP_101825-MLA25493474222_042017-O.jpg",
@@ -843,11 +842,11 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "75",
+            "id": "77",
             "title": "Emma",
             "author": "Jane Austen",
             "saga": "false",
-            "genre": "Novela Clásica",
+            "genre": "Romance",
             "language": "Castellano",
             "synopsis": 'Emma Woodhouse es una joven hermosa, inteligente y adinerada, y la reina indiscutible de los tejemanejes amorosos de su aburrido pueblecito inglés. Brillante sátira de las clases sociales.',
             "image": "https://d3525k1ryd2155.cloudfront.net/h/621/371/422371621.0.l.jpg",
@@ -855,11 +854,11 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "76",
+            "id": "78",
             "title": "Historia de dos Ciudades",
             "author": "Charles Dickens",
             "saga": "false",
-            "genre": "Novela Clásica",
+            "genre": "Novela",
             "language": "Castellano",
             "synopsis": 'Novela de Charles Dickens,ambientada en Londres y París antes y durante la Revolución Francesa.La novela describe la difícil situación del campesinado francés desmoralizado por la aristocracia en los años previos a la revolución y la brutalidad correspondiente demostrada por los revolucionarios.',
             "image": "https://m.media-amazon.com/images/I/81O+bz3mv4L.jpg",
@@ -867,11 +866,11 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "77",
+            "id": "79",
             "title": "Relaciones Peligrosas",
             "author": "Choderlos De Laclos",
             "saga": "false",
-            "genre": "Novela Clásica",
+            "genre": "Novela",
             "language": "Castellano",
             "synopsis": 'Relaciones peligrosas es una de las cumbres de la literatura europea del sigloXVIII.  Relata una historia de perversión, celos y sentimientos encontrados en la que sobresalen los amorales personajes del vizconde de Valmont y la marquesa de Merteuil, quienes utilizan la pulsión amorosa como medio de manipulación del prójimo y satisfacción de su amor propio.',
             "image": "http://prodimage.images-bn.com/pimages/9788408104674_p0_v5_s1200x630.jpg",
@@ -879,11 +878,11 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "78",
+            "id": "80",
             "title": "Frankenstein",
             "author": "Mary Shelley",
             "saga": "false",
-            "genre": "Novela Clásica",
+            "genre": "Novela",
             "language": "Castellano",
             "synopsis": 'En el verano de 1816, Lord Byron invita al poeta Percy Bysshe Shelley y a su joven esposa, Mary, a su casa de Suiza. Los días son lluviosos y el anfitrión propone que cada uno escriba un relato de fantasmas. Así surgirá "Frankenstein, o el moderno Prometeo", publicada en 1818 y considerada la primera novela del género de ciencia ficción. Atrapado en los hielos del Ártico, Víctor Frankenstein es rescatado por el capitán Walton. Dedicará sus últimos días a narrarle la trágica historia de sus experimentos en búsqueda del poder de dotar de vida a la materia inerte y cómo el ser que creó se rebelaría contra él.',
             "image": "https://global-uploads.webflow.com/6034d7d1f3e0f52c50b2adee/625452f43a8fa502af2b8a14_6034d7d1f3e0f525c6b2b272_frankenstein-mary-shelley-editorial-alma.jpeg",
@@ -891,7 +890,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "79",
+            "id": "81",
             "title": "Discurso del Método",
             "author": "René Descartes",
             "saga": "false",
@@ -903,7 +902,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "80",
+            "id": "82",
             "title": "Y las montañas hablaron",
             "author": "Khaled Hosseini",
             "saga": "false",
@@ -915,7 +914,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "81",
+            "id": "83",
             "title": "Twilight - Collection",
             "author": "Stephenie Meyer",
             "saga": "Twilight",
@@ -927,7 +926,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "82",
+            "id": "84",
             "title": "Fifty Shades of Grey. Trilogy",
             "author": "E.L. James",
             "saga": "Fifty Shades of Grey",
@@ -939,7 +938,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "83",
+            "id": "85",
             "title": "Edenbroke",
             "author": "Julianne Donalson",
             "saga": "false",
@@ -951,7 +950,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "84",
+            "id": "86",
             "title": "El Jinete de Bronce",
             "author": "Paullina Simons",
             "saga": "El jinete de Bronce",
@@ -963,7 +962,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "85",
+            "id": "87",
             "title": "Tatiana y Alexander",
             "author": "Paullina Simons",
             "saga": "El jinete de Bronce",
@@ -975,7 +974,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "86",
+            "id": "88",
             "title": "El jardín de Verano",
             "author": "Paullina Simons",
             "saga": "El jinete de Bronce",
@@ -987,7 +986,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "87",
+            "id": "89",
             "title": "La Ola",
             "author": "Morton Rhue",
             "saga": "False",
@@ -999,7 +998,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "88",
+            "id": "90",
             "title": "Dime quien soy",
             "author": "Julia Navarro",
             "saga": "False",
@@ -1011,7 +1010,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "89",
+            "id": "91",
             "title": "Angeles y Demonios",
             "author": "Dan Brown",
             "saga": "False",
@@ -1023,7 +1022,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "90",
+            "id": "92",
             "title": "El Código Da Vinci",
             "author": "Dan Brown",
             "saga": "False",
@@ -1035,7 +1034,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "91",
+            "id": "93",
             "title": "Infierno",
             "author": "Dan Brown",
             "saga": "False",
@@ -1047,7 +1046,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "92",
+            "id": "94",
             "title": "Inferno",
             "author": "Dan Brown",
             "saga": "False",
@@ -1059,7 +1058,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "93",
+            "id": "95",
             "title": "Angels and Demonds",
             "author": "Dan Brown",
             "saga": "False",
@@ -1071,7 +1070,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "94",
+            "id": "96",
             "title": "The Da Vinci Code",
             "author": "Dan Brown",
             "saga": "False",
@@ -1083,19 +1082,19 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "95",
+            "id": "97",
             "title": "Queen y Freddie Mercury",
             "author": "José Luis Martin",
             "saga": "False",
             "genre": "Música",
             "language": "Castellano",
-            "synopsis": 'Un aprendiz de dentista; un técnico electrónico; un futuro astrónomo y un estudiante de diseño desubicado; congeniaron sus intereses; inquietudes y anhelos para cambiar el mundo a base de canciones. Roger Taylor; Brian May; John Deacon y Freddie Mercury; cuatro jóvenes británicos; consiguieron crear la banda de rock más admirada del planeta; que hoy en día; media década después de que subieran por primera vez a un escenario como Queen; siguen provocando pasiones; llenando estadios y siendo uno de los grupos más importantes del universo rock. Pero mucho más allá de construir esa maravillosa maquinaria llamada Queen; estos cuatro jóvenes consiguieron levantar un mito; la leyenda más importante del mundo del rock: Freddie Mercury. Esta es la historia de todos ellos.',
+            "synopsis": 'Un aprendiz de dentista; un técnico electrónico; un futuro astrónomo y un estudiante de diseño desubicado; congeniaron sus intereses; inquietudes y anhelos para cambiar el mundo a base de canciones. Roger Taylor; Brian May; John Deacon y Freddie Mercury; cuatro jóvenes británicos; consiguieron crear la banda de rock más admirada del planeta; que hoy en día; décadas después de que subieran por primera vez a un escenario como Queen; sigue provocando pasiones; llenando estadios y siendo uno de los grupos más importantes del universo rock. Pero mucho más allá de construir esa maravillosa maquinaria llamada Queen; estos cuatro jóvenes consiguieron levantar un mito; la leyenda más importante del mundo del rock: Freddie Mercury. Esta es la historia de todos ellos.',
             "image": "https://contentv2.tap-commerce.com/cover/large/9788494696114_1.jpg?id_com=1113",
             "price": "1.750",
             "stock": "7"
         },
         {
-            "id": "96",
+            "id": "98",
             "title": "Dentro de Pink Floyd",
             "author": "Manuel López Puy",
             "saga": "False",
@@ -1107,7 +1106,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "97",
+            "id": "99",
             "title": "Charly García",
             "author": "Chirom Daniel",
             "saga": "False",
@@ -1119,7 +1118,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "98",
+            "id": "100",
             "title": "The Beatles",
             "author": "Manolo Bellon",
             "saga": "False",
@@ -1131,7 +1130,7 @@ export const books =
             "stock": "7"
         },
         {
-            "id": "99",
+            "id": "101",
             "title": "Kiss behaind the mask",
             "author": "David Leaf",
             "saga": "False",
