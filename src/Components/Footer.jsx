@@ -12,7 +12,7 @@ export const Footer = () => {
             <div className='link_redes'>
                 <a href="https://wa.me/?" text="text=urlencodedtext" target='blank'><i className="bi bi-whatsapp" /></a>
                 <a href="https://www.instagram.com/" target='blank'><i className="bi bi-instagram"/></a>                
-                <a href="https://www.twitter.com/" target='blank'><i class="bi bi-twitter"></i></a>                
+                <a href="https://www.twitter.com/" target='blank'><i className="bi bi-twitter"></i></a>                
                 <a href="https://es-la.facebook.com/" target='blank'><i className="bi bi-facebook" /></a>
             </div>
             <div className='linkMenu'>

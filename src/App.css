@@ -57,27 +57,6 @@ font-family: 'Quintessential'cursive; */
   height: 5rem;
 }
 
-.btnCartW {
-  background-color: transparent;
-  border-radius: 5px;
-  border: none;
-  margin-top: 0.5em;
-  color: black;
-}
-
-.mCart {
-  color: whitesmoke;
-  text-shadow: 1px 1px black;
-  font-size: 1.1em;
-}
-
-.bi-cart3 {
-  color: whitesmoke;
-  text-shadow: 1px 1px black;
-  font-size: 1.9em;
-  margin: 3px;
-}
-
 /* Footer */
 .footer {
   display: flex;
@@ -171,6 +150,7 @@ font-family: 'Quintessential'cursive; */
   margin: 2em;
 }
 
+
 .card_detail_top {
   display: flex;
   justify-content: space-between;
@@ -211,4 +191,36 @@ font-family: 'Quintessential'cursive; */
   background-color: whitesmoke;
   margin: 0.5em;
   line-height: 7px;
+}
+
+.inputForm {
+  height: 45px;
+  width: 250px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.1em;
+  text-align: left;
+  padding: 10px;
+}
+
+.inputForm:focus {
+  outline: 2px solid #b2b8b2;
+}
+
+.btnForm {
+  font-size: 1.4em;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  color: #889987;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.btnForm:hover {
+  color: #f2f2f2;
+  border-radius: 5px;
+  background-color: #889987;
+  padding: 5px;
 }

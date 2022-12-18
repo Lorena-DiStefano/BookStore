@@ -1,5 +1,5 @@
 import {useNavigate} from 'react-router-dom'
-import { ItemCounter } from '../Cart/index'
+import { ItemCounter } from './Cart/index'
 
 export const ItemDetail = ({ bookList }) => {
 

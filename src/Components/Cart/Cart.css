@@ -1,0 +1,51 @@
+/* font-family: 'DM Sans',sans-serif;
+font-family: 'Quintessential'cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-a {
+    background: linear-gradient(180deg, rgb(167, 179, 166) 35%, rgb(240, 240, 240) 100%);
+    border-color: rgb(167, 179, 166);
+    border-radius: 8px;
+    padding: 0px 7px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.cartDetail {
+    background-color: rgb(242, 242, 242);
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 15px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, .25);
+}
+
+.btnCartW {
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0.5em;
+   
+}
+
+.mCart {
+    color: rgb(61, 70, 63);
+    background-color: rgb(168, 176, 169);   
+    font-size: 1.1em;
+}
+
+.bi-cart-check-fill {
+    color: rgb(61, 70, 63);
+    font-size: 1.9em;
+    margin: 3px;
+}
