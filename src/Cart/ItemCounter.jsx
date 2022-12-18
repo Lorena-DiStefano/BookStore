@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './Cart.css';
 
 export const ItemCounter = ({ stock }) => {    
    

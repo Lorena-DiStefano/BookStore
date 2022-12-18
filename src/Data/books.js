@@ -411,7 +411,7 @@ export const books =
 
         {
             "id": "35",
-            "title": "Los mitos de la historia argentina I",
+            "title": "Mitos de la Argentina I",
             "author": "Felipe Pigna",
             "saga": "Mitos de la Argentina",
             "genre": "Historia",
@@ -423,7 +423,7 @@ export const books =
         },
         {
             "id": "36",
-            "title": "Los mitos de la historia argentina II",
+            "title": "Mitos de la Argentina II",
             "author": "Felipe Pigna",
             "saga": "Mitos de la Argentina",
             "genre": "Historia",
@@ -435,7 +435,7 @@ export const books =
         },
         {
             "id": "37",
-            "title": "Los mitos de la historia argentina III",
+            "title": "Mitos de la Argentina III",
             "author": "Felipe Pigna",
             "saga": "Mitos de la Argentina",
             "genre": "Historia",
@@ -447,7 +447,7 @@ export const books =
         },
         {
             "id": "38",
-            "title": "Los mitos de la historia argentina IV",
+            "title": "Mitos de la Argentina IV",
             "author": "Felipe Pigna",
             "saga": "Mitos de la Argentina",
             "genre": "Historia",
@@ -459,7 +459,7 @@ export const books =
         },
         {
             "id": "39",
-            "title": "Los mitos de la historia argentina V",
+            "title": "Mitos de la Argentina V",
             "author": "Felipe Pigna",
             "saga": "Mitos de la Argentina",
             "genre": "Historia",

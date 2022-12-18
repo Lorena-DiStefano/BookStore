@@ -1,8 +1,8 @@
-import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import CartWidget from './CartWidget';
+import CartWidget from '../Cart/CartWidget';
 
-const NavBar = () => {
+
+export const NavBar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light">
@@ -17,7 +17,7 @@ const NavBar = () => {
                                 <NavLink className="nav-link" to={'/'} aria-current="page" >Home</NavLink>
                             </li>
                             <li className="nav-item dropdown">
-                                <NavLink className="nav-link dropdown-toggle" to={'/genre/'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Género</NavLink>
+                                <NavLink className="nav-link dropdown-toggle" to={'/genre/'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Castellano</NavLink>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><Link className="dropdown-item" to={'/genre/Cocina'}>Cocina </Link></li>
                                     <li><Link className="dropdown-item" to={'/genre/Distopía'}>Distopía</Link></li>
@@ -59,13 +59,10 @@ const NavBar = () => {
                                     <li><Link className="dropdown-item" to={'/saga/The Vampire Chronicles'}>The Vampire Chronicles - Anne Rice</Link></li>
                                 </ul>
                             </li>
-                            
-                        </ul>
-                        <form className="d-flex">
-                            <input className="form-control m-1" type="search" placeholder="Título / Autor" aria-label="Search" />
-                            {/* value={search} onChange={searcher} */}
-                            <button className="btn" type="submit"><i className="bi bi-search"></i></button>
-                        </form>
+                        </ul>                       
+                        <div>
+                           
+                        </div>              
                     </div>
                     <div>
                         <div className="col me-5 d-flex align-items-center justify-content-end">
