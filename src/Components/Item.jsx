@@ -12,8 +12,8 @@ const Item = ({ book }) => {
           <h6><b>{title}</b></h6>
           <p >{author}</p>
           <div className="card_item_btm d-flex justify-content-between" >
-            <p><b>${price}</b></p>
-            <p> Más...</p>
+            <p><b>${(price).toLocaleString()}</b></p>
+            <p>...</p>
           </div>
         </div>
       </Link>

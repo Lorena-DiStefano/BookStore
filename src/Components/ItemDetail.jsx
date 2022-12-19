@@ -33,7 +33,7 @@ export const ItemDetail = ({ bookList }) => {
           <p><b>Género:</b> {genre} </p>
           <p><b>Idioma:</b> {language}</p>
           <p><b>Sinopsis:</b> {synopsis}</p>
-          <h5>${price}</h5>
+          <h5>${price.toLocaleString()}</h5>
         </div>
         <div className="card_detail_btn">
           <ItemCounter stock={stock} onAdd={onAdd} />

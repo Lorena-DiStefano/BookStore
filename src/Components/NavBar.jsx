@@ -32,7 +32,7 @@ export const NavBar = () => {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
-                                <NavLink className="nav-link dropdown-toggle" to={'/genre/'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">English</NavLink>
+                                <NavLink className="nav-link dropdown-toggle" to={'/genre/'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Inglés</NavLink>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><Link className="dropdown-item" to={'/genre/Distopy'}>Distopy</Link></li>
                                     <li><Link className="dropdown-item" to={'/genre/Fiction'}>Fiction</Link></li>

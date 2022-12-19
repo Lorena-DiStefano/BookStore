@@ -1,5 +1,6 @@
 /* font-family: 'DM Sans',sans-serif;
-font-family: 'Quintessential'cursive; */
+font-family: 'Quintessential',cursive;
+font-family: 'Raleway',sans-serif; */
 
 * {
   margin: 0;
@@ -7,11 +8,12 @@ font-family: 'Quintessential'cursive; */
 }
 
 .App {
+  font-family: 'Raleway', sans-serif;
+  ;
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
   background: rgba(195, 194, 184, 0.3);
-
 }
 
 .menu {
@@ -31,7 +33,7 @@ font-family: 'Quintessential'cursive; */
   color: #3d463f;
   font-size: 1.5em;
   font-weight: 600;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .dropdown-menu {
@@ -40,14 +42,14 @@ font-family: 'Quintessential'cursive; */
 }
 
 .dropdown-item {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.1em;
   font-weight: 500;
 }
 
 .navbar-toggler,
 .navbar-toggler-icon {
- background-color: rgb(114, 132, 119);
+  background-color: rgb(114, 132, 119);
   font-size: 1.3em;
   font-weight: 900;
 }
@@ -66,10 +68,10 @@ font-family: 'Quintessential'cursive; */
   background-color: rgb(175, 181, 177);
   font-family: 'DM Sans', sans-serif;
   font-size: 1.1em;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 0.8em;
   color: #3d463f;
-  padding: 0.5em;  
+  padding: 0.5em;
 }
 
 .footer a,
@@ -97,15 +99,16 @@ font-family: 'Quintessential'cursive; */
 .greeting_text {
   font-family: 'Quintessential', cursive;
   font-size: 1.9em;
-  font-weight: 600;
+  font-weight: 700;
   text-align: right;
   margin-right: 15%;
   margin-top: 1.2em;
 }
 
 .greeting_data {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
+  font-weight: 500;
   text-align: right;
   margin-right: 15%;
 }
@@ -113,9 +116,9 @@ font-family: 'Quintessential'cursive; */
 /* ========= */
 
 .card_detail {
-  background-color: rgb(242,242,242);
+  background-color: rgb(242, 242, 242);
   width: 80%;
-  margin: auto; 
+  margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
   font-family: 'DM Sans', sans-serif;
@@ -189,7 +192,7 @@ font-family: 'Quintessential'cursive; */
   width: 250px;
   border: none;
   border-radius: 8px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.1em;
   text-align: left;
   padding: 10px;

@@ -1,5 +1,7 @@
 /* font-family: 'DM Sans',sans-serif;
-font-family: 'Quintessential'cursive; */
+font-family: 'Quintessential',cursive;
+font-family: 'Raleway',sans-serif; 
+font-family: 'Quicksand',sans-serif;*/
 
 * {
     margin: 0;
@@ -24,9 +26,10 @@ font-family: 'Quintessential'cursive; */
 }
 
 .mCart {
+    font-family: 'Quicksand',sans-serif;
     color: rgb(61, 70, 63);
     background-color: rgb(242, 242, 185);
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .bi-cart-check-fill {
@@ -35,21 +38,37 @@ font-family: 'Quintessential'cursive; */
     margin: 3px;
 }
 
-.cartItemDetail {
+.cartDetail {
     background-color: rgb(242, 242, 242);
     width: 90%;
-    margin: 0 auto;    
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
     padding: 1em;
     font-family: 'DM Sans', sans-serif;
     font-size: 1.1em;
+    font-weight: 500;
     border-radius: 15px;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, .25);
+    color: #3d463f;
 }
 
-.cartItemDetail td {    
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.cartItemDetail img {
+.cartDetail img {
     width: 80px;
+    min-height: 120px;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.cartDetail thead{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3em;    
+    font-weight: 200;
+}
+
+.cartDetail button {
+    border: none;
+    color: #3d463f;
+    font-size: 1.3em;
 }
