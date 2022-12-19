@@ -47,7 +47,7 @@ font-family: 'Quintessential'cursive; */
 
 .navbar-toggler,
 .navbar-toggler-icon {
-  background-color: rgb(191, 204, 195);
+ background-color: rgb(114, 132, 119);
   font-size: 1.3em;
   font-weight: 900;
 }
@@ -69,8 +69,7 @@ font-family: 'Quintessential'cursive; */
   font-weight: 600;
   line-height: 0.8em;
   color: #3d463f;
-  padding: 0.5em;
-  
+  padding: 0.5em;  
 }
 
 .footer a,
@@ -112,14 +111,6 @@ font-family: 'Quintessential'cursive; */
 }
 
 /* ========= */
-
-
-.navbar-toggler,
-.navbar-toggler-icon {
-  background-color: rgb(114, 132, 119);
-  font-size: 1.3em;
-  font-weight: 900;
-}
 
 .card_detail {
   background-color: rgb(242,242,242);

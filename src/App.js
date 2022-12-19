@@ -5,13 +5,13 @@ import { CartContextProvider } from "./Context/CartContext";
 
 function App() {
   return (
-    <div className="App">
-      <CartContextProvider>
-      <NavBar />
-      <AppRouter />
-      <Footer />
-      </CartContextProvider>
-    </div>
+    <CartContextProvider>
+      <div className="App">
+        <NavBar />
+        <AppRouter />
+        <Footer />
+      </div>
+    </CartContextProvider>
   );
 }
 
