@@ -15,32 +15,17 @@ font-family: 'Quintessential'cursive; */
     text-align: center;
 }
 
-.cartDetail {
-    background-color: rgb(242, 242, 242);
-    width: 80%;
-    margin: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 1.1em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border-radius: 15px;
-    box-shadow: 0px 8px 24px rgba(0, 0, 0, .25);
-}
-
 .btnCartW {
     background-color: transparent;
     border-radius: 5px;
     border: none;
     margin-top: 0.5em;
-   
+
 }
 
 .mCart {
     color: rgb(61, 70, 63);
-    background-color: rgb(242, 242, 185);   
+    background-color: rgb(242, 242, 185);
     font-size: 1.1em;
 }
 
@@ -48,4 +33,23 @@ font-family: 'Quintessential'cursive; */
     color: rgb(61, 70, 63);
     font-size: 1.9em;
     margin: 3px;
+}
+
+.cartItemDetail {
+    background-color: rgb(242, 242, 242);
+    width: 90%;
+    margin: 0 auto;    
+    padding: 1em;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.1em;
+    border-radius: 15px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, .25);
+}
+
+.cartItemDetail td {    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cartItemDetail img {
+    width: 80px;
 }

@@ -13,15 +13,12 @@ export const ItemDetail = ({ bookList }) => {
     navigate(-1)
   }
 
-  const { cartList, addTocart } = useContext(CartContext)
-  console.log(cartList)
-  
+  const {addTocart } = useContext(CartContext)
+
 
   const onAdd = (quantity) => {
     addTocart(bookList,quantity)
   }
- 
-
 
   return (
     <div className="card_detail">
