@@ -776,7 +776,7 @@ export const books =
             "genre": "Novela",
             "language": "Castellano",
             "synopsis": 'La azarosa historia de una esclava en el Santo Domingo del siglo XVIII que logrará librarse de los estigmas que la sociedad le ha impuesto para conseguir la libertad.',
-            "image": "https://pbs.twimg.com/media/FjUCxKLXEAQq4tn.jpg",
+            "image": "https://quelibroleo.com/images/libros/libro_1363451479.jpg",
             "price": 1534,
             "stock": 7
         },

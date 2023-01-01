@@ -9,7 +9,6 @@ font-family: 'Raleway',sans-serif; */
 
 .App {
   font-family: 'Raleway', sans-serif;
-  ;
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;

@@ -1,20 +1,21 @@
 import './Cart.css';
-import { useContext } from 'react'
+import { useContext} from 'react'
 import { CartContext } from '../../Context/CartContext';
+import CartMessage from './CartMessage';
 
 
 
 export const CartDetail = () => {
 
   const { cartList, fullPayment, removeItem, cleanCart } = useContext(CartContext)
-  console.log(cartList)
+
 
   return (
     <div className='cartDetail'>
       {cartList.length === 0 ?
-        <p>Tu carrito está vacío</p> :
+        <CartMessage />
+        :
         <>
-                
           <div className='cart' >
             {cartList.map(item => (
               <div className='cartItem' key={item.id}>
@@ -42,9 +43,9 @@ export const CartDetail = () => {
               <button type='button' onClick={cleanCart}><i className="bi bi-cart-x-fill"></i></button>
             </div>
             <hr />
-            <div>
+            <div className='cartClose'>
               <h5><b>Total a pagar: </b>$ {fullPayment().toLocaleString()}</h5>
-              <button className="finCompra">Finalizar Compra</button>
+              <p className="finCompra">Finalizar Compra</p>
             </div>
           </div>
         </>
