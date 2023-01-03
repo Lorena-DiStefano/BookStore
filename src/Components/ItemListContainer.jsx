@@ -26,12 +26,12 @@ export const ItemListContainer = () => {
 
     }, [id])
 
-    return (
+    return (       
         <div>
             {
-                loading ? <Loader /> : <ItemList bookList={bookList} />
+                loading ? <Loader /> : <ItemList bookList={bookList} />                
             }
-        </div>
+        </div>                   
     )
 
 }

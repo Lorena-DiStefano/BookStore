@@ -1,55 +1,48 @@
 import './Cart.css';
-import { useContext} from 'react'
+import { useContext } from 'react'
 import { CartContext } from '../../Context/CartContext';
-import CartMessage from './CartMessage';
+
 
 
 
 export const CartDetail = () => {
 
-  const { cartList, fullPayment, removeItem, cleanCart } = useContext(CartContext)
-
-
+  const { cartList, fullPayment, removeItem, cleanCart } = useContext(CartContext)  
+  
   return (
     <div className='cartDetail'>
-      {cartList.length === 0 ?
-        <CartMessage />
-        :
-        <>
-          <div className='cart' >
-            {cartList.map(item => (
-              <div className='cartItem' key={item.id}>
-                <div>
-                  <button type="button" onClick={() => removeItem(item.id)}><i className="bi bi-trash"></i></button>
-                </div>
-                <div>
-                  <img src={item.image} alt={item.title} />
-                </div>
-                <div>
-                  <h6>Precio</h6>
-                  <p className='text-end'> $ {(item.price).toLocaleString()}</p>
-                </div>
-                <div>
-                  <h6>Cantidad</h6>
-                  <p className='text-center'> {item.quantity}</p>
-                </div>
-                <div>
-                  <h6>Total Item</h6>
-                  <p className='text-end'> $ {(item.quantity * item.price).toLocaleString()}</p>
-                </div>
-              </div>
-            ))}
-            <div className="cleanCart">
-              <button type='button' onClick={cleanCart}><i className="bi bi-cart-x-fill"></i></button>
+      <div className='cart' >
+        {cartList.map(item => (
+          <div className='cartItem' key={item.id}>
+            <div>
+              <button type="button" onClick={() => removeItem(item.id)}><i className="bi bi-trash"></i></button>
             </div>
-            <hr />
-            <div className='cartClose'>
-              <h5><b>Total a pagar: </b>$ {fullPayment().toLocaleString()}</h5>
-              <p className="finCompra">Finalizar Compra</p>
+            <div>
+              <img src={item.image} alt={item.title} />
+            </div>
+            <div>
+              <h6>Precio</h6>
+              <p className='text-end'> $ {(item.price).toLocaleString()}</p>
+            </div>
+            <div>
+              <h6>Cantidad</h6>
+              <p className='text-center'> {item.quantity}</p>
+            </div>
+            <div>
+              <h6>Total Item</h6>
+              <p className='text-end'> $ {(item.quantity * item.price).toLocaleString()}</p>
             </div>
           </div>
-        </>
-      }
+        ))}
+        <div className="cleanCart">
+          <button type='button' onClick={cleanCart}><i className="bi bi-cart-x-fill"></i></button>
+        </div>
+        <hr />
+        <div className='cartClose'>
+          <h5><b>Total a pagar: </b>$ {fullPayment().toLocaleString()}</h5>
+          <p className="finCompra">Finalizar Compra</p>
+        </div>
+      </div>
     </div >
   )
 }

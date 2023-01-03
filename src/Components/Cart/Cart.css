@@ -9,11 +9,12 @@ font-family: 'Quicksand',sans-serif;*/
 }
 
 .btn-a {
-    background: linear-gradient(180deg, rgb(167, 179, 166) 35%, rgb(240, 240, 240) 100%);
+    /* background: linear-gradient(180deg, rgb(167, 179, 166) 25%, rgb(240, 240, 240) 100%); */
+    background: linear-gradient(180deg, rgb(208, 217, 207) 25%, rgb(240, 240, 240) 100%);
     border-color: rgb(167, 179, 166);
     border-radius: 8px;
-    padding: 0px 7px;
-    font-size: 14px;
+    padding: 5px 5px;
+    font-size: 12px;
     text-align: center;
 }
 
@@ -109,15 +110,15 @@ font-family: 'Quicksand',sans-serif;*/
 .emptyCart {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: 400px ;
+    grid-template-rows: 400px;
 }
 
 .emptyCart img {
     height: 450px;
 }
 
-.emptyCart p {    
+.emptyCart p {
     font-size: 3em;
     text-align: left;
-    margin: 1.5em;    
+    margin: 1.5em;
 }

@@ -45,18 +45,18 @@ export const NavBar = () => {
                             <li className="nav-item dropdown">
                                 <NavLink className="nav-link dropdown-toggle" to={'/saga/'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Colecciones</NavLink>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><Link className="dropdown-item" to={'/saga/El jinete de Bronce'}>El Jinete de Bronce - Paullina Simons</Link></li>
-                                    <li><Link className="dropdown-item" to={'/saga/El Siglo'}>El Siglo - Ken Follet</Link></li>
-                                    <li><Link className="dropdown-item" to={'/saga/Harry Potter'}>Harry Potter - J.K.Rowling</Link></li>
-                                    <li><Link className="dropdown-item" to={'/saga/Juego de Tronos'}>Juego de Tronos - G.R.R.Martin</Link></li>
-                                    <li><Link className="dropdown-item" to={'/saga/Juegos del hambre'}>Juegos del Hambre - Suzanne Collins</Link></li>
-                                    <li><Link className="dropdown-item" to={'/saga/Kingsbridge'}>Kingsbridge - Ken Follet</Link></li>
-                                    <li><Link className="dropdown-item" to={'/saga/La Catedral del Mar'}>La Catedral del Mar - I. Falcones</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/El jinete de Bronce'}>El Jinete de Bronce</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/El Siglo'}>El Siglo</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/Harry Potter'}>Harry Potter</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/Juego de Tronos'}>Juego de Tronos</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/Juegos del hambre'}>Juegos del Hambre</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/Kingsbridge'}>Kingsbridge</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/La Catedral del Mar'}>La Catedral del Mar</Link></li>
                                     <li><p className="dropdown-divider"></p></li>
-                                    <li><Link className="dropdown-item" to={'/saga/Game of Thrones'}>Game of Thrones - G.R.R.Martin </Link></li>
-                                    <li><Link className="dropdown-item" to={'/saga/The Century'}>The Century - Ken Follet</Link></li>
-                                    <li><Link className="dropdown-item" to={'/saga/The Hunger Games'}>The Hunger Games - Suzanne Collins </Link></li>
-                                    <li><Link className="dropdown-item" to={'/saga/The Vampire Chronicles'}>The Vampire Chronicles - Anne Rice</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/Game of Thrones'}>Game of Thrones</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/The Century'}>The Century</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/The Hunger Games'}>The Hunger Games</Link></li>
+                                    <li><Link className="dropdown-item" to={'/saga/The Vampire Chronicles'}>The Vampire Chronicles</Link></li>
                                 </ul>
                             </li>
                         </ul>                       

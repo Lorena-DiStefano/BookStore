@@ -1,10 +1,13 @@
 import { createContext, useState, } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export const CartContext = createContext([])
 
 export const CartContextProvider = ({ children }) => {
 
   const [cartList, setCartList] = useState([])
+
+  const navigate = useNavigate()
 
   const isInCart = (id) => cartList.find(item => item.id === id)
 
@@ -27,8 +30,10 @@ export const CartContextProvider = ({ children }) => {
 
   const removeItem = (id) => setCartList(cartList.filter(item => item.id !== id))
 
-  const cleanCart = () => setCartList([])
-
+  const cleanCart = () => {
+    setCartList([])
+    navigate ('/')
+  }
   const totalQuantity = () => {
     return cartList.reduce((acc, item) => acc += item.quantity, 0)
   }

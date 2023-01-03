@@ -10,7 +10,7 @@ font-family: 'Raleway',sans-serif; */
 .App {
   font-family: 'Raleway', sans-serif;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 100px 1fr auto;
   min-height: 100vh;
   background: rgba(195, 194, 184, 0.3);
 }
@@ -25,7 +25,10 @@ font-family: 'Raleway',sans-serif; */
 .navbar {
   background: rgb(114, 132, 119);
   background: linear-gradient(180deg, rgb(197, 205, 199) 36%, rgb(219, 224, 221) 64%, rgb(240, 240, 240) 100%);
-  min-height: 100px;
+  
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
 
 .nav-link {
@@ -154,12 +157,12 @@ font-family: 'Raleway',sans-serif; */
   justify-content: right;
 }
 
-.itemListContainer {
+.itemList {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin: 2em;
+  margin: 1em;
 }
 
 .card {
