@@ -9,11 +9,11 @@ export const books =
             "language": "Castellano",
             "synopsis": "Una catedral construida por el pueblo y para el pueblo en la Barcelona medieval del Siglo XIV, es el escenario de una apasionante historia de intriga, violencia y pasión. ",
             "image": "https://static.cpau.org/revistanotas/contenidos/2020/46/cultura/libro.jpg",
-            "price": 3449,
+            "price": 10399,
             "stock": 15
         },
         {
-            "id": "2",
+            "id": "4",
             "title": "La Reina Descalza  ",
             "author": "Ildefonso Falcones",
             "saga": "false",
@@ -21,7 +21,7 @@ export const books =
             "language": "Castellano",
             "synopsis": "En la España del siglo XVIII, una conmovedora historia de amistad, pasión y venganza une dos voces de mujer en un canto desgarrador por la libertad.",
             "image": "https://contentv2.tap-commerce.com/cover/large/9788490624029_1.jpg?id_com=1113",
-            "price": 3449,
+            "price": 5999,
             "stock": 5
         },
         {
@@ -33,11 +33,11 @@ export const books =
             "language": "Castellano",
             "synopsis": "En la opulenta Córdoba de la segunda mitad del siglo XVI, un joven morisco, desgarrado entre dos culturas y dos amores, inicia una ardiente lucha por la tolerancia religiosa y los derechos de su pueblo.",
             "image": "https://http2.mlstatic.com/D_NQ_NP_875696-MLM45575549626_042021-W.jpg",
-            "price": 3449.50,
+            "price": 5599,
             "stock": 7
         },
         {
-            "id": "4",
+            "id":"2",
             "title": "Los Herederos de la Tierra ",
             "author": "Ildefonso Falcones",
             "saga": "La Catedral del Mar",
@@ -45,7 +45,7 @@ export const books =
             "language": "Castellano",
             "synopsis": "Hace diez años, millones de lectores se rindieron ante Arnau Estanyol, el bastaix que ayudó a construir la iglesia de Santa María del mar. Ahora, la historia continúa con esta impresionante recreación de la Barcelona medieval, una espléndida y emocionante novela de lealtad, venganza, amor y sueños por cumplir.",
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/621971.jpg",
-            "price": 3449,
+            "price": 10399,
             "stock": 10
         },
         {
@@ -57,7 +57,7 @@ export const books =
             "language": "Castellano",
             "synopsis": "Una poderosa historia de amor, pasión por el arte, revueltas sociales y venganza en la Barcelona modernista.",
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/667859.jpg",
-            "price": 3449,
+            "price": 8599,
             "stock": 8
         },
 
@@ -70,19 +70,19 @@ export const books =
             "language": "Castellano",
             "synopsis": "Una historia fascinante que narra la apasionada lucha por la libertad de dos mujeres negras en épocas distintas: la Cuba esclavista colonial y la España del siglo XXI.",
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/697630.jpg",
-            "price": 3449,
+            "price": 6499,
             "stock": 12
         },
         {
             "id": "7",
-            "title": "1984 ",
+            "title": "1984",
             "author": "George Orwell",
             "saga": "false",
             "genre": "Distopía",
             "language": "Castellano",
-            "synopsis": 'Escrito en 1948, "1984" fue la escalofriante profecía de George Orwell sobre el futuro. Y aunque "1984" ha ido y venido, la narración de Orwell es más actual que nunca. "1984" presenta una visión sorprendente e inquietante del mundo, tan poderosa que es completamente convincente desde el principio. Nadie puede negar el poder de esta novela, su influencia en la imaginación de múltiples generaciones de lectores o la resistencia de sus advertencias, un legado que parece crecer con el paso del tiempo.',
+            "synopsis": 'Escrito en 1948, 1984 fue la escalofriante profecía de George Orwell sobre el futuro. Y aunque 1984 ha ido y venido, la narración de Orwell es más actual que nunca. 1984 presenta una visión sorprendente e inquietante del mundo, tan poderosa que es completamente convincente desde el principio. Nadie puede negar el poder de esta novela, su influencia en la imaginación de múltiples generaciones de lectores o la resistencia de sus advertencias, un legado que parece crecer con el paso del tiempo.',
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/682424.jpg",
-            "price": 3159,
+            "price": 6499,
             "stock": 20
         },
         {
@@ -94,11 +94,11 @@ export const books =
             "language": "Castellano",
             "synopsis": "Una condena de la sociedad totalitaria, brillantemente pasmada en una ingeniosa fábula de carácter alegórico. Los animales de la granja de los Jones se sublevan contra sus dueños humanos y les vencen. Pero la rebelión fracasará al surgir entre ellos rivalidades y envidias, y al aliarse algunos con los amos que derrocaron, traicionando su propia identidad y los intereses de su clase. Aunque Rebelión en la granja fue concebida como una despiadada sátira del estalinismo, el carácter universal de su mensaje hace de este libro un extraordinario análisis de la corrupción que engendra el poder, una furibunda diatriba contra el totalitarismo de cualquier especie y un lúcido examen de las manipulaciones que sufre la verdad histórica en los momentos de transformación política. ",
             "image": "https://image.isu.pub/200422120038-fbd41b766f1f02d85ba58dd8edf41d89/jpg/page_1_thumb_large.jpg",
-            "price": 2099,
+            "price": 3891,
             "stock": 5
         },
         {
-            "id": "9",
+            "id":"9",
             "title": "La Caída de los Gigantes",
             "author": "Ken Follett",
             "saga": "El Siglo",
@@ -106,7 +106,7 @@ export const books =
             "language": "Castellano",
             "synopsis": "Una gran novela que narra las vidas de cinco familias: una americana, una galesa, una inglesa, una alemana y una rusa, con el trasfondo de la Primera Guerra Mundial, la Revolución Rusa y los profundos cambios sociales que estas conllevaron.",
             "image": "https://quelibroleo.com/images/libros/libro_1361055429.jpg",
-            "price": 5999,
+            "price": 7199,
             "stock": 10
         },
         {
@@ -118,11 +118,11 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Los hijos de las cinco familias protagonistas de "La caída de los gigantes" forjarán su destino en los años turbulentos de la Segunda Guerra Mundial, la guerra civil española, el bombardeo de Pearl Harbor y la era de la bomba atómica.',
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/554723.jpg",
-            "price": 5999,
+            "price": 7199,
             "stock": 10
         },
         {
-            "id": "11",
+            "id":"11",
             "title": "El Umbral de la Eternidad",
             "author": "Ken Follett",
             "saga": "El Siglo",
@@ -130,11 +130,11 @@ export const books =
             "language": "Castellano",
             "synopsis": '"El umbral de la eternidad" cierra esta gran trilogía y la crónica de un siglo turbulento. En ella vivimos la historia íntima y personal de tres generaciones de cinco familias cuyas vidas estuvieron marcadas por dos guerras mundiales, la Revolución rusa, la Guerra Civil española y la Guerra Fría, junto con los profundos cambios sociales que las acompañaron.',
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/610335.jpg",
-            "price": 5999,
+            "price": 7199,
             "stock": 10
         },
         {
-            "id": "12",
+            "id":"12",
             "title": "Los Pilares de la Tierra",
             "author": "Ken Follett",
             "saga": "Kingsbridge",
@@ -142,7 +142,7 @@ export const books =
             "language": "Castellano",
             "synopsis": "Ambientada en Inglaterra en la Edad Media, en concreto en el siglo XII, durante un periodo de guerra civil conocido como la anarquía inglesa, entre el hundimiento del White Ship y el asesinato del arzobispo Thomas Becket.",
             "image": "https://contentv2.tap-commerce.com/cover/large/9789506445430_1.jpg?id_com=1113",
-            "price": 5999,
+            "price": 10399,
             "stock": 12
         },
         {
@@ -152,9 +152,9 @@ export const books =
             "saga": "Kingsbridge",
             "genre": "Novela Histórica",
             "language": "Castellano",
-            "synopsis":'Se trata de la segunda parte de la conocida obra "Los Pilares de la Tierra". Tiene lugar en la misma ciudad ficticia,"Kingsbridge", pero 200 años después. Algunos personajes son descendientes de los de la primera novela. Describe la vida e instituciones que existían en esa época, las relaciones de poder entre la nobleza, el clero y el estado llano y como la peste negra alteró esta relación.',
+            "synopsis": 'Se trata de la segunda parte de la conocida obra "Los Pilares de la Tierra". Tiene lugar en la misma ciudad ficticia,"Kingsbridge", pero 200 años después. Algunos personajes son descendientes de los de la primera novela. Describe la vida e instituciones que existían en esa época, las relaciones de poder entre la nobleza, el clero y el estado llano y como la peste negra alteró esta relación.',
             "image": "http://4.bp.blogspot.com/-Fxly5d1sVeE/UQ71tDuateI/AAAAAAAABWU/-SRX-ysQkR8/s1600/un-mundo-sin-fin-novela-autor-ken-follett_MLV-F-38326140_493.jpg",
-            "price": 5999,
+            "price": 7199,
             "stock": 12
         },
         {
@@ -166,7 +166,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Este libro es la tercera parte de la serie de "Kingsbridge Los Pilares de la Tierra". La primicia es la guerra de religiones que se vivió en Europa a partir de 1562, además de la disputa por el trono inglés entre Isabel Tudor y María Estuardo.',
             "image": "https://ceasanfrancisco.com/wp-content/uploads/2019/11/Una-columna-de-fuego.png",
-            "price": 5999,
+            "price": 7199,
             "stock": 12
         },
         {
@@ -177,8 +177,8 @@ export const books =
             "genre": "Novela Histórica",
             "language": "Castellano",
             "synopsis": "Un monje que sueña con convertir su abadía en un centro de sabiduría de referencia en toda Europa; una joven normanda que cruza el mar junto a su marido para descubrir una sociedad de costumbres extrañas; un constructor de barcos que está a punto de dar un giro definitivo a su vida.",
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/dSnrDwAAQBAJ?fife=w256-h256",
-            "price": 5999,
+            "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/677596.jpg",
+            "price": 10399,
             "stock": 3
         },
         {
@@ -189,8 +189,8 @@ export const books =
             "genre": "Ficción",
             "language": "Castellano",
             "synopsis": "Canción de Hielo y Fuego. En el legendario mundo de los Siete Reinos; donde el verano puede durar décadas y el invierno toda una vida; y donde rastros de una magia inmemorial surgen en los rincones más sombríos; la tierra del norte; Invernalia; está resguardada por un colosal muro de hielo que detiene a fuerzas oscuras y sobrenaturales.",
-            "image": "https://www.nuevetrescuartos.com/imagenes/9789588/978958861715.GIF",
-            "price": 8999,
+            "image": "https://aureaediciones.com/wp-content/uploads/2020/08/9786073113113.jpg",
+            "price": 7599,
             "stock": 10
         },
         {
@@ -202,7 +202,7 @@ export const books =
             "language": "Castellano",
             "synopsis": "Un cometa del color de la sangre hiende el cielo; cargado de malos augurios. Los Siete Reinos se ven sacudidos por las luchas intestinas entre los nobles por la sucesión al Trono de Hierro. En la otra orilla del mar Angosto; la princesa Daenerys Targaryen conduce a su pueblo de jinetes salvajes a través del desierto. Y en los páramos helados del norte; más allá del Muro; un ejército implacable avanza hacia un territorio asolado por el caos y las guerras fratricidas.",
             "image": "https://contentv2.tap-commerce.com/cover/large/9789506442323_1.jpg?id_com=1113",
-            "price": 8999,
+            "price": 7599,
             "stock": 10
         },
         {
@@ -214,7 +214,7 @@ export const books =
             "language": "Castellano",
             "synopsis": "La espada llameante dejó a su paso largas estelas de fuego... el acero cantó contra el acero. Arrasados por la guerra, los Siete Reinos pronto sufrirán el larguísimo invierno que se predice como inusitadamente crudo. Y mientras empeoran la violencia y el clima, los personajes entrañables e infames que ya conocemos continúan debatiéndose entre feroces batallas y perversas intrigas palaciegas",
             "image": "https://images.cdn2.buscalibre.com/fit-in/360x360/23/8d/238d555b4fa3d31acce60caa634adf27.jpg",
-            "price": 8999,
+            "price": 7599,
             "stock": 10
         },
         {
@@ -226,7 +226,7 @@ export const books =
             "language": "Castellano",
             "synopsis": "Luego de siglos de guerras descarnadas; los siete poderes que dividen la tierra se han diezmado unos a otros hasta alcanzar una difícil tregua. Muy pocos reclamos legítimos existen ya por el Trono de Hierro; y la guerra que ha convertido al mundo en poco más que un desierto al fin ha terminado. O eso parece. Pero no pasa mucho tiempo antes de que los sobrevivientes; los proscritos; los renegados y los carroñeros de los Siete Reinos se reúnan.",
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/552112.jpg",
-            "price": 8999,
+            "price": 7599,
             "stock": 10
         },
         {
@@ -238,7 +238,7 @@ export const books =
             "language": "Castellano",
             "synopsis": "Después de una colosal batalla; el futuro de los Siete Reinos pende de un hilo; acuciado por nuevas amenazas que emergen de todos los rincones y en todas direcciones. En el este Daenerys Targaryen, el último eslabón de la Casa Targaryen, gobierna con sus tres dragones como la reina de una ciudad construida sobre polvo y muerte.",
             "image": "https://libroscontigo.com/wp-content/uploads/2021/05/00000083_Geor-ge-R-R-Mar-tin_Can-cion-de-hi-elo-y-fu-ego-V-Da-nza-de-Dr-agones.jpg",
-            "price": 8999,
+            "price": 7599,
             "stock": 10
         },
         {
@@ -249,7 +249,7 @@ export const books =
             "genre": "Distopía",
             "language": "Castellano",
             "synopsis": 'En una oscura versión del futuro próximo, doce chicos y doce chicas se ven obligados a participar en un reality show llamado los "Juegos del Hambre". Solo hay una regla: matar o morir.',
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/8FjODwAAQBAJ?fife=w256-h256",
+            "image": "https://i.pinimg.com/550x/f5/ec/49/f5ec49588293348ecff6255f35ad4820.jpg",
             "price": 3256,
             "stock": 7
         },
@@ -261,7 +261,7 @@ export const books =
             "genre": "Distopía",
             "language": "Castellano",
             "synopsis": "Contra todas las probabilidades; Katniss y, su compañero tributo, Peeta han regresado a su hogar luego de sobrevivir a los Juegos del Hambre. Ganar significa que deberán abandonar a sus seres queridos y embarcarse en un Tour de la Victoria a través de los distritos.",
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/N13ODwAAQBAJ?fife=w256-h256",
+            "image": "http://2.bp.blogspot.com/-wpK3RoLV4Jo/VVaJp2loy4I/AAAAAAAAANY/Njg_m9aH7cA/s1600/24lv9kh.jpg",
             "price": 3256,
             "stock": 7
         },
@@ -273,7 +273,7 @@ export const books =
             "genre": "Distopía",
             "language": "Castellano",
             "synopsis": 'El esperado desenlace de la trilogía "Los Juegos del Hambre". Katniss Everdeen, la chica en llamas, ha sobrevivido de nuevo a los juegos, aunque no queda nada de su hogar.',
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/9FjODwAAQBAJ?fife=w256-h256",
+            "image": "https://image.isu.pub/160504205720-f498b3823e320bff02e9c2cd5f5bc5af/jpg/page_1_thumb_large.jpg",
             "price": 3256,
             "stock": 7
         },
@@ -284,8 +284,8 @@ export const books =
             "genre": "Distopía",
             "language": "Castellano",
             "synopsis": "Fahrenheit 451 cuenta la historia de un sombrío y horroroso futuro. Montag, el protagonista, pertenece a una extraña brigada de bomberos cuya misión, paradójicamente, no es la de sofocar incendios sino la de provocarlos para quemar libros. Porque en el país de Montag está terminantemente prohibido leer. Porque leer obliga a pensar, y en el país de Montag está prohibido pensar. Porque leer impide ser ingenuamente feliz, y en el país de Montag hay que ser feliz a la fuerza… ",
-            "image": "https://books.google.com/books/content/images/frontcover/r4YfNJDGx2AC?fife=w256-h256",
-            "price": 3256,
+            "image": "https://www.polifemo.com/static/img/portadas/_visd_0000JPG01KYS.jpg",
+            "price": 1798,
             "stock": 10
         },
 
@@ -298,7 +298,7 @@ export const books =
             "language": "Castellano",
             "synopsis": "Con las amenazas, la sed de venganza y muchas pasiones desatadas como telón de fondo, las vidas entrecruzadas de los Zucker y los Ziad conforman un mosaico de traiciones y sufrimientos, de amores posibles e imposibles, al tiempo que plasman la gran aventura de vivir y convivir en un territorio marcado por la intolerancia. Intensa y conmovedora crónica de dos sagas familiares, la nueva y esperadísima novela de Julia Navarro nos adentra en las vidas de personas con nombres y apellidos, que luchan por alcanzar sus sueños, y que son responsables de su propio destino.",
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/645212.jpg",
-            "price": 3299,
+            "price": 8199,
             "stock": 15
         },
         {
@@ -308,11 +308,11 @@ export const books =
             "saga": "The Vampire Chronicles",
             "genre": "Fiction",
             "language": "English",
-            "synopsis": "A magnificent, compulsively readable thriller...Rice begins where Bram Stoker and the Hollywood versions leave off and penetrates directly to the true fascination of the myth—the education of the vampire”",
+            "synopsis": "A magnificent, compulsively readable thriller...Rice begins where Bram Stoker and the Hollywood versions leave off and penetrates directly to the true fascination of the myth, the education of the vampire”",
             "image": "https://i0.wp.com/openbooksociety.com/wp-content/uploads/2011/03/3kFjU.jpg?resize=311%2C500",
-            "price": 2699,
+            "price": 7322,
             "stock": 8
-        },
+        },       
         {
             "id": "27",
             "title": "The Vampire Armand",
@@ -320,10 +320,11 @@ export const books =
             "saga": "The Vampire Chronicles",
             "genre": "Fiction",
             "language": "English",
-            "synopsis": 'Armand until now has played a small role in the Vampire Chronicles. Here he assumes center stage, relating his five hundred years of life to fledgling vampire David Talbot, who plays amanuensis to Armand as he did to Lestat ... It is not just the epic plot but Rice`s voluptuary worldview that`s the main attraction ... Elegant narrative has always been her hallmark ... Rice is equally effective in showing how Armand eventually loses his religion and becomes "the vagabond angel child of Satan," living under Paris cemeteries and foundling the Grand Guignol-ish Theatre des Vampires. In the twentieth century, a rehabilitated Armand regains faith but falls in love with two children who save his life. By the conclusion of Armand, the pupil has become the mentor.',
+            "synopsis": 'Armand until now has played a small role in the Vampire Chronicles. Here he assumes center stage, relating his five hundred years of life to fledgling vampire David Talbot, who plays amanuensis to Armand as he did to Lestat ... It is not just the epic plot but Rice’s voluptuary worldview that is the main attraction ... Elegant narrative has always been her hallmark ... Rice is equally effective in showing how Armand eventually loses his religion and becomes "the vagabond angel child of Satan," living under Paris cemeteries and foundling the Grand Guignol-ish Theatre des Vampires. In the twentieth century, a rehabilitated Armand regains faith but falls in love with two children who save his life. By the conclusion of Armand, the pupil has become the mentor.',
             "image": "https://m.media-amazon.com/images/I/51nOeV8O5AL.jpg",
-            "price": 2399,
-            "stock": 8        },
+            "price": 5399,
+            "stock": 8
+        },
         {
             "id": "28",
             "title": "The Vampire Lestat",
@@ -333,7 +334,7 @@ export const books =
             "language": "English",
             "synopsis": "Once an aristocrat in the heady days of pre-revolutionary France, now Lestat is a rockstar in the demonic, shimmering 1980s. He rushes through the centuries in search of others like him, seeking answers to the mystery of his terrifying exsitence. His story, the second volume in Anne Rice's best-selling Vampire Chronicles, is mesmerizing, passionate, and thrilling.",
             "image": "https://m.media-amazon.com/images/I/41S4CSCtq6L._AC_SY780_.jpg",
-            "price": 2399,
+            "price": 5399,
             "stock": 8
         },
         {
@@ -345,7 +346,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'La metamorfosis, es un relato de Franz Kafka, publicado en 1915 y que narra la historia de Gregorio Samsa, un comerciante de telas que vive con su familia a la que él mantiene con su sueldo, que un buen día amanece convertido en una criatura no identificada claramente en ningún momento, pero que tiende a ser reconocida como una especie de cucaracha gigante. Breve e intensa, es calificada a veces como "relato existencialista". En ocasiones el título es traducido como La transformación.',
             "image": "https://http2.mlstatic.com/D_NQ_NP_802778-MLM31299319391_072019-O.jpg",
-            "price": 1999,
+            "price": 1450,
             "stock": 5
         },
         {
@@ -357,7 +358,7 @@ export const books =
             "language": "English",
             "synopsis": "Afghanistan, 1952. Abdullah and his sister Pari live with their father and stepmother in the small village of Shadbagh. One day the siblings journey across the desert to Kabul with their father. Pari and Abdullah have no sense of the fate that awaits them there, for the event which unfolds will tear their lives apart; sometimes a finger must be cut to save the hand. Crossing generations and continents, moving from Kabul, to Paris,..",
             "image": "https://wp-media.patheos.com/blogs/sites/92/2013/09/and-the-mountains-echoed.jpg",
-            "price": 2799,
+            "price": 7173,
             "stock": 13
         },
         {
@@ -369,7 +370,7 @@ export const books =
             "language": "Castellano",
             "synopsis": "La guía más completa para enfrentar tu primera cocina. Desde la lista de las compras; pasando por los utensilios básicos hasta las recetas mejores y más simples para comer rico y decirle adiós al delivery.",
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/694083.jpg",
-            "price": 3499,
+            "price": 7499,
             "stock": 9
         },
         {
@@ -379,8 +380,8 @@ export const books =
             "genre": "Cocina",
             "language": "Castellano",
             "synopsis": "Un libro para que todos se animen a cocinar; con el estilo descontracturado de Paulina y la participación de Pablo Agustín; Hecatombe; Connie Isla; Merakio; Angie Sammartino y Lyna Vallejos.",
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/1T-3DwAAQBAJ?fife=w256-h256",
-            "price": 3099,
+            "image": "https://m.media-amazon.com/images/I/51WL0BdoR6L.jpg",
+            "price": 5099,
             "stock": 5
         },
         {
@@ -391,8 +392,8 @@ export const books =
             "genre": "Filosofía",
             "language": "Castellano",
             "synopsis": 'En "Filosofía en 11 frases", su primer libro con Paidós, Sztajnszrajber lleva la filosofía a los lectores que quieren pensar sin ser subestimados. Y los desafía, socráticamente, con una convicción: todos podemos hacer filosofía aunque no lo sepamos. Incómodo y complejo como su materia misma, este libro inclasificable —es ensayo filosófico, y es también novela— consagra a su autor como un explorador impertinente.',
-            "image": "https://books.google.com/books/publisher/content/images/frontcover/cJZXDwAAQBAJ?fife=w256-h256",
-            "price": 1899,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_827062-MLU48151531367_112021-W.jpg",
+            "price": 3200,
             "stock": 5
         },
         {
@@ -404,7 +405,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'En estas apasionantes entrevistas Felipe Pigna da cuenta de los momentos clave de la historia argentina entre 1955 y 1983, un período crucial del siglo xx, que va desde el derrocamiento de Juan Domingo Perón por un golpe de Estado, que se autodenominó "Revolución Libertadora", hasta el retorno a la democracia, tras la noche negra de la peor dictadura que sufrió el país. Lo pasado pensado nos convoca a conocer la historia de primera mano, a través de la voz directa de sus protagonistas o testigos privilegiados. Una vez más, Pigna reivindica la sana posibilidad de discutir: el valor de los testimonios y el dinamismo del intercambio oral son un verdadero aporte para profundizar en nuestra',
             "image": "https://http2.mlstatic.com/D_NQ_NP_830965-MLU46369225006_062021-O.jpg",
-            "price": 2899,
+            "price": 3300,
             "stock": 7
         },
 
@@ -417,7 +418,7 @@ export const books =
             "language": "Castellano",
             "synopsis": '"De los Pueblos Originarios y la Conquista de América a la Independencia". La historia de un país es su identidad, es todo lo que nos pasó como sociedad desde que nacimos hasta el presente, y allí están registrados nuestros triunfos y derrotas, nuestras alegrías y tristezas, nuestras glorias y nuestras miserias. Como en un gran álbum familiar, allí nos enorgullecemos y nos avergonzamos de nuestro pasado, pero nunca dejamos de tener en claro que se trata de nosotros. Este libro intenta acercar nuestra historia a nuestra gente.',
             "image": "https://i.ebayimg.com/images/g/g1AAAOSwA8pf~0iS/s-l400.jpg",
-            "price": 2199,
+            "price": 3199,
             "stock": 7
         },
         {
@@ -429,7 +430,7 @@ export const books =
             "language": "Castellano",
             "synopsis": '"De San Martín al Granero del Mundo". La historia de un país es su identidad, es todo lo que nos pasó como sociedad desde que nacimos hasta el presente, y allí están registrados nuestros triunfos y derrotas, nuestras alegrías y tristezas, nuestras glorias y nuestras miserias. Como en un gran álbum familiar, allí nos enorgullecemos y nos avergonzamos de nuestro pasado, pero nunca dejamos de tener en claro que se trata de nosotros. Este libro intenta acercar nuestra historia a nuestra gente.',
             "image": "https://www.planetadelibros.com.ar/usuaris/libros/fotos/133/m_libros/mitos-de-la-historia-argentina-2-bkt_9789875802506.jpg",
-            "price": 2199,
+            "price": 3199,
             "stock": 7
         },
         {
@@ -441,7 +442,7 @@ export const books =
             "language": "Castellano",
             "synopsis": '"De la Ley Saenz Peña a los albores del Peronismo". La historia de un país es su identidad, es todo lo que nos pasó como sociedad desde que nacimos hasta el presente, y allí están registrados nuestros triunfos y derrotas, nuestras alegrías y tristezas, nuestras glorias y nuestras miserias. Como en un gran álbum familiar, allí nos enorgullecemos y nos avergonzamos de nuestro pasado, pero nunca dejamos de tener en claro que se trata de nosotros. Este libro intenta acercar nuestra historia a nuestra gente.',
             "image": "https://www.planetadelibros.com.ar/usuaris/libros/fotos/133/m_libros/portada_mitos-de-la-historia-argentina-3_felipe-pigna_201904222055.jpg",
-            "price": 2199,
+            "price": 3199,
             "stock": 7
         },
         {
@@ -453,7 +454,7 @@ export const books =
             "language": "Castellano",
             "synopsis": '"La Argentina Peronista - (1943-1955)". La historia de un país es su identidad, es todo lo que nos pasó como sociedad desde que nacimos hasta el presente, y allí están registrados nuestros triunfos y derrotas, nuestras alegrías y tristezas, nuestras glorias y nuestras miserias. Como en un gran álbum familiar, allí nos enorgullecemos y nos avergonzamos de nuestro pasado, pero nunca dejamos de tener en claro que se trata de nosotros. Este libro intenta acercar nuestra historia a nuestra gente.',
             "image": "https://prodimage.images-bn.com/pimages/9789504925705_p1_v2_s600x595.jpg",
-            "price": 2199,
+            "price": 3199,
             "stock": 7
         },
         {
@@ -465,7 +466,7 @@ export const books =
             "language": "Castellano",
             "synopsis": '"De la caída del Peronisma al Golpe de Onganía - (1955-1966)"La historia de un país es su identidad, es todo lo que nos pasó como sociedad desde que nacimos hasta el presente, y allí están registrados nuestros triunfos y derrotas, nuestras alegrías y tristezas, nuestras glorias y nuestras miserias. Como en un gran álbum familiar, allí nos enorgullecemos y nos avergonzamos de nuestro pasado, pero nunca dejamos de tener en claro que se trata de nosotros. Este libro intenta acercar nuestra historia a nuestra gente.',
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/563809.jpg",
-            "price": 2199,
+            "price": 3199,
             "stock": 7
         },
         {
@@ -477,7 +478,7 @@ export const books =
             "language": "English",
             "synopsis": 'Ken Follett’s magnificent historical epic begins as five interrelated families move through the momentous dramas of the First World War, the Russian Revolution, and the struggle for women’s suffrage.',
             "image": "https://contentv2.tap-commerce.com/cover/large/9780451232588_1.jpg?id_com=1102",
-            "price": 2539,
+            "price": 10539,
             "stock": 7
         },
         {
@@ -489,7 +490,7 @@ export const books =
             "language": "English",
             "synopsis": 'Picking up where Fall of Giants, the first novel in the extraordinary Century Trilogy, left off, Winter of the World follows its five interrelated families—American, German, Russian, English, and Welsh—through a time of enormous social, political, and economic turmoil, beginning with the rise of the Third Reich, through the great dramas of World War II, and into the beginning of the long Cold War..',
             "image": "https://bookupgdl.com.mx/wp-content/uploads/2021/06/9780451419248.jpg",
-            "price": 2539,
+            "price": 10539,
             "stock": 7
         },
         {
@@ -501,7 +502,7 @@ export const books =
             "language": "English",
             "synopsis": 'In Fall of Giants and Winter of the World, Ken Follett followed the fortunes of five international families—American, German, Russian, English, and Welsh—as they made their way through the twentieth century. Now they come to one of the most tumultuous eras of all: the 1960s through the 1980s, from civil rights, assassinations, mass political movements, and Vietnam to the Berlin Wall, the Cuban Missile Crisis, presidential impeachment, revolution—and rock',
             "image": "https://m.media-amazon.com/images/I/51CYCkNI6OL.jpg",
-            "price": 2539,
+            "price": 10539,
             "stock": 7
         },
         {
@@ -513,7 +514,7 @@ export const books =
             "language": "English",
             "synopsis": 'Written in 1948, 1984 was George Orwell’s chilling prophecy about the future. And while 1984 has come and gone, Orwell’s narrative is timelier than ever. 1984 presents a startling and haunting vision of the world, so powerful that it is completely convincing from start to finish. No one can deny the power of this novel, its hold on the imaginations of multiple generations of readers, or the resiliency of its admonitions—a legacy that seems only to grow with the passage of time.',
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/685432.jpg",
-            "price": 2084,
+            "price": 5390,
             "stock": 7
         },
         {
@@ -524,8 +525,8 @@ export const books =
             "genre": "Novela",
             "language": "Castellano",
             "synopsis": 'Es una de las obras más populares de Hermann Hesse. Trata sobre sobre la naturaleza doble del héroe, entre humana y de lobo, la cual condena al protagonista a una existencia perturbada. La novela habla sobre las divisiones y contrariedades psicológicas internas, y la no identificación con la sociedad burguesa del momento.',
-            "image": "https://books.google.com/books/content/images/frontcover/S2Q-1bKIQ5oC?fife=w256-h256",
-            "price": 1484,
+            "image": "https://m.media-amazon.com/images/I/31ZlPB4xASL.jpg",
+            "price": 5299,
             "stock": 7
         },
         {
@@ -537,7 +538,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'La novela relata la vida del hijo de un brahman (sacerdote), Siddharta, un joven hindú que busca su camino. Junto a él se encuentra Govinda, amigo del joven. En resolución común deciden ir a vivir con los Samanas, abandonando a sus familias.',
             "image": "https://i.pinimg.com/originals/3e/58/c8/3e58c8e2d865614ea0bffb4ba491c22d.jpg",
-            "price": 1484,
+            "price": 2991,
             "stock": 7
         },
         {
@@ -549,7 +550,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'El joven Emil Sinclair se siente dividido entre sus impulsos y el mundo ordenado de sus padres. Bajo la influencia de su amigo Demian, aprende a superar los contrastes y a aceptarse junto con su lado oscuro.',
             "image": "https://m.media-amazon.com/images/I/51iMK-j9gDS.jpg",
-            "price": 965,
+            "price": 2700,
             "stock": 7
         },
         {
@@ -561,7 +562,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Cien años de soledad se ha convertido en la novela más emblemática de la cultura latinoamericana. En un exhaustivo trabajo de imaginación, Gabriel García Márquez narra la historia de siete generaciones de la familia Buendía, familia condenada a la soledad.',
             "image": "https://airenuestro.files.wordpress.com/2017/05/cienac3b1os-portada.jpg",
-            "price": 2495,
+            "price": 6499,
             "stock": 7
         },
         {
@@ -573,7 +574,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Con visiones de muerte, que no consiguen sobreponerse al amor, acaba como comenzó esta novela por la que cruzan muchos personajes, aunque en ningún momento arrebatan a la pareja de amantes su protagonismo, que sólo comparten con el doctor Urbino.',
             "image": "http://3.bp.blogspot.com/-KBICUV9QblY/TillNfiPSqI/AAAAAAAABc0/9TnXI6bdFzs/s1600/amor+tiempos.jpg",
-            "price": 1965,
+            "price": 4599,
             "stock": 7
         },
         {
@@ -585,7 +586,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Una adolescente aparece quemada y descuartizada en un descampado. Treinta años después, el crimen sigue sin aclararse y su familia y entorno se ha desmoronado.',
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/674378.jpg",
-            "price": 2428,
+            "price": 4499,
             "stock": 7
         },
         {
@@ -597,7 +598,7 @@ export const books =
             "language": "English",
             "synopsis": 'Song of ice and fire. In the legendary world of the Seven Kingdoms; where summer can last decades and winter a lifetime; and where traces of an immemorial magic arise in the darkest corners; the land of the north; winterfell; It is protected by a colossal wall of ice that stops dark and supernatural forces.',
             "image": "https://bookseller.com.ua/image/catalog/pictures/products/english/9780006479888_126.jpg",
-            "price": 2334,
+            "price": 8999,
             "stock": 7
         },
         {
@@ -608,8 +609,8 @@ export const books =
             "genre": "Fiction",
             "language": "English",
             "synopsis": 'A comet the color of blood splits the sky; loaded with bad omens. And there are good reasons to think so: the Seven Kingdoms are shaken by infighting among nobles over the succession to the Iron Throne. On the other shore of the Narrow Sea; Princess Daenerys Targaryen leads her people of wild horsemen through the desert. And in the frozen wastes of the north; beyond the Wall; an implacable army advances towards a territory devastated by chaos and fratricidal wars.',
-            "image": "https://books.google.com/books/content/images/frontcover/rqBucUyKrfMC?fife=w256-h256",
-            "price": 2334,
+            "image": "https://img1.od-cdn.com/ImageType-100/0292-1/%7B480BAF97-77BD-4CF6-A7D5-DAE668D020F0%7DIMG100.JPG",
+            "price": 8999,
             "stock": 7
         },
         {
@@ -620,8 +621,8 @@ export const books =
             "genre": "Fiction",
             "language": "English",
             "synopsis": 'The flaming sword left behind long trails of fire... steel sang against steel» Torn away by war; the Seven Kingdoms will soon experience the very long winter that is predicted to be uncharacteristically harsh. And while the violence and the weather worsen; the endearing and infamous characters we already know continue to struggle between fierce battles and wicked palace intrigues',
-            "image": "https://books.google.com/books/content/images/frontcover/g0OZtYOW1v8C?fife=w256-h256",
-            "price": 2334,
+            "image": "https://media.s-bol.com/YXZYxMGMPA1O/lRGmE1/547x840.jpg",
+            "price": 8999,
             "stock": 7
         },
         {
@@ -632,8 +633,8 @@ export const books =
             "genre": "Fiction",
             "language": "English",
             "synopsis": 'After centuries of stark wars; the seven powers that divide the earth have decimated each other until reaching an uneasy truce. Very few legitimate claims already exist for the Iron Throne; and the war that has turned the world into little more than a desert is finally over. Or so it seems. But it isn’t long before the survivors; the outlaws; the renegades and scavengers of the Seven Kingdoms gather.',
-            "image": "https://books.google.com/books/content/images/frontcover/6mhvBtafn3EC?fife=w256-h256",
-            "price": 2334,
+            "image": "https://media.s-bol.com/vJwx9y5WD3VX/16RnB0/781x1200.jpg",
+            "price": 8999,
             "stock": 7
         },
         {
@@ -645,7 +646,7 @@ export const books =
             "language": "English",
             "synopsis": 'After a colossal battle; the future of the Seven Kingdoms hangs in the balance; beset by new threats emerging from all corners and in all directions. In the East; Daenerys Targaryen; the last link of the Targaryen House; she rules with her three dragons as queen of a city built on dust and death.',
             "image": "https://books.google.com/books/content/images/frontcover/n-lPcJypkjcC?fife=w256-h256",
-            "price": 2334,
+            "price": 8999,
             "stock": 7
         },
         {
@@ -657,7 +658,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Harry Potter y la piedra filosofal es el primer volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling.',
             "image": "https://comicstores.es/imagenes_grandes/9788418/978841817300.JPG",
-            "price": 2534,
+            "price": 6599,
             "stock": 7
         },
         {
@@ -669,7 +670,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Harry Potter y la cámara secreta es el segundo volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling. ',
             "image": "https://libreriacaracter.com.mx/salic/inventarios/articulos/files/10562/105620.jpg",
-            "price": 2534,
+            "price": 6599,
             "stock": 7
         },
         {
@@ -681,7 +682,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Harry Potter y el prisionero de Azkaban es el tercer volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling. ',
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Ny0OcehuyG4iSf2fr7-OSNWE8oyIwVQZOFmpQwi-1w5THrgRNruFBEoYNwvj0TuHiig&usqp=CAU",
-            "price": 2534,
+            "price": 6599,
             "stock": 7
         },
         {
@@ -693,7 +694,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Harry Potter y el Caliz de fuego es el cuarto volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling.',
             "image": "https://cdn.shopify.com/s/files/1/0266/3242/1433/products/9786073193030_grande.jpg?v=1669246727",
-            "price": 2534,
+            "price": 6599,
             "stock": 6
         },
         {
@@ -704,9 +705,9 @@ export const books =
             "genre": "Infantil",
             "synopsis": 'Harry Potter y La Orden del Fenix es el quinto volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling.',
             "image": "https://images.cdn2.buscalibre.com/fit-in/360x360/3e/02/3e02fe3dfc57f3aaa73154fc7f0d058a.jpg",
-            "price": 2534,
+            "price": 6599,
             "stock": 7
-            
+
         },
         {
             "id": "60",
@@ -717,7 +718,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Harry Potter y el misterio del Príncipe; el sexto volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling.',
             "image": "https://images.cdn3.buscalibre.com/fit-in/360x360/25/6e/256e7ff6c6035aec4ecbb9479d688469.jpg",
-            "price": 2534,
+            "price": 6599,
             "stock": 7
         },
         {
@@ -728,8 +729,8 @@ export const books =
             "genre": "Infantil",
             "language": "Castellano",
             "synopsis": 'Harry Potter y las reliquias de la muerte; el septimo volumen de la ya clásica serie de novelas fantásticas de la autora británica J.K. Rowling.',
-            "image": "https://http2.mlstatic.com/D_NQ_NP_962732-MLA47981299601_102021-O.webp",
-            "price": 2534,
+            "image": "https://pictures.abebooks.com/inventory/31070552024.jpg",
+            "price": 6599,
             "stock": 7
         },
         {
@@ -741,7 +742,7 @@ export const books =
             "language": "English",
             "synopsis": 'The hunger Games Trilogy. In a dark version of the near future, twelve boys and twelve girls are forced to participate in a reality show called the Hunger Games. There is only one rule: kill or be killed.',
             "image": "https://upload.wikimedia.org/wikipedia/en/3/39/The_Hunger_Games_cover.jpg",
-            "price": 2534,
+            "price": 23879,
             "stock": 7
         },
         {
@@ -753,7 +754,7 @@ export const books =
             "language": "English",
             "synopsis": 'Until the unthinkable happens. Gerry’s death devastates Holly. But as her 30th birthday looms, Gerry comes back to her. He’s left her a bundle of notes, gently guiding Holly into her new life without him, each note signed "PS, I Love You". ',
             "image": "https://img-static.popxo.com/2017/02/15-romance-books.jpg",
-            "price": 2534,
+            "price": 7534,
             "stock": 3
         },
         {
@@ -765,7 +766,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'El despótico patriarca Esteban Trueba ha construido con mano de hierro un imperio privado que empieza a tambalearse con el paso del tiempo y un entorno social explosivo. Finalmente; la decadencia personal del patriarca arrastrará a los Trueba a una dolorosa desintegración. Atrapados en unas dramáticas relaciones familiares; los personajes de esta poderosa novela encarnan las tensiones sociales y espirituales de una época que abarca gran parte de este siglo.',
             "image": "https://books.google.com/books/publisher/content/images/frontcover/WY1IAgAAQBAJ?fife=w256-h256",
-            "price": 1734,
+            "price": 5449,
             "stock": 7
         },
         {
@@ -777,7 +778,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'La azarosa historia de una esclava en el Santo Domingo del siglo XVIII que logrará librarse de los estigmas que la sociedad le ha impuesto para conseguir la libertad.',
             "image": "https://quelibroleo.com/images/libros/libro_1363451479.jpg",
-            "price": 1534,
+            "price": 4599,
             "stock": 7
         },
         {
@@ -787,9 +788,9 @@ export const books =
             "saga": "false",
             "genre": "Novela",
             "language": "Castellano",
-            "synopsis":'La voz de Inés Suárez; la protagonista de la novela; relata una bella historia de amor; lucha y traición.',
+            "synopsis": 'La voz de Inés Suárez; la protagonista de la novela; relata una bella historia de amor; lucha y traición.',
             "image": "https://books.google.com/books/publisher/content/images/frontcover/Eo5IAgAAQBAJ?fife=w256-h256",
-            "price": 834,
+            "price": 3923,
             "stock": 7
         },
         {
@@ -801,7 +802,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Isabel Allende parte de la célebre cita de Albert Camus -«en medio del invierno aprendí por fin que había en mí un verano invencible»- para urdir una trama que presenta la geografía humana de unos personajes propios de la América de hoy que se hallan «en el más profundo invierno de sus vidas»',
             "image": "https://books.google.com/books/publisher/content/images/frontcover/txGfDgAAQBAJ?fife=w256-h256",
-            "price": 1234,
+            "price": 3799,
             "stock": 7
         },
         {
@@ -813,7 +814,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'A los veintidós años; sospechando que tenían el tiempo contado; Ichimei y Alma se atragantaron de amor para consumirlo entero; pero mientras más intentaban agotarlo; más imprudente era el deseo; y quien diga que todo fuego se apaga solo tarde o temprano; se equivoca: hay pasiones que son incendios hasta que las ahoga el destino de un zarpazo y aun así quedan brasas calientes listas para arder apenas se les da oxígeno.',
             "image": "https://books.google.com/books/publisher/content/images/frontcover/hFc-CQAAQBAJ?fife=w256-h256",
-            "price": 1190,
+            "price": 4005,
             "stock": 7
         },
         {
@@ -825,19 +826,19 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Las hermanas Bennet, jóvenes casaderas de la Inglaterra del cambio de siglo (XVIII al XIX), y sus posibles pretendientes son el corazón de esta novela romántica de encuentros y desencuentros. El orgullo, las diferencias sociales, la hipocresía o la maledicencia acaban siendo superados por el amor. El libro se complementa con la magnífica serie de la BBC de 1995 protagonizada por Colin Firth y Jennifer Ehle.',
             "image": "https://covers.alibrate.com/b/59872eaecba2bce50c1f0f62/254d8fa9-0e76-4c81-b2d8-c61933efab16/share",
-            "price": 890,
+            "price": 1440,
             "stock": 7
         },
         {
-            "id": "70",
+            "id":"70",
             "title": "Persuasión",
             "author": "Jane Austen",
             "saga": "false",
             "genre": "Romance",
-            "language": "Castellano",
+            "language": "English",
             "synopsis": 'Persuasión narra la historia de una mujer madura, sensible y menospreciada, que años después de haber rechazado al hombre que amaba, persuadida por un mal consejo, ve cómo este reaparece en su vida, rico y honorable pero aún despechado.',
             "image": "https://http2.mlstatic.com/D_NQ_NP_101825-MLA25493474222_042017-O.jpg",
-            "price": 890,
+            "price": 1495,
             "stock": 7
         },
         {
@@ -849,7 +850,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Emma Woodhouse es una joven hermosa, inteligente y adinerada, y la reina indiscutible de los tejemanejes amorosos de su aburrido pueblecito inglés. Brillante sátira de las clases sociales.',
             "image": "https://d3525k1ryd2155.cloudfront.net/h/621/371/422371621.0.l.jpg",
-            "price": 890,
+            "price": 1495,
             "stock": 7
         },
         {
@@ -861,7 +862,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Novela de Charles Dickens,ambientada en Londres y París antes y durante la Revolución Francesa.La novela describe la difícil situación del campesinado francés desmoralizado por la aristocracia en los años previos a la revolución y la brutalidad correspondiente demostrada por los revolucionarios.',
             "image": "https://m.media-amazon.com/images/I/81O+bz3mv4L.jpg",
-            "price": 990,
+            "price": 1357,
             "stock": 7
         },
         {
@@ -885,7 +886,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'En el verano de 1816, Lord Byron invita al poeta Percy Bysshe Shelley y a su joven esposa, Mary, a su casa de Suiza. Los días son lluviosos y el anfitrión propone que cada uno escriba un relato de fantasmas. Así surgirá "Frankenstein, o el moderno Prometeo", publicada en 1818 y considerada la primera novela del género de ciencia ficción. Atrapado en los hielos del Ártico, Víctor Frankenstein es rescatado por el capitán Walton. Dedicará sus últimos días a narrarle la trágica historia de sus experimentos en búsqueda del poder de dotar de vida a la materia inerte y cómo el ser que creó se rebelaría contra él.',
             "image": "https://global-uploads.webflow.com/6034d7d1f3e0f52c50b2adee/625452f43a8fa502af2b8a14_6034d7d1f3e0f525c6b2b272_frankenstein-mary-shelley-editorial-alma.jpeg",
-            "price": 990,
+            "price": 1990,
             "stock": 7
         },
         {
@@ -897,7 +898,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Discurso del método es la clave del resto de su obra. Su extraordinaria influencia sobre el pensamiento moderno lo convierte en una pieza fundamental para la comprensión del desarrollo de la civilización occidental y de la historia del pensamiento.',
             "image": "https://books.google.com/books/publisher/content/images/frontcover/-1YvDgAAQBAJ?fife=w256-h256",
-            "price": 890,
+            "price": 1090,
             "stock": 7
         },
         {
@@ -909,7 +910,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Afganistán, 1952. Abdullah y su hermana Pari viven con su padre y su madrastra en el pequeño pueblo de Shadbagh. Un día, los hermanos viajan por el desierto hasta Kabul con su padre. Pari y Abdullah no tienen idea del destino que les espera allí, porque el evento que se desarrolla destrozará sus vidas; a veces hay que cortar un dedo para salvar la mano. Cruzando generaciones y continentes, pasando de Kabul a París,...',
             "image": "https://contentv2.tap-commerce.com/cover/large/9789878000923_1.jpg?id_com=1113",
-            "price": 2890,
+            "price": 4149,
             "stock": 7
         },
         {
@@ -921,7 +922,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'This stunning set, complete with all four books, makes the perfect gift for fans of the bestselling vampire love story. Deeply romantic and extraordinarily suspenseful, Twilight, New Moon, Eclipse, and Breaking Dawn capture the struggle between defying our instincts and satisfying our desires.',
             "image": "https://m.media-amazon.com/images/I/51sftG+5RzL._AC_SY780_.jpg",
-            "price": 12890,
+            "price": 52890,
             "stock": 7
         },
         {
@@ -933,7 +934,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'This bundle includes the following novels: FIFTY SHADES OF GREY, FIFTY SHADES DARKER, FIFTY SHADES FREED.',
             "image": "https://kbimages1-a.akamaihd.net/Images/ce5c5d91-58c3-4267-ac67-c0cfa0eab9ca/600/600/False/image.jpg",
-            "price": 6890,
+            "price": 18957,
             "stock": 7
         },
         {
@@ -945,8 +946,8 @@ export const books =
             "language": "Castellano",
             "synopsis": 'From a terrifying run-in with a highwayman to a seemingly harmless flirtation, Marianne finds herself embroiled in an unexpected adventure filled with enough romance and intrigue to keep her mind racing. Will Marianne be able to rein in her traitorous heart, or will a mysterious stranger sweep her off her feet?',
             "image": "https://i.pinimg.com/originals/e7/bf/57/e7bf5736088b0e7dffbc5e1df114973b.jpg",
-            "price": 2890,
-            "stock": 7
+            "price": 7396,
+            "stock": 17
         },
         {
             "id": "80",
@@ -957,8 +958,8 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Primera parte de una admirable historia de amor situada en el Leningrado de 1941, cuando Alemania invade la URSS. Cuando el ejército alemán bloquea la ciudad en ese duro invierno, dos amantes deberán entablar una indómita lucha para realizar su amor y lograr la libertad.',
             "image": "https://m.media-amazon.com/images/I/41-t-Xh4YmS._AC_SY780_.jpg",
-            "price": 2850,
-            "stock": 7
+            "price": 4695,
+            "stock": 9
         },
         {
             "id": "81",
@@ -969,8 +970,8 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Embarazada, enferma y absolutamente desolada, Tatiana ha logrado llegar a Estados Unidos. Entregada a la fuerza de las circunstancias y alejada de su convulsionada tierra, la joven comenzará una nueva existencia con la secreta ilusión de que, en alguna parte, el hombre al que ama sea capaz de vencer a las oscuras garras del destino.',
             "image": "https://quelibroleo.com/images/libros/libro-1518526514.jpg",
-            "price": 2850,
-            "stock": 7
+            "price": 4695,
+            "stock": 9
         },
         {
             "id": "82",
@@ -981,8 +982,8 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Tatiana y Alexander empiezan una nueva vida en Estados Unidos, junto al pequeño Anthony. Han sobrevivido a una guerra terrible, pero las heridas del alma siguen abiertas, y los difíciles años de separación los han convertido en extraños.',
             "image": "http://1.bp.blogspot.com/-TccRAPt8igA/UyCB95rt9FI/AAAAAAAAB0o/0Znk1dOVoEQ/s1600/el-jardin-de-verano.jpg",
-            "price": 2850,
-            "stock": 7
+            "price": 4965,
+            "stock": 9
         },
         {
             "id": "83",
@@ -993,8 +994,8 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Cuando el profesor Ben Ross aborda durante la clase de historia el periodo del nazismo, los alumnos no pueden entender el comportamiento ciego de los alemanes ni por qué se dejaron manipular. Ellos nunca hubieran permitido algo así, se habrían rebelado contra los déspotas. El profesor decide llevar a cabo un experimento para demostrar cómo se pueden desarrollar comportamientos autoritarios, y probar que lo que pasó en Alemania puede repetirse en cualquier lugar y momento. Sin embargo, el experimento se le va de las manos y empieza a tomar dimensiones peligrosas. Ben Ross y sus alumnos aprenderán una lección que no olvidarán jamás. La Ola se basa en hechos reales que tuvieron lugar en la clase de historia de un instituto de Palo Alto, California.',
             "image": "https://images.cdn3.buscalibre.com/fit-in/360x360/04/86/04869dfbbc5b6ee0a13212155a22286d.jpg",
-            "price": 1850,
-            "stock": 7
+            "price": 2630,
+            "stock": 5
         },
         {
             "id": "84",
@@ -1005,7 +1006,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Un periodista recibe una propuesta para investigar la azarosa vida de su bisabuela, una mujer de la que sólo se sabe que huyó de España abandonando a su marido y a su hijo poco antes de que estallara la Guerra Civil. Para rescatarla del olvido deberá reconstruir su historia desde los cimientos, siguiendo los pasos de su biografía y encajando, una a una, todas las piezas del inmenso y extraordinario puzzle de su existencia.',
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/577378.jpg",
-            "price": 1750,
+            "price": 4002,
             "stock": 7
         },
         {
@@ -1017,8 +1018,8 @@ export const books =
             "language": "Castellano",
             "synopsis": 'En un laboratorio de máxima seguridad, aparece asesinado un científico con un extraño símbolo grabado a fuego en su pecho. Para el profesor Robert Langdon no hay duda: los Illuminati, los hombres enfrentados a la Iglesia desde los tiempos de Galileo, han regresado. Y esta vez disponen de la más mortífera arma que ha creado la humanidad, un artefacto con el que pueden ganar la batalla final contra su eterno enemigo. ',
             "image": "https://image.cdn0.buscalibre.com/59d796b4e963b5fa228b456a.RS500x500.jpg",
-            "price": 1750,
-            "stock": 7
+            "price": 6387,
+            "stock": 8
         },
         {
             "id": "86",
@@ -1029,8 +1030,8 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Antes de morir asesinado, Jacques Saunière, el último Gran Maestre de una sociedad secreta que se remonta a la fundación de los Templarios, transmite a su nieta Sophie una misteriosa clave. Saunière y sus predecesores, entre los que se encontraban hombres como Isaac Newton o Leonardo Da Vinci, han conservado durante siglos un conocimiento que puede cambiar completamente la historia de la humanidad.',
             "image": "http://4.bp.blogspot.com/_QPsrFmDNV_k/R8jRihRPz8I/AAAAAAAAANg/-puWOro8Dy0/w1200-h630-p-k-no-nu/El+Codigo+Da+Vinci_a.jpg",
-            "price": 1750,
-            "stock": 7
+            "price": 6387,
+            "stock": 8
         },
         {
             "id": "87",
@@ -1041,8 +1042,8 @@ export const books =
             "language": "Castellano",
             "synopsis": 'En el corazón de Italia, el profesor de simbología Robert Langdon es arrastrado a un perturbador mundo centrado en uno de las más misteriosas obras de la literatura… el Infierno de Dante. Allí, Langdon luchará contra un terrorífico adversario y un ingenioso enigma que lo atrapará en un mundo de arte, pasillos secretos y ciencia futurística. Usando el sombrío poema de Dante como referencia, Langdon deberá encontrar respuestas y decidir en quién puede confiar y en quien no… antes que el mundo se vea alterado irrevocablemente.',
             "image": "https://www.planetadelibros.com.ar/usuaris/libros/fotos/138/m_libros/portada_inferno_dan-brown_201505260959.jpg",
-            "price": 1750,
-            "stock": 7
+            "price": 6387,
+            "stock": 8
         },
         {
             "id": "88",
@@ -1053,8 +1054,8 @@ export const books =
             "language": "English",
             "synopsis": 'In the heart of Italy, symbology professor Robert Langdon is drawn into a disturbing world centered on one of the most mysterious works of literature... Dante’s Inferno.There, Langdon will battle a terrifying adversary and a clever puzzle that will trap him in a world of art, secret passageways, and futuristic science.Using Dante’s grim poem as a reference, Langdon must find answers and decide who he can trust and who he can’t...before the world is irrevocably altered.',
             "image": "https://m.media-amazon.com/images/I/61RpxrfYE2L.jpg",
-            "price": 1750,
-            "stock": 7
+            "price": 9750,
+            "stock": 9
         },
         {
             "id": "89",
@@ -1065,8 +1066,8 @@ export const books =
             "language": "English",
             "synopsis": 'In a maximum security laboratory, a scientist with a strange symbol burned into his chest is found murdered. For Professor Robert Langdon there is no doubt: the Illuminati, the men who have faced the Church since the days of Galileo, have returned. And this time they have the deadliest weapon humanity has created, an artifact with which they can win the final battle against their eternal enemy.',
             "image": "https://pictures.abebooks.com/isbn/9780743493468-es.jpg",
-            "price": 1750,
-            "stock": 7
+            "price": 9750,
+            "stock": 9
         },
         {
             "id": "90",
@@ -1077,8 +1078,8 @@ export const books =
             "language": "English",
             "synopsis": 'Before being assassinated, Jacques Saunière, the last Grand Master of a secret society that dates back to the founding of the Templars, transmits a mysterious key to his granddaughter Sophie. Saunière and his predecessors, among whom were men like Isaac Newton or Leonardo Da Vinci, have preserved for centuries a knowledge that can completely change the history of humanity.',
             "image": "https://books.google.com/books/content/images/frontcover/ohZ1wcYifLsC?fife=w256-h256",
-            "price": 1750,
-            "stock": 7
+            "price": 9750,
+            "stock": 9
         },
         {
             "id": "91",
@@ -1089,8 +1090,8 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Un aprendiz de dentista; un técnico electrónico; un futuro astrónomo y un estudiante de diseño desubicado; congeniaron sus intereses; inquietudes y anhelos para cambiar el mundo a base de canciones. Roger Taylor; Brian May; John Deacon y Freddie Mercury; cuatro jóvenes británicos; consiguieron crear la banda de rock más admirada del planeta; que hoy en día; décadas después de que subieran por primera vez a un escenario como Queen; sigue provocando pasiones; llenando estadios y siendo uno de los grupos más importantes del universo rock. Pero mucho más allá de construir esa maravillosa maquinaria llamada Queen; estos cuatro jóvenes consiguieron levantar un mito; la leyenda más importante del mundo del rock: Freddie Mercury. Esta es la historia de todos ellos.',
             "image": "https://contentv2.tap-commerce.com/cover/large/9788494696114_1.jpg?id_com=1113",
-            "price": 1750,
-            "stock": 7
+            "price": 9050,
+            "stock": 17
         },
         {
             "id": "92",
@@ -1101,7 +1102,7 @@ export const books =
             "language": "Castellano",
             "synopsis": 'Un 5 de junio de 1964 Syd Barrett pensó en unir los nombres de dos viejos músicos de blues para rebautizar a una banda en la que el núcleo duro estaba integrado por Roger Waters, Nick Mason y Rick Wright, junto al propio Syd, por supuesto. Había nacido Pink Floyd. Había nacido el mito. Con ellos cambió por completo la historia de la música, con sus canciones forjadas como relatos de vida y sus letras llenas de profunda emoción. El tiempo ha convertido a Pink Floyd en un icono musical y cultural: las redes sociales y la prensa musical se siguen sobresaltando de cuando en cuando con falsas noticias sobre nuevos reencuentros, rumores sobre contactos entre los músicos y resurrecciones...',
             "image": "https://books.google.com/books/publisher/content/images/frontcover/8O54DwAAQBAJ?fife=w240-h345",
-            "price": 1750,
+            "price": 8645,
             "stock": 7
         },
         {
@@ -1114,29 +1115,90 @@ export const books =
             "synopsis": 'En 1982; el poeta y periodista Daniel Chirom convenció al artista más popular y trascendente del rock argentino de realizar una serie de conversaciones para que estas sirvieran como base de un libro biográfico. ',
             "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/701019.jpg",
             "price": 1750,
-            "stock": 7        },
+            "stock": 7
+        },
         {
             "id": "94",
-            "title": "The Beatles",
-            "author": "Manolo Bellon",
+            "title": "Meal Prep",
+            "author": "Paulina Cocina",
             "saga": "False",
-            "genre": "Música",
+            "genre": "Cocina",
             "language": "Castellano",
-            "synopsis": 'Hasta que punto una amistad puede cambiar la historia del mundo?  Esta no es otra biografía más sobre los integrantes de Los Beatles. Es, sí, la historia de dos amigos que decidieron dar vuelta todo con un simple gesto: componer canciones. Las canciones más hermosas del siglo XX.',
-            "image": "https://images.bajalibros.com/mXLqzwLh_ee2_Idfrkphb4F46p0=/fit-in/292x446/filters:fill(f8f8f8):quality(90):format(webp)/d2d6tho5fth6q4.cloudfront.net/extast551557_1278ac3bf15c2c79ed055d92a7409a23142eed11_cover.jpg",
-            "price": 1750,
+            "synopsis": 'La falta de tiempo y la planificación semanal son dos de los grandes dilemas de la vida moderna. El famoso “¿Qué comemos hoy?” puede convertirse en un verdadero tedio en un día interminable. Una excelente solución para la optimización de nuestro tiempo es lo que hoy se conoce como meal prep. Meal prep es una expresión inglesa que podría traducirse como “preparación de la comida”, es decir, la propuesta de anticipar los pasos de las distintas comidas que disfrutaremos en la semana para no tener que cocinar a diario.',
+            "image": "https://www.lanormallibros.com.ar/media/libros/fae0386072eb83424f66afc04664f5f7.jpg",
+            "price": 10300,
             "stock": 7
         },
         {
             "id": "95",
-            "title": "Kiss behaind the mask",
-            "author": "David Leaf",
+            "title": "Alice in Wonderland",
+            "author": "Lewis Carroll",
             "saga": "False",
-            "genre": "Music",
+            "genre": "Chilren & Teens",
             "language": "English",
-            "synopsis": 'After the Rolling Stones and the Beatles, Kiss have the most gold records of any band. With their wild costumes, lavish make-up and pyrotechnic live shows, for three decades they have been a rock and roll institution, consistently among the most successful concert, recording and merchandising artists in popular music. Since their triumphant reunion in 1996 they have released a big CD box set, continued as one of the top-grossing live acts worldwide, and spent 2003 touring with Aerosmith. Kiss: Behind the Mask is the compendious authorised biography, from their musical beginnings in the seventies to their present-day rock legend status. The authors have had unprecedented access to the band, and reveal such little-known facts as that frontman Gene Simmons was once a primary school teacher, and that Kiss’s drummer once took lessons from the great jazz drummer Gene Krupa.Kiss fans are keen: hugely loyal and committed band followers, who want to see the gig, buy the CD and get the T- shirt - and there are a lot of them.They will undoubtedly want this encyclopaedic, outrageous and definitive book.',
-            "image": "https://m.media-amazon.com/images/I/51EyMPFuz2L.jpg",
-            "price": 1750,
-            "stock": 7
+            "synopsis": '“And what is the use of a book," thought Alice, "without pictures or conversation?”. Alice in Wonderland is an 1865 novel by English author Lewis Carroll. It tells of a young girl named Alice, who falls through a rabbit hole into a subterranean fantasy world populated by peculiar, anthropomorphic creatures. It is considered to be one of the best examples of the literary nonsense genre. The tale plays with logic, giving the story lasting popularity with adults as well as with children.',
+            "image": "https://m.media-amazon.com/images/I/51gDkZW2+9S._AC_SY780_.jpg",
+            "price": 6558,
+            "stock": 15
+        },
+        {
+            "id": "96",
+            "title": "Neverending Story",
+            "author": "Michael Ende",
+            "saga": "False",
+            "genre": "Chilren & Teens",
+            "language": "English",
+            "synopsis": '“To this day, The Neverending Story inspires readers around the world and awakens in them a longing to travel into the realm of fantasy themselves. But how can one find one’s way in a land without borders? Can its secrets be fathomed? Patrick Hocke and Roman Hocke open the door to Fantastica with this encyclopedia. The authors have researched Michael Ende’s world, scoured archives, and collected original quotations. They invite the reader on a journey to visit beloved and unknown creatures, to beautiful and eerie places in Fantastica.',
+            "image": "https://1.bp.blogspot.com/-pRwIRs6ZWCc/WMvV8ExuZBI/AAAAAAAALY4/iFUsGwA2c1QK3B3tjmq-uOWqct7NNb7awCLcB/s1600/fcefaba6ec621694de286487c10ef82e.jpg",
+            "price": 6241,
+            "stock": 15
+        },
+        {
+            "id": "97",
+            "title": "Peter Pan",
+            "author": "J.M.Barrie",
+            "saga": "False",
+            "genre": "Chilren & Teens",
+            "language": "English",
+            "synopsis": '“J M Barrie’s most famous character, Peter Pan, originated in a whimsical story from his book The Little White Bird.Peter Pan in Kensington Gardens is a revised version of that same story, and the Peter Pan we meet is a younger, slightly different character to the Peter Pan of Barrie’s later, better-known works. Peter is a small boy who is, like all boys, part bird. When he hears his future being discussed he flies out the window and away to Kensington Gardens. There he discovers that he is now more boy than bird, and so he is stranded in the park, unable to fly any longer.',
+            "image": "https://kbimages1-a.akamaihd.net/ff363883-b87f-453b-a976-316fa1dd4082/1200/1200/False/peter-pan-in-kensington-gardens-3.jpg",
+            "price": 6352,
+            "stock": 10
+        },
+        {
+            "id": "98",
+            "title": "El arte de la guerra",
+            "author": "Sun Tzu",
+            "saga": "False",
+            "genre": "Filosofía",
+            "language": "Castellano",
+            "synopsis": 'El pensamiento del general chino Sun Tzu ha influido en la obra de Maquiavelo; fue decisivo en los planes militares de Napoleón; modeló las ideas políticas de Mao Tse Tung y se apoya en estos dos preceptos: Todo el arte de la guerra se basa en el engaño. Y el supremo arte de la guerra es someter al enemigo sin luchar.Es el mejor libro de estrategia que se ha escrito; porque es el único que establece pautas para alcanzar soluciones pacíficas a los conflictos. "Es exitoso el que alcanza las metas que se fija; sin devastar ni avasallar; el que elabora una táctica para conseguirlo; aprovecha su oportunidad; acepta sus debilidades y reconoce sus fortalezas"',
+            "image": "https://images.cdn3.buscalibre.com/fit-in/360x360/30/27/30278bf9c107b547ef8c39ed52bf64b8.jpg",
+            "price": 2700,
+            "stock": 10
+        },
+        {
+            "id": "99",
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "saga": "False",
+            "genre": "Distopy",
+            "language": "English",
+            "synopsis": 'Brave New World is a novel written in 1931 by Aldous Huxley and published in 1932. Set in London in the year AD 2540 (632 A.F.—"After Ford"—in the book), the novel anticipates developments in reproductive technology, sleep-learning, psychological manipulation, and classical conditioning that combine profoundly to change society.What if the future was a tyranny, but one cleverly person intended to keep the mass of society unaware of this? The people would be provided with several distractions, daily life would be ruled by sex and drugs, and pervasive mass media would suppress the possibility of any original thought: in such a society the ruling elite would not need to fear any kind of rebellion. If you think that Huxley’s vision seems to be the way things are in fact turning out, you’re not the only one!',
+            "image": "https://i.pinimg.com/474x/d9/22/d3/d922d33d039390721afec8027565e4a5.jpg",
+            "price": 7143,
+            "stock": 10
+        },
+        {
+            "id": "100",
+            "title": "Origin",
+            "author": "Dan Brown",
+            "saga": "False",
+            "genre": "Novel",
+            "language": "English",
+            "synopsis": 'Navigating the dark corridors of hidden history and extreme religion, Langdon and Vidal must evade a tormented enemy whose all-knowing power seems to emanate from Spain’s Royal Palace itself . . .and who will stop at nothing to silence Edmond Kirsch.',
+            "image": "https://i.pinimg.com/550x/a5/3f/aa/a53faaa19bb70ebc4d4c168195c749bb.jpg",
+            "price": 9750,
+            "stock": 10
         },
     ]
