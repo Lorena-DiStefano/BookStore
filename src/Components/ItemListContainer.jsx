@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { books } from '../Data/books'
 import { Loader } from '../OtherTools/Loader'
 import { ItemList } from './ItemList'
+import fetchData from '../Firebase/FetchData'
 
 
 export const ItemListContainer = () => {
@@ -12,28 +12,25 @@ export const ItemListContainer = () => {
     const { id } = useParams()
 
     useEffect(() => {
-        const data = new Promise((resolve) => {
-            setTimeout(() => {
-                setLoading(false)
-                resolve(id ? books.filter(book => book.genre === id || book.saga===id) :books)
-            }, 1000)
-        })
 
-        data.then((data) => {
-            setBookList(data)
+        id ? fetchData(id).then(res => {
+            setBookList(res)
+        }) : fetchData().then(res => {
+            setBookList(res)
         })
-
 
     }, [id])
 
-    return (       
+    console.log(bookList)
+
+
+    return (
         <div>
             {
-                loading ? <Loader /> : <ItemList bookList={bookList} />                
+                loading ? <Loader /> : <ItemList bookList={bookList} />
             }
-        </div>                   
+        </div>
     )
-
 }
 
 

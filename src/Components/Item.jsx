@@ -7,7 +7,6 @@ const Item = ({ book }) => {
 
   const { id, image, title, author, price, stock} = book
 
-
   const { addTocart } = useContext(CartContext)
 
   const onAdd = (quantity) => {

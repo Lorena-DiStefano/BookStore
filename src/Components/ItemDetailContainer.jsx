@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { doc, getDoc,getFirestore } from "firebase/firestore"
-// import { books } from '../Data/books'
 import { Loader } from '../OtherTools/Loader'
-
 import { ItemDetail } from './ItemDetail'
+import { getBookById } from '../Firebase/FetchData'
 
 export const ItemDetailContainer = () => {
 
@@ -12,30 +11,12 @@ export const ItemDetailContainer = () => {
   const [loading, setLoading] = useState(true)
   const { id } = useParams()
 
-  // useEffect(() => {
-  //   const data = new Promise((resolve) => {
-  //     setTimeout(() => {
-  //       setLoading(false)
-  //       resolve(books.find(book => book.id === id))
-  //     }, 1000)
-  //   })
-
-  //   data.then((data) => {
-  //     setBookList(data)
-  //   })
-  // }, [id])
 
   useEffect(() => {
-    const db = getFirestore();
-    const book = doc(db, "bookstore",id );
-    getDoc(book).then((snapshot) => {
-      if (snapshot.exists()) {
-        setBookList({ id: snapshot.id, ...snapshot.data() });
-      } else {
-        console.log(book);
-      }
-    });
-  }, []);  
+    
+    getBookById(id).then(res =>setBookList(res))
+
+  }, [id]);  
 
   return (
     <div>
