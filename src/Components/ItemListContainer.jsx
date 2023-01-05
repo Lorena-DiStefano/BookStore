@@ -14,16 +14,16 @@ export const ItemListContainer = () => {
     useEffect(() => {
 
         id ? fetchData(id).then(res => {
-            setBookList(res)
+            setBookList(res)      
+            setLoading(false)
         }) : fetchData().then(res => {
-            setBookList(res)
-        })
+            setBookList(res)  
+            setLoading(false)
+        })       
 
     }, [id])
 
     console.log(bookList)
-
-
     return (
         <div>
             {

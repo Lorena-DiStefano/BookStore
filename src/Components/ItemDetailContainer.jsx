@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { doc, getDoc,getFirestore } from "firebase/firestore"
 import { Loader } from '../OtherTools/Loader'
 import { ItemDetail } from './ItemDetail'
 import { getBookById } from '../Firebase/FetchData'
@@ -14,7 +13,7 @@ export const ItemDetailContainer = () => {
 
   useEffect(() => {
     
-    getBookById(id).then(res =>setBookList(res))
+    getBookById(id).then(res => setBookList(res)).then (res =>setLoading(false))   
 
   }, [id]);  
 
