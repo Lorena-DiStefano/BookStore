@@ -32,7 +32,7 @@ export const CartContextProvider = ({ children }) => {
 
   const cleanCart = () => {
     setCartList([])
-    navigate ('/')
+    navigate ('/allBooks')
   }
   const totalQuantity = () => {
     return cartList.reduce((acc, item) => acc += item.quantity, 0)
