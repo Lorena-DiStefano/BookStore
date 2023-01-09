@@ -3,7 +3,7 @@ import db from './FirebaseConfig';
 
 async function fetchData(genre) {
     let q
-    genre ? q = query(collection(db, 'bookstore'), where('genre', '==', genre)) : q = query(collection(db, 'bookstore'), orderBy("index"))
+    genre ? q = query(collection(db, 'bookstore'), where('genre', '==', genre)) : q = query(collection(db, 'bookstore'))  
 
     const querySnapshot = await getDocs(q);
     return querySnapshot.docs.map(doc => ({

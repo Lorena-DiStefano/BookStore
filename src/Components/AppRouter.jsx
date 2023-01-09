@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { CartDetail, Checkout,CartGreeting} from "./Cart/index";
+import { CartDetail, CartOrder, CartGreeting } from "./Cart/index";
 import { Home, ItemListContainer, ItemDetailContainer } from './index';
 
 export const AppRouter = () => {
@@ -11,7 +11,7 @@ export const AppRouter = () => {
                 <Route path={'/allBooks'} element={<ItemListContainer />} />
                 <Route path={'/id/:id'} element={<ItemDetailContainer />} />
                 <Route path={'/CartDetail'} element={<CartDetail />} />
-                <Route path={'/Checkout'} element={<Checkout/>} />
+                <Route path={'/CartOrder'} element={<CartOrder />} />
                 <Route path={'/CartGreeting'} element={<CartGreeting />} />
             </Routes>
         </>

@@ -35,11 +35,11 @@ export const CartDetail = () => {
         ))}
         <div className="cleanCart">
           <button type='button' onClick={cleanCart}><i className="bi bi-cart-x-fill"></i></button>
-        </div>
+        </div>     
         <hr />
         <div className='cartClose'>
           <h5><b>Total a pagar: </b>$ {fullPayment().toLocaleString()}</h5>
-          <Link to={"/Checkout"} className="checkoutLink">Finalizar Compra</Link>
+          <Link to={"/CartOrder"} className="checkoutLink">Finalizar Compra</Link>
         </div>
       </div>
     </div >

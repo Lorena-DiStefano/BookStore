@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { Loader } from '../Loader/Loader'
+import { Loader } from './Loader/Loader'
 import { ItemList } from './ItemList'
 import fetchData from '../Firebase/FetchData'
 

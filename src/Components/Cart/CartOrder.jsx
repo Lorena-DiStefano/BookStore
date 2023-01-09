@@ -1,43 +1,32 @@
-import { addDoc, doc, collection, getFirestore, writeBatch, getDoc } from "firebase/firestore";
-import { useContext } from "react";
-import { useState } from "react";
+import { addDoc, doc, collection, writeBatch, getDoc } from "firebase/firestore";
+import { useContext, useState } from "react";
 import { Navigate } from "react-router-dom";
 import { CartContext } from "../../Context/CartContext";
+import db from '../../Firebase/FirebaseConfig';
 
-export const Checkout = () => {
+export const CartOrder = () => {
   const { cartList, cleanCart, fullPayment } = useContext(CartContext);
-  const [nombre, setNombre] = useState("");
-  const [telefono, setTelefono] = useState("");
-  const [email, setEmail] = useState("");
-  const [orderId, setOrderId] = useState("");
+  const [name, setName] = useState("")
+  const [phone, setPhone] = useState("")
+  const [email, setEmail] = useState("")
+  const [orderId, setOrderId] = useState("")
 
-  const generarOrden = () => {
-    const fecha = new Date();
+  const orderGenerator = () => {
+    const date = new Date()
     const order = {
-      buyer: { name: nombre, phone: telefono, email: email },
-      items: cartList.map(item => ({ id: item.id, title: item.nombre, quantity: item.quantity, price: item.precio, price_total: item.quantity * item.precio })),
+      buyer: { name: name, phone: phone, email: email },
+      items: cartList.map(item => ({ id: item.id, title: item.title, quantity: item.quantity, price: item.price, price_total: item.quantity * item.price })),
       total: fullPayment(),
-      order_date: `${fecha.getFullYear()}-${fecha.getMonth() + 1}-${fecha.getDate()} ${fecha.getHours()}:${fecha.getMinutes()}`
+      order_date: `${date}`
     };
 
-    const db = getFirestore();
-    const ordersCollection = collection(db, "orders");
-    addDoc(ordersCollection, order).then((snapShot) => {
-      setOrderId(snapShot.id);
-      const batch = writeBatch(db);
+    const ordersCollection = collection(db, "orders")
+    
+    addDoc(ordersCollection,order).then(({id})=>setOrderId(id))  
 
-      cartList.forEach(item => {
-        let producto = doc(db, "items", item.id);
-        getDoc(producto).then((snapShot) => {
-          batch.update(producto, { stock: snapShot.data().stock - item.quantity });
-        });
-      });
-
-      batch.commit();
-      cleanCart();
-    });
+      
+   
   }
-
 
   return (
     <div className="container cartDetail">
@@ -46,17 +35,17 @@ export const Checkout = () => {
           <form>
             <div className="mb-3">
               <label id="nombre" className="form-label">Nombre:</label>
-              <input type="text" className="form-control" placeholder="Ingrese su Nombre" onInput={(e) => { setNombre(e.target.value) }} />
+              <input type="text" className="form-control" placeholder="Ingrese su Nombre" onInput={(e) => { setName(e.target.value) }} />
             </div>
             <div className="mb-3">
               <label id="telefono" className="form-label">Teléfono:</label>
-              <input type="text" className="form-control" id="telefono" placeholder="Ingrese su Teléfono" onInput={(e) => { setTelefono(e.target.value) }} />
+              <input type="text" className="form-control" id="telefono" placeholder="Ingrese su teléfono" onInput={(e) => { setPhone(e.target.value) }} />
             </div>
             <div className="mb-3">
               <label id="email" className="form-label">Email:</label>
               <input type="text" className="form-control" id="email" placeholder="Ingrese su Email" onInput={(e) => { setEmail(e.target.value) }} />
             </div>
-            <button type="button" className="btn btn-warning" onClick={generarOrden}>Generar Orden</button>
+            <button type="button" className="btn btn-warning" onClick={orderGenerator}>Generar Orden</button>
           </form>
         </div>
         <div className="col-md-6">
@@ -82,11 +71,13 @@ export const Checkout = () => {
       </div>
       <div className="row">
         <div className="col text-center">
-          {orderId !== "" ? <Navigate to={"/CartGreeting/" + orderId} /> : ""}
+          {orderId ?
+            <div className="alert alert-primary" role="alert">Su número de orden es:{orderId}</div> : "" 
+         }                
         </div>
       </div>
     </div>
   )
 }
 
-export default Checkout;
+export default CartOrder;
