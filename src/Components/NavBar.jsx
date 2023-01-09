@@ -1,8 +1,6 @@
 import { NavLink, Link } from 'react-router-dom';
 import CartWidget from './Cart/CartWidget';
 
-
-
 export const NavBar = () => {
     return (
         <div>
@@ -15,10 +13,7 @@ export const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink className="nav-link" to={'/'} aria-current="page" >Home</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to={'/allBooks'} aria-current="page" >Entrada</NavLink>
+                                <NavLink className="nav-link" to={'/allBooks'} aria-current="page" ><i className="bi bi-door-open-fill" />Entrada</NavLink>
                             </li>
                             <li className="nav-item dropdown">
                                 <NavLink className="nav-link dropdown-toggle" to={'/genre/'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Castellano</NavLink>
@@ -46,11 +41,10 @@ export const NavBar = () => {
                                     <li><Link className="dropdown-item" to={'/genre/Romance Novel'}>Romance Novel</Link></li>
                                 </ul>
                             </li>
-                            
-                        </ul>                       
+                        </ul>
                         <div>
-                           
-                        </div>              
+
+                        </div>
                     </div>
                     <div>
                         <div className="col me-5 d-flex align-items-center justify-content-end">

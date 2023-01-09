@@ -1,5 +1,6 @@
 import './Cart.css';
 import { useContext } from 'react'
+import { Link } from 'react-router-dom';
 import { CartContext } from '../../Context/CartContext';
 
 
@@ -38,7 +39,7 @@ export const CartDetail = () => {
         <hr />
         <div className='cartClose'>
           <h5><b>Total a pagar: </b>$ {fullPayment().toLocaleString()}</h5>
-          <p className="finCompra">Finalizar Compra</p>
+          <Link to={"/Checkout"} className="checkoutLink">Finalizar Compra</Link>
         </div>
       </div>
     </div >

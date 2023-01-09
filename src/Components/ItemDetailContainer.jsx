@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { Loader } from '../OtherTools/Loader'
+import { Loader } from '../Loader/Loader'
 import { ItemDetail } from './ItemDetail'
 import { getBookById } from '../Firebase/FetchData'
 

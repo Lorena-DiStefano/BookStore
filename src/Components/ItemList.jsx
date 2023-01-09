@@ -1,4 +1,3 @@
-import { orderBy } from 'firebase/firestore'
 import Item from './Item'
 
 export const ItemList = ({bookList}) => {   

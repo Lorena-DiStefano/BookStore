@@ -1,4 +1,4 @@
-import './OtherTools.css';
+import './Loader.css';
 
 export const Loader = () => {
     return (
