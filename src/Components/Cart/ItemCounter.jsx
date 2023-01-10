@@ -10,7 +10,7 @@ export const ItemCounter = ({ stock, onAdd }) => {
     return (
         <div>
             <button className="btn" type="button" onClick={decrease}>-</button>
-            <button className="btn-a" type="button" onClick={()=> onAdd(count)}> Comprar {count} </button>
+            <button className="btn-counter" type="button" onClick={()=> onAdd(count)}> Comprar:  {count} </button>
             <button className="btn" type="button" onClick={increase}>+</button>
         </div>
     )

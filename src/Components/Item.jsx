@@ -23,8 +23,7 @@ const Item = ({ book }) => {
           <p >{author}</p>
           <div className="card_item_btm d-flex justify-content-between" >
             <p><b>${(price).toLocaleString()}</b></p>
-          <ItemCounter stock={stock} onAdd={onAdd} />
-          
+          <ItemCounter stock={stock} onAdd={onAdd} />          
           </div>
         </div>
     </div >

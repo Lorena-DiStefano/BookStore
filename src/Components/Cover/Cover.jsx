@@ -1,6 +1,5 @@
 import './Cover.css'
 
-
 export const Cover = ({ text1, text2 }) => {
     return (
         <div className="greeting">

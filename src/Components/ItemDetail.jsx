@@ -3,7 +3,6 @@ import { useContext} from 'react'
 import { ItemCounter } from './Cart/index'
 import { CartContext } from '../Context/CartContext'
 
-
 export const ItemDetail = ({ bookList }) => {
 
   const { image, title, author, genre, language, synopsis, price, stock } = bookList

@@ -9,7 +9,6 @@ const CartWidget = () => {
 
     return (
         cartList.length > 0 ?
-
             <Link to={'/CartDetail'}>
                 <button type="button" className="btnCartW position-relative">
                     <i className="bi bi-cart-check-fill"></i>

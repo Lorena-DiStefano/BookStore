@@ -10,7 +10,6 @@ export const ItemDetailContainer = () => {
   const [loading, setLoading] = useState(true)
   const { id } = useParams()
 
-
   useEffect(() => {
     
     getBookById(id).then(res => setBookList(res)).then (res =>setLoading(false))   

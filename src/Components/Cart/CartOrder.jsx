@@ -4,12 +4,13 @@ import { Navigate } from "react-router-dom";
 import { CartContext } from "../../Context/CartContext";
 import db from '../../Utils/FirebaseConfig';
 
+
 export const CartOrder = () => {
-  const {cartList,setCartList,fullPayment} =useContext(CartContext);
+  const { cartList, setCartList, fullPayment } = useContext(CartContext);
   const [name, setName] = useState("")
   const [phone, setPhone] = useState("")
   const [email, setEmail] = useState("")
-  const [orderId, setOrderId] = useState("")  
+  const [orderId, setOrderId] = useState("")
 
   const orderGenerator = () => {
     const date = new Date()
@@ -21,9 +22,9 @@ export const CartOrder = () => {
     };
 
     const ordersCollection = collection(db, "orders")
-    addDoc(ordersCollection, order).then(({ id }) => setOrderId(id))  
+    addDoc(ordersCollection, order).then(({ id }) => setOrderId(id))
 
-   setCartList([])
+    setCartList([])
   }
 
   return (
@@ -33,7 +34,7 @@ export const CartOrder = () => {
           <form>
             <div className="mb-3">
               <label id="nombre" className="form-label">Nombre:</label>
-              <input type="text" className="form-control" placeholder="Ingrese su Nombre" onInput={(e) => { setName(e.target.value) }} />
+              <input type="text" className="form-control" placeholder="Ingrese su nombre" onInput={(e) => { setName(e.target.value) }} />
             </div>
             <div className="mb-3">
               <label id="telefono" className="form-label">Teléfono:</label>
@@ -41,9 +42,9 @@ export const CartOrder = () => {
             </div>
             <div className="mb-3">
               <label id="email" className="form-label">Email:</label>
-              <input type="text" className="form-control" id="email" placeholder="Ingrese su Email" onInput={(e) => { setEmail(e.target.value) }} />
+              <input type="text" className="form-control" id="email" placeholder="Ingrese su mail" onInput={(e) => { setEmail(e.target.value) }} />
             </div>
-            <button type="button" className="btn btn-warning" onClick={orderGenerator}>Generar Orden</button>
+            <button type="button" className="cart_endBtn " onClick={orderGenerator}>Generar Orden</button>
           </form>
         </div>
         <div className="col-md-6">
@@ -53,23 +54,23 @@ export const CartOrder = () => {
                 <tr key={item.id}>
                   <td><img src={item.image} alt={item.title} width={50} /></td>
                   <td className="align-middle">{item.title}</td>
-                  <td className="align-middle text-end">{item.quantity} =</td>
-                  <td className="align-middle text-end">${item.quantity * item.price}</td>
+                  <td className="align-middle text-center">{item.quantity}</td>
+                  <td className="align-middle text-end">${(item.quantity * item.price).toLocaleString()}</td>
                 </tr>
               ))
               }
               <tr>
                 <td colSpan={2}>&nbsp;</td>
                 <td className="text-end"><b>Total a Pagar </b></td>
-                <td className="text-end"><b>${fullPayment()}</b></td>
+                <td className="text-end"><b>${fullPayment().toLocaleString()}</b></td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
       <div className="row">
-        <div className="col text-center">
-          {orderId !== "" ? <Navigate to={"/CartGreeting/"+ orderId}/>  : ""}
+        <div>
+          {orderId !== "" ? <Navigate to={"/CartGreeting/" + orderId} /> : ""}
         </div>
       </div>
     </div>

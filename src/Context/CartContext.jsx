@@ -31,10 +31,10 @@ export const CartContextProvider = ({ children }) => {
   const removeItem = (id) => setCartList(cartList.filter(item => item.id !== id))
 
   const cleanCart = () => {
-   cartList([])
+    setCartList([])
     navigate('/allBooks')
   }
- 
+
   const totalQuantity = () => {
     return cartList.reduce((acc, item) => acc += item.quantity, 0)
   }
@@ -45,7 +45,7 @@ export const CartContextProvider = ({ children }) => {
 
   return (
     <CartContext.Provider value={{
-      cartList,  
+      cartList,
       setCartList,
       addTocart,
       removeItem,
