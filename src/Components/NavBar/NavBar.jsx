@@ -1,5 +1,7 @@
 import { NavLink, Link } from 'react-router-dom';
-import CartWidget from './Cart/CartWidget';
+import CartWidget from '../Cart/CartWidget';
+import './NavBar.css';
+
 
 export const NavBar = () => {
     return (
@@ -41,16 +43,13 @@ export const NavBar = () => {
                                     <li><Link className="dropdown-item" to={'/genre/Romance Novel'}>Romance Novel</Link></li>
                                 </ul>
                             </li>
-                        </ul>
-                        <div>
-
-                        </div>
+                        </ul>                  
                     </div>
-                    <div>
+                    
                         <div className="col me-5 d-flex align-items-center justify-content-end">
                             <CartWidget />
                         </div>
-                    </div>
+                  
                 </div>
             </nav>
         </div>

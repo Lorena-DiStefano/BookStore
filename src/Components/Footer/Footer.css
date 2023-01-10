@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(175, 181, 177);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 0.8em;
+    color: #3d463f;
+    padding: 0.5em;
+}
+
+.footer a,
+.footer i {
+    color: rgb(61, 70, 63);
+    align-self: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-right: 0.5em;
+}

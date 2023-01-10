@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { Loader } from './Loader/Loader'
+import { Loader } from '../Utils/Loader/Loader'
 import { ItemDetail } from './ItemDetail'
-import { getBookById } from '../Firebase/FetchData'
+import { getBookById } from '../Utils/FetchData'
 
 export const ItemDetailContainer = () => {
 

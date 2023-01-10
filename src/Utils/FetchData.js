@@ -1,4 +1,4 @@
-import { collection, doc, getDoc, getDocs, query, where, orderBy } from 'firebase/firestore';
+import { collection, doc, getDoc, getDocs, query, where } from 'firebase/firestore';
 import db from './FirebaseConfig';
 
 async function fetchData(genre) {

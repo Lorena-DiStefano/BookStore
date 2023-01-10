@@ -9,7 +9,7 @@ export const CartDetail = () => {
   const { cartList, fullPayment, removeItem, cleanCart } = useContext(CartContext)  
   
   return (
-    <div className='cartDetail'>
+    <div className='cartBody'>
       <div className='cart' >
         {cartList.map(item => (
           <div className='cartItem' key={item.id}>

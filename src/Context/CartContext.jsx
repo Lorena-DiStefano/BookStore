@@ -31,7 +31,7 @@ export const CartContextProvider = ({ children }) => {
   const removeItem = (id) => setCartList(cartList.filter(item => item.id !== id))
 
   const cleanCart = () => {
-    setCartList([])
+   cartList([])
     navigate('/allBooks')
   }
  
@@ -45,7 +45,8 @@ export const CartContextProvider = ({ children }) => {
 
   return (
     <CartContext.Provider value={{
-      cartList,
+      cartList,  
+      setCartList,
       addTocart,
       removeItem,
       cleanCart,

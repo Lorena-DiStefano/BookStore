@@ -1,15 +1,15 @@
-import { addDoc, doc, collection, writeBatch, getDoc } from "firebase/firestore";
+import { addDoc, collection } from "firebase/firestore";
 import { useContext, useState } from "react";
 import { Navigate } from "react-router-dom";
 import { CartContext } from "../../Context/CartContext";
-import db from '../../Firebase/FirebaseConfig';
+import db from '../../Utils/FirebaseConfig';
 
 export const CartOrder = () => {
-  const { cartList, cleanCart, fullPayment } = useContext(CartContext);
+  const {cartList,setCartList,fullPayment} =useContext(CartContext);
   const [name, setName] = useState("")
   const [phone, setPhone] = useState("")
   const [email, setEmail] = useState("")
-  const [orderId, setOrderId] = useState("")
+  const [orderId, setOrderId] = useState("")  
 
   const orderGenerator = () => {
     const date = new Date()
@@ -21,15 +21,13 @@ export const CartOrder = () => {
     };
 
     const ordersCollection = collection(db, "orders")
-    
-    addDoc(ordersCollection,order).then(({id})=>setOrderId(id))  
+    addDoc(ordersCollection, order).then(({ id }) => setOrderId(id))  
 
-      
-   
+   setCartList([])
   }
 
   return (
-    <div className="container cartDetail">
+    <div className="container cartBody">
       <div className="row my-5">
         <div className="col-md-6">
           <form>
@@ -71,9 +69,7 @@ export const CartOrder = () => {
       </div>
       <div className="row">
         <div className="col text-center">
-          {orderId ?
-            <div className="alert alert-primary" role="alert">Su número de orden es:{orderId}</div> : "" 
-         }                
+          {orderId !== "" ? <Navigate to={"/CartGreeting/"+ orderId}/>  : ""}
         </div>
       </div>
     </div>
@@ -81,3 +77,4 @@ export const CartOrder = () => {
 }
 
 export default CartOrder;
+

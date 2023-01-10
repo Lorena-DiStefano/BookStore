@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { Loader } from './Loader/Loader'
+import { Loader } from '../Utils/Loader/Loader'
 import { ItemList } from './ItemList'
-import fetchData from '../Firebase/FetchData'
+import fetchData from '../Utils/FetchData'
 
 export const ItemListContainer = () => {
     const [bookList, setBookList] = useState([])
