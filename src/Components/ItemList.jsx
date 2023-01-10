@@ -1,13 +1,14 @@
 import Item from './Item'
 
-export const ItemList = ({bookList}) => {
-
+export const ItemList = ({ bookList }) => {   
+  
+  const bookSort= bookList.sort((a, b) => a.index - b.index)
+  
   return (
-    <div className="itemListContainer">
+    <div className="itemList">
       {
-        bookList.map(book=><Item key={book.id} book={book}/>)
-      }
-     
-    </div>
+         bookSort.map(book => <Item key={book.id} book={book} />)     
+      }         
+    </div>    
   )
 }

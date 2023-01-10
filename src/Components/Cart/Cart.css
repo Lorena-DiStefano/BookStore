@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cartBody {
+    background-color: rgb(242, 242, 242);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1.3em;
+    padding: 1em;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 15px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, .25);
+    color: #3d463f;
+}
+
+/* CartWidget */
+.btnCartW {
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0.5em;
+}
+
+.bi-cart-check-fill {
+    color: rgb(61, 70, 63);
+    font-size: 1.9em;
+    margin: 3px;
+}
+
+.mCart {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 70, 63);
+    background-color: rgb(242, 242, 185);
+    font-size: 1em;
+}
+
+/* CartDetail */
+
+.cartItem {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartItem img {
+    width: 80px;
+    align-self: center;
+    height: 120px;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.cartDetail_btn {
+    background-color: rgb(228, 237, 231);
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, .25);
+        border-radius: 8px;
+        border: none;
+        font-size: 1.6em;
+        padding: 3px 10px;
+        color: rgb(61, 70, 63);
+}
+
+.cleanCart {
+    float: right;    
+}
+
+.cartDetail_end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.cart_endBtn {
+    background: linear-gradient(180deg, rgb(208, 217, 207) 25%, rgb(240, 240, 240) 100%);
+    border-color: rgb(167, 179, 166);
+    border-radius: 5px;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    align-self: center;
+    color: rgb(37, 43, 38);
+    margin-left: 1em;
+}
+
+.cartDetail_link{
+    text-decoration: none;
+    color: #3d463f;
+}
+
+/* CartGreeting */
+.cartGreeting {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(61, 70, 63);
+    /* display: flex;
+    justify-content: space-between;     */
+    display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 400px;
+}
+
+.cartGreeting_img {
+    width: 450px;    
+}
+
+.cartGreeting_info {  
+    margin: 5em;   
+    text-align: center;
+}
+
+.bntGreeting {
+    background: linear-gradient(180deg, rgb(208, 217, 207) 25%, rgb(240, 240, 240) 100%);
+    border-color: rgb(167, 179, 166);
+    border-radius: 8px;
+    padding: 7px 13px;
+    font-size: 1.1em;
+    text-align: center;
+    margin: 2em;
+} 
+
+.cartGreetin_link {
+    font-size: 1.5em;
+    text-align: end;
+    text-decoration: none;
+    margin-top: 7em;
+}
+
+.btn_salida{
+    font-size: 1.6em;
+    padding-left: 0.7em;
+    color: rgb(61, 70, 63);
+}
+
+

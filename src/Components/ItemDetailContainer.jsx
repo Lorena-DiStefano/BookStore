@@ -1,30 +1,27 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { books } from '../Assets/books'
+import { Loader } from '../Utils/Loader/Loader'
 import { ItemDetail } from './ItemDetail'
+import { getBookById } from '../Utils/FetchData'
 
 export const ItemDetailContainer = () => {
 
   const [bookList, setBookList] = useState([])
+  const [loading, setLoading] = useState(true)
   const { id } = useParams()
 
   useEffect(() => {
-    const data = new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(books.find(book => book.id ===id))
-      }, 1000)
-    }) 
+    
+    getBookById(id).then(res => setBookList(res)).then (res =>setLoading(false))   
 
-    data.then((data) => {
-      setBookList(data)
-    })
-  }, [id])
+  }, [id]);  
 
   return (
     <div>
-      <ItemDetail bookList={bookList} />
+      {
+        loading ? <Loader/> : <ItemDetail bookList={bookList} />
+      }
     </div>
   )
 
 }
-console.log(books)

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: rgb(114, 132, 119);
+    background: linear-gradient(180deg, rgb(197, 205, 199) 36%, rgb(219, 224, 221) 64%, rgb(240, 240, 240) 100%);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav-link {
+    color: #3d463f;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.dropdown-menu {
+    background: rgb(210, 215, 211);
+    border-radius: 7px;
+}
+
+.dropdown-item {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+    background-color: rgb(114, 132, 119);
+    font-size: 0.9em;
+    font-weight: 800;
+    flex-grow: initial;
+   
+}
+
+.navbar-brand img {
+    width: 15rem;
+    height: 5rem;
+
+}

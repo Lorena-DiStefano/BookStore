@@ -1,34 +1,33 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { books } from '../Assets/books'
+import { Loader } from '../Utils/Loader/Loader'
 import { ItemList } from './ItemList'
-
+import fetchData from '../Utils/FetchData'
 
 export const ItemListContainer = () => {
-
     const [bookList, setBookList] = useState([])
+    const [loading, setLoading] = useState(true)
     const { id } = useParams()
 
     useEffect(() => {
-        const data = new Promise((resolve) => {
-            setTimeout(() => {
-                resolve(id ? books.filter(book => book.genre === id) : books)
-            }, 1000)
-        })
 
-        data.then((data) => {
-            setBookList(data)
-        })
-
+        id ? fetchData(id).then(res => {
+            setBookList(res)
+            setLoading(false)
+        }) :
+            fetchData().then(res => {
+                setBookList(res)
+                setLoading(false)
+            })
 
     }, [id])
 
     return (
         <div>
-            <ItemList bookList={bookList} />
+            {
+                loading ? <Loader /> : <ItemList bookList={bookList} />
+            }
         </div>
     )
-
 }
-
 

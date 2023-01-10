@@ -1,18 +1,14 @@
-/* font-family: 'DM Sans',sans-serif;
-font-family: 'Pacifico',cursive;
-font-family: 'Roboto',sans-serif; */
-
 * {
   margin: 0;
   padding: 0;
 }
 
 .App {
+  font-family: 'Raleway', sans-serif;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 100px 1fr auto;
   min-height: 100vh;
   background: rgba(195, 194, 184, 0.3);
-
 }
 
 .menu {
@@ -21,99 +17,26 @@ font-family: 'Roboto',sans-serif; */
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  background-color: rgb(114, 132, 119);
-  color: white;
-  height: 3.5em;
-}
-
-.navbar {
-  background: rgb(185, 184, 176);
-  background: linear-gradient(180deg, rgb(116, 131, 121) 36%, rgb(185, 184, 176) 64%, rgb(240, 240, 240) 100%);
-  min-height: 100px;
-  color: orange;
-}
-
-.nav-link,
-.bi-search {
-  color: whitesmoke;
-  text-shadow: 1px 1px black;
-  font-size: 1.5em;
-  font-weight: 600;
-  font-family: 'DM Sans', sans-serif;
-}
-
-.btn-outline-success {
-  font-size: 1.5em;
-  border: none;
-}
-
-.form-control {
-  height: 50px;
-  width: 300px;
-}
-
-.navbar-brand {
-  color: rgb(166, 251, 244);
-  text-shadow: 1px 1px #1d201e;
-  padding-right: 10px;
-  font-family: 'Pacifico';
-  font-style: italic;
-  font-size: 3em;
-  font-weight: 200;
-}
-
-.dropdown-menu {
-  background-color: rgb(245, 245, 245);
-}
-
-.dropdown-item {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 500;
-}
-
-.btnCartW {
-  background-color: transparent;
-  border-radius: 5px;
-  border: none;
-  margin-top: 0.5em;
-  color: black;
-}
-
-.mCart {
-  color: whitesmoke;
-  text-shadow: 1px 1px black;
-  font-size: 1.1em;
-}
-
-.bi-cart3 {
-  color: whitesmoke;
-  text-shadow: 1px 1px black;
-  font-size: 1.9em;
-  margin: 3px;
-}
-
-.navbar-toggler,
-.navbar-toggler-icon {
-  background-color: rgb(114, 132, 119);
-  font-size: 1.3em;
-  font-weight: 900;
-}
-
 .card_detail {
-  background-color: whitesmoke;
+  background-color: rgb(242, 242, 242);
   width: 80%;
   margin: auto;
-  margin-top: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   font-family: 'DM Sans', sans-serif;
   font-size: 1.1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   border-radius: 15px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, .25);
+}
+
+.card_detail_bodyContainer {
+  display: grid;
+  grid-template-rows: minmax(600px) 1fr;
+  width: 50%;
+  margin: 2em;
 }
 
 .card_detail_img {
@@ -123,11 +46,8 @@ font-family: 'Roboto',sans-serif; */
   border-radius: 10px;
 }
 
-.card_detail_bodyContainer {
-  display: grid;
-  grid-template-rows: minmax(600px) 1fr;
-  width: 50%;
-  margin: 2em;
+.bi-box-arrow-left{
+  font-size: 2em;
 }
 
 .card_detail_top {
@@ -140,37 +60,21 @@ font-family: 'Roboto',sans-serif; */
   justify-content: right;
 }
 
-.btn-a {
-  background: linear-gradient(180deg, rgb(167, 179, 166) 35%, rgb(240, 240, 240) 100%);
-  border-color: rgb(167, 179, 166);
-  border-radius: 8px;
-  padding: 0px 7px;
-  font-size: 1em;
-  text-align: center;
-}
-
-.btn {
-  font-size: 1.3em;
-  font-weight: 600;
-  color: rgb(136, 153, 135);
-}
-
-.itemListContainer {
+.itemList {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
-  margin: 2em;
+  align-items: center;  
 }
 
-.card {  
+.card {
   font-family: 'DM Sans', sans-serif;
   background-color: transparent;
   width: 250px;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, .8);
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, .25);
   margin: 0.5em;
 }
 
@@ -186,3 +90,45 @@ font-family: 'Roboto',sans-serif; */
   margin: 0.5em;
   line-height: 7px;
 }
+
+.inputForm {
+  height: 45px;
+  width: 250px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  text-align: left;
+  padding: 10px;
+}
+
+.inputForm:focus {
+  outline: 2px solid #b2b8b2;
+}
+
+.btnForm {
+  font-size: 1.4em;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  color: #889987;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.btnForm:hover {
+  color: #f2f2f2;
+  border-radius: 5px;
+  background-color: #889987;
+  padding: 5px;
+}
+
+ .btn-counter {
+    background: linear-gradient(180deg, rgb(208, 217, 207) 25%, rgb(240, 240, 240) 100%);
+    border-color: rgb(167, 179, 166);
+    border-radius: 8px;
+    padding: 5px 7px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+} 

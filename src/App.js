@@ -1,19 +1,17 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NavBar from './Components/NavBar';
-import {ItemDetailContainer} from "./Components/ItemDetailContainer";
-import { ItemListContainer } from "./Components/ItemListContainer";
+import React from "react";
+import { NavBar, Footer, AppRouter } from './Components/index'
+import { CartContextProvider } from "./Context/CartContext";
 
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Routes>
-        <Route path={"/"} element={<ItemListContainer />} />
-        <Route path={"/genre/:id"} element={<ItemListContainer />} />
-        <Route path={"/id/:id"} element={<ItemDetailContainer />}/>     
-      </Routes>
-    </div>
+    <CartContextProvider>
+      <div className="App">
+        <NavBar />
+        <AppRouter />
+        <Footer />
+      </div>
+    </CartContextProvider>
   );
 }
 
