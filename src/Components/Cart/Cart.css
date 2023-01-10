@@ -99,21 +99,22 @@
 
 /* CartGreeting */
 .cartGreeting {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 400px;
     font-family: 'Raleway', sans-serif;
     color: rgb(61, 70, 63);
+    /* display: flex;
+    justify-content: space-between;     */
+    display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 400px;
 }
 
 .cartGreeting_img {
-    width: 450px;
+    width: 450px;    
 }
 
-.cartGreeting_info {
-    margin-top: 3em;
+.cartGreeting_info {  
+    margin: 5em;   
     text-align: center;
-    padding: 5em;
 }
 
 .bntGreeting {
@@ -130,7 +131,7 @@
     font-size: 1.5em;
     text-align: end;
     text-decoration: none;
-    padding-top: 7em;
+    margin-top: 7em;
 }
 
 .btn_salida{
