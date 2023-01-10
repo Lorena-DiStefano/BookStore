@@ -8,21 +8,18 @@ font-family: 'Quicksand',sans-serif;*/
     padding: 0;
 }
 
-.btn-a {
-    /* background: linear-gradient(180deg, rgb(167, 179, 166) 25%, rgb(240, 240, 240) 100%); */
-    background: linear-gradient(180deg, rgb(208, 217, 207) 25%, rgb(240, 240, 240) 100%);
-    border-color: rgb(167, 179, 166);
-    border-radius: 8px;
-    padding: 5px 5px;
-    font-size: 12px;
-    text-align: center;
-}
-
+/* CartWidget */
 .btnCartW {
     background-color: transparent;
     border-radius: 5px;
     border: none;
     margin-top: 0.5em;
+}
+
+.bi-cart-check-fill {
+    color: rgb(61, 70, 63);
+    font-size: 1.9em;
+    margin: 3px;
 }
 
 .mCart {
@@ -32,10 +29,15 @@ font-family: 'Quicksand',sans-serif;*/
     font-size: 1em;
 }
 
-.bi-cart-check-fill {
-    color: rgb(61, 70, 63);
-    font-size: 1.9em;
-    margin: 3px;
+/* CartDetail */
+
+.btn-a {
+    background: linear-gradient(180deg, rgb(208, 217, 207) 25%, rgb(240, 240, 240) 100%);
+    border-color: rgb(167, 179, 166);
+    border-radius: 8px;
+    padding: 5px 5px;
+    font-size: 12px;
+    text-align: center;
 }
 
 .cartBody {
@@ -49,7 +51,7 @@ font-family: 'Quicksand',sans-serif;*/
     border-radius: 15px;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, .25);
     color: #3d463f;
-  
+
 
 }
 
@@ -109,18 +111,46 @@ font-family: 'Quicksand',sans-serif;*/
     margin-left: 1em;
 }
 
-.emptyCart {
+/* CartGreeting */
+
+.cartGreeting {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 400px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(61, 70, 63);
 }
 
-.emptyCart img {
-    height: 450px;
+.cartGreeting_img {
+    width: 450px;
 }
 
-.emptyCart p {
-    font-size: 3em;
-    text-align: left;
-    margin: 1.5em;
+.cartGreeting_info {
+    margin-top: 3em;
+    text-align: center;
+    padding: 5em;
+
 }
+
+.cartGreeting_info button {
+    background: linear-gradient(180deg, rgb(208, 217, 207) 25%, rgb(240, 240, 240) 100%);
+    border-color: rgb(167, 179, 166);
+    border-radius: 8px;
+    padding: 7px 7px;
+    font-size: 1.1em;
+    text-align: center;
+    margin: 2em;
+}
+
+.cartGreetin_link {
+    font-size: 1.5em;
+    text-align: end;
+    text-decoration: none;
+    padding-top: 7em;
+}
+
+.bi-door-open-fill {
+    color: rgb(61, 70, 63);
+}
+
+/*  */

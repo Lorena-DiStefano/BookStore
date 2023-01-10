@@ -6,22 +6,24 @@ export const CartGreeting = () => {
   const { id } = useParams();
 
   return (
-    
     <div className="CartBody">
-      <div className="cartGreeting_img">
-        <img src='../images/greeting_b.jpg' alt='librero'/>
-      </div>
-      <div>
-      <div className="cartGreeting_body">
-        <h1>Gracias por tu Compra!</h1>
-        <p>Tu Número de Orden es: <b>{id}</b></p>
-      </div>
-      <div>
-        <Link to={"/"}>Salida...<i class="bi bi-door-open-fill"/></Link>        
-      </div>
+      <div className="cartGreeting">
+        <div >
+          <img className="cartGreeting_img" src='../images/greeting.png' alt='librero' />
+        </div>
+        <div className="cartGreeting_info">
+          <div className="cartGreeting_msg">
+            <h1>Muchas Gracias por tu Compra!</h1>
+            <button type="text">Tu Número de Orden es: <b>{id}</b></button>
+          </div>
+          <div className='cartGreetin_link'>
+            Salida...<Link to={"/"}><i className="bi bi-door-open-fill" /></Link>
+          </div>
+        </div>
+
       </div>
     </div >
-      
-      )
+
+  )
 }
 
