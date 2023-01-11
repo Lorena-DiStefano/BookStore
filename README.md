@@ -5,7 +5,7 @@
 
 En su stock podrás encontrar mis libros favoritos entre otros que no me gustaron tanto y aquellos que conforman mi lista de pendientes.
 
-Como todo libro, posee una portada o puerta de entrada al mundo de la lectura que exige liberar nuestra mente y abrirnos a lo que cada libro tenga para ofrecer.
+Como todo libro, posee una portada o puerta de entrada al mundo de la lectura, que nos exige liberar nuestra mente y abrirnos a lo que cada libro tenga para ofrecer.
 
 ![BookCity](./public/images/mundo_libre.JPG)
 
