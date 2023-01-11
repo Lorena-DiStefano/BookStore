@@ -14,7 +14,6 @@ export const ItemDetail = ({ bookList }) => {
 
   const {addTocart } = useContext(CartContext)
 
-
   const onAdd = (quantity) => {
     addTocart(bookList,quantity)
   }
