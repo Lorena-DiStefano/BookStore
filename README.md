@@ -13,7 +13,7 @@ Fue construido con **Create React App** e incluye elementos de **Bootstrap**.
 
 La base de datos fue creada en **Firestore Database** y las imagenes almacenadas en el **Storage** de **Firebase**.
 
-url
+Link a la página: https://regal-squirrel-0c6155.netlify.app/  🚀 
 
 
 ✒️ Lorena Carla Di Stefano
