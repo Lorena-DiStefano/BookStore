@@ -1,5 +1,5 @@
 import { addDoc, collection } from "firebase/firestore";
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import { Navigate } from "react-router-dom";
 import { CartContext } from "../../Context/CartContext";
 import db from '../../Utils/FirebaseConfig';
@@ -11,6 +11,7 @@ export const CartOrder = () => {
   const [phone, setPhone] = useState("")
   const [email, setEmail] = useState("")
   const [orderId, setOrderId] = useState("")
+  const [loading, setLoading] =useState(true)
 
   const orderGenerator = () => {
     const date = new Date()
@@ -22,8 +23,8 @@ export const CartOrder = () => {
     };
 
     const ordersCollection = collection(db, "orders")
-    addDoc(ordersCollection, order).then(({ id }) => setOrderId(id))
-
+    addDoc(ordersCollection, order).then(({ id }) => setOrderId(id))   
+    
     setCartList([])
   }
 
@@ -70,7 +71,7 @@ export const CartOrder = () => {
       </div>
       <div className="row">
         <div>
-          {orderId !== "" ? <Navigate to={"/CartGreeting/" + orderId} /> : ""}
+           {orderId !== "" ? <Navigate to={"/CartGreeting/" + orderId} /> : ""}        
         </div>
       </div>
     </div>

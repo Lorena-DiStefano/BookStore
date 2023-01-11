@@ -28,7 +28,8 @@ export const CartContextProvider = ({ children }) => {
     }
   }
 
-  const removeItem = (id) => setCartList(cartList.filter(item => item.id !== id))
+  const removeItem = (id) => setCartList(cartList.filter(item => item.id !== id)) 
+ 
 
   const cleanCart = () => {
     setCartList([])
