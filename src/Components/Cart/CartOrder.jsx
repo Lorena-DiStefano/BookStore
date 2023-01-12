@@ -11,21 +11,22 @@ export const CartOrder = () => {
   const [phone, setPhone] = useState("")
   const [email, setEmail] = useState("")
   const [orderId, setOrderId] = useState("")
-
-
-  const orderGenerator = () => {
+  
+  const orderGenerator = () => {   
+    
     const date = new Date()
     const order = {
       buyer: { name: name, phone: phone, email: email },
       items: cartList.map(item => ({ id: item.id, title: item.title, quantity: item.quantity, price: item.price, price_total: item.quantity * item.price })),
       total: fullPayment(),
       order_date: `${date}`
-    };
-
-    const ordersCollection = collection(db, "orders")
-    addDoc(ordersCollection, order).then(({ id }) => setOrderId(id))   
+    }
     
-    setCartList([])
+    const ordersCollection = collection(db, "orders")
+    addDoc(ordersCollection, order).then(({ id }) => setOrderId(id))
+
+    setCartList([])   
+    
   }
 
   return (
@@ -45,7 +46,8 @@ export const CartOrder = () => {
               <label id="email" className="form-label">Email:</label>
               <input type="text" className="form-control" id="email" placeholder="Ingrese su mail" onInput={(e) => { setEmail(e.target.value) }} />
             </div>
-            <button type="button" className="cart_endBtn " onClick={orderGenerator}>Generar Orden</button>
+            <button type="button" className="cart_endBtn " onClick={orderGenerator} >Generar Orden</button>   
+   
           </form>
         </div>
         <div className="col-md-6">
@@ -71,10 +73,10 @@ export const CartOrder = () => {
       </div>
       <div className="row">
         <div>
-           {orderId !== "" ? <Navigate to={"/CartGreeting/" + orderId} /> : ""}        
+            {orderId !== "" ? <Navigate to={"/CartGreeting/" + orderId} /> : ""}              
         </div>
       </div>
-    </div>
+      </div>
   )
 }
 

@@ -11,7 +11,7 @@ Como todo libro, posee una portada o puerta de entrada al mundo de la lectura, q
 
 Fue construido con **Create React App** e incluye elementos de **Bootstrap**.
 
-La base de datos fue creada en **Firestore Database** y las imagenes almacenadas en el **Storage** de **Firebase**.
+La base de datos fue creada en **Firestore Database** y las imágenes almacenadas en el **Storage** de **Firebase**.
 
 Link a la página: https://regal-squirrel-0c6155.netlify.app/  🚀 
 
