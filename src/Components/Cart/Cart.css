@@ -59,13 +59,13 @@
 }
 
 .cartDetail_btn {
-    background-color: rgb(228, 237, 231);
+    background-color: #e4ede7;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, .25);
     border-radius: 8px;
     border: none;
     font-size: 1.6em;
     padding: 3px 10px;
-    color: rgb(61, 70, 63);
+    color: #3d463f;
 }
 
 .cleanCart {
@@ -100,14 +100,14 @@
 /* CartGreeting */
 .cartGreeting {
     font-family: 'Raleway', sans-serif;
-    color: rgb(61, 70, 63);
+    color: #3d463f;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 400px;
 }
 
 .cartGreeting_img {
-    width: 450px;
+    width: 490px;
 }
 
 .cartGreeting_info {
@@ -135,5 +135,13 @@
 .btn_salida {
     font-size: 1.6em;
     padding-left: 0.7em;
-    color: rgb(61, 70, 63);
+    color: #3d463f;
+}
+
+/* CartOrder */
+
+.form-control:focus{
+    border: 2px solid #a6c5ad ;
+    outline: none;
+    box-shadow: 3px 0px rgba(167, 179, 166,.3);
 }

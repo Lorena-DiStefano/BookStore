@@ -1,5 +1,5 @@
 import React from "react";
-import { NavBar, Footer, AppRouter } from './Components/index'
+import { NavBar, Footer, AppRouter } from './Components/index';
 import { CartContextProvider } from "./Context/CartContext";
 
 

@@ -4,7 +4,6 @@ import './Cart.css'
 export const CartGreeting = () => {
   const { id } = useParams()
 
-
   return (
     <>
       <div className="CartBody">

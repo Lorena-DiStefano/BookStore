@@ -3,7 +3,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import { CartContext } from '../../Context/CartContext';
 import './Cart.css';
 
-
 export const CartDetail = () => {
 
   const { cartList, fullPayment, removeItem, cleanCart } = useContext(CartContext)

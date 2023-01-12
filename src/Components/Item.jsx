@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom'
-import { CartContext } from '../Context/CartContext'
-import { useContext } from 'react'
-import { ItemCounter } from './Cart'
+import { Link } from 'react-router-dom';
+import { CartContext } from '../Context/CartContext';
+import { useContext } from 'react';
+import { ItemCounter } from './Cart';
 
 const Item = ({ book }) => {
 
