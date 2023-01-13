@@ -107,7 +107,9 @@
 }
 
 .cartGreeting_img {
-    width: 490px;
+    width: 350px;
+    margin-top: 3em;
+    margin-left: 2em;
 }
 
 .cartGreeting_info {
@@ -140,8 +142,8 @@
 
 /* CartOrder */
 
-.form-control:focus{
-    border: 2px solid #a6c5ad ;
+.form-control:focus {
+    border: 2px solid #a6c5ad;
     outline: none;
-    box-shadow: 3px 0px rgba(167, 179, 166,.3);
+    box-shadow: 3px 0px rgba(167, 179, 166, .3);
 }

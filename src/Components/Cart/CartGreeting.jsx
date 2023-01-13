@@ -9,7 +9,7 @@ export const CartGreeting = () => {
       <div className="CartBody">
         <div className="cartGreeting">
           <div >
-            <img className="cartGreeting_img" src='../images/greeting.png' alt='Hombre libro' />
+            <img className="cartGreeting_img" src='../images/greeting_a.png' alt='Hombre libro' />
           </div>
           <div className="cartGreeting_info">
             <div className="cartGreeting_msg">
