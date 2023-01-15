@@ -1,4 +1,4 @@
-import { addDoc, collection } from "firebase/firestore";
+import { addDoc, collection, doc, updateDoc, increment } from "firebase/firestore";
 import { useContext, useState } from "react";
 import { Navigate } from "react-router-dom";
 import { CartContext } from "../../Context/CartContext";
@@ -27,6 +27,13 @@ export const CartOrder = () => {
     addDoc(ordersCollection, order).then(({ id }) => setOrderId(id))
     setLoading(true)
     setCartList([])
+
+    cartList.forEach(async item => {
+      const ItemRef = doc(collection(db, 'bookstore'), item.id)
+      await updateDoc(ItemRef, {
+        stock: increment(-item.quantity)
+      })
+    })
   }
 
   return (
