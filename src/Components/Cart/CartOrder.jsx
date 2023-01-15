@@ -13,7 +13,7 @@ export const CartOrder = () => {
   const [orderId, setOrderId] = useState("")
   const [loading, setLoading] = useState(false)
 
-  const orderGenerator = () => {
+  const orderGenerator = () => {      
 
     const date = new Date()
     const order = {
@@ -45,18 +45,17 @@ export const CartOrder = () => {
             <form>
               <div className="mb-3">
                 <label id="nombre" className="form-label">Nombre:</label>
-                <input type="text" className="form-control" placeholder="Mundo Libre" onInput={(e) => { setName(e.target.value) }} />
+                <input type="text" className="form-control" placeholder="Eva Luna" onInput={(e) => { setName(e.target.value) }} />
               </div>
               <div className="mb-3">
                 <label id="telefono" className="form-label">Teléfono:</label>
-                <input type="tel" className="form-control" id="telefono" placeholder="37339675" onInput={(e) => { setPhone(e.target.value) }} />
+                <input type="tel" className="form-control" id="telefono" placeholder="37339675"  onInput={(e) => { setPhone(e.target.value) }} />
               </div>
               <div className="mb-3">
                 <label id="email" className="form-label">Email:</label>
                 <input type="email" className="form-control" id="email" placeholder="ventaonline@mundolibre.com" onInput={(e) => { setEmail(e.target.value) }} />
               </div>
-              <button type="button" className="cart_endBtn " onClick={orderGenerator} >Generar Orden</button>
-
+              <button type="button" className="cart_endBtn " onClick={orderGenerator}>Generar Orden</button>
             </form>
           </div>
           <div className="col-md-6">
