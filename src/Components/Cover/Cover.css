@@ -7,7 +7,7 @@
     background-image: url(../../../public/images/bg_home_desk.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    filter: brightness(120%);
+    filter: brightness(125%);
     color: #3d463f;
     line-height: 1em;
     display: flex;
@@ -20,8 +20,8 @@
     font-size: 1.8em;
     font-weight: 700;
     text-align: right;
-    margin-right: 15%;
-    margin-top: 1.2em;
+    margin-right: 17%;
+    margin-top: 1.6em;
 }
 
 .greeting_data {
@@ -29,5 +29,5 @@
     font-size: 1em;
     font-weight: 500;
     text-align: right;
-    margin-right: 15%;
+    margin-right: 17%;
 }

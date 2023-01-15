@@ -16,9 +16,6 @@ export const Footer = () => {
                 <a href="https://www.twitter.com/" target='blank'><i className="bi bi-twitter"></i></a>                
                 <a href="https://es-la.facebook.com/" target='blank'><i className="bi bi-facebook" /></a>
             </div>
-            <div className='linkMenu'>
-                <a href="#top">Menú <i className="bi bi-box-arrow-up"></i></a>
-            </div>
         </div >
     )
 }

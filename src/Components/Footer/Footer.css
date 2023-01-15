@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     background-color: rgb(175, 181, 177);
     font-family: 'DM Sans', sans-serif;
     font-size: 0.9em;
