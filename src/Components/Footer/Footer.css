@@ -3,48 +3,111 @@
     padding: 0;
 }
 
+.logo {
+    width: 6em;
+}
+
 .footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
     background-color: rgb(175, 181, 177);
     font-family: 'DM Sans', sans-serif;
-    font-size: 0.9em;
-    font-weight: 700;
-    line-height: 0.7em;
     color: #3d463f;
-    padding: 0.5em;
+}
+
+.footer_container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.footer,
+.footer_container,
+.data,
+.data_redes ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data {
+    width: 100%;
+    align-items: first baseline;
+    justify-content: space-between;
+}
+
+.data_redes {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.footer img {
+    margin-top: 1em;
+}
+
+.data_text,
+.data_redes {
+    font-size: 0.8em;
 }
 
 .footer a,
-.footer i {
+.footer li i {
     color: rgb(61, 70, 63);
     text-decoration: none;
     font-size: 0.9em;
-    margin-right: 0.3em;
 }
 
-@media screen and (min-width:700px) {
-    .footer {
+.footer li {
+    list-style: none;
+}
+
+@media screen and (min-width:576px) {
+    .data {
+        width: 60%;
         font-size: 1em;
         line-height: 0.8em;
     }
 
-    .footer a,
-    .footer i {
-        font-size: 1em;
-        margin-right: 0.5em;
+    .data_text li {
+        padding: 0.3em;
+    }
+
+    .data_redes ul {
+        gap: 1em;
+    }
+
+    .data_redes {
+        width: 30%;
+        justify-content: center;
     }
 }
 
-@media screen and (min-width:1100px) {
-    .footer {
-        font-size: 1.1em;
+@media screen and (min-width:768px) {
+    .logo {
+        width: 7em;
     }
 
-    .footer a,
-    .footer i {
-        font-size: 1.1em;
+    .footer_container {
+        justify-content: space-between;
     }
+}
+
+@media screen and (min-width:992px) {
+    .logo {
+        width: 8em;
+    }
+
+    .footer_container {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .data_redes ul{
+        justify-content: space-around;
+    }
+
+    .data_redes li i{
+        font-size: 1.2em;
+    }
+
 }

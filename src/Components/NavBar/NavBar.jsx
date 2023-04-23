@@ -5,7 +5,7 @@ import './NavBar.css';
 export const NavBar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light">
+            <nav className="navbar navbar-expand-sm navbar-light">
                 <div className="container-fluid">
                     <NavLink className="navbar-brand" to={'/'} ><img src="../images/ML-green.png" alt="Logo Mundo Libre" /></NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

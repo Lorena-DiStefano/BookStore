@@ -15,7 +15,7 @@ Link a la página: https://regal-squirrel-0c6155.netlify.app/  🚀
 
 
 ✒️ Lorena Carla Di Stefano
-       Diciembre 2022
+  Argentina - Diciembre 2022
 
 
 
