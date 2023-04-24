@@ -14,7 +14,7 @@ La base de datos fue creada en **Firestore Database** y las imágenes almacenada
 Link a la página: https://regal-squirrel-0c6155.netlify.app/  🚀 
 
 
-✒️ Lorena Carla Di Stefano
+✒️ **Lorena Carla Di Stefano** 
   Argentina - Diciembre 2022
 
 
