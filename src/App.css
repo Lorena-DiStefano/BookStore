@@ -5,8 +5,8 @@
 
 .App {
   font-family: 'Raleway', sans-serif;
-  display: grid;
-  grid-template-rows: 100px 1fr auto;
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   background: rgba(195, 194, 184, 0.3);
 }
@@ -69,6 +69,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;  
+  margin: 0 auto;
 }
 
 /* =================ITEM======================== */

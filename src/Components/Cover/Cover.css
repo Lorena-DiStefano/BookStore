@@ -17,11 +17,11 @@
 
 .greeting_text,
 .greeting_data {
-    width: 70%;
+    width: 75%;
     color: white;
     text-shadow: 2px 2px 3px black;
     font-family: 'Raleway', sans-serif;
-    margin-top: 47%;
+    margin-top: 80%;
     margin-left: 2%;
 }
 
@@ -45,7 +45,8 @@
 
     .greeting_text,
     .greeting_data {
-        width: 60%;
+        width: 40%;
+        margin-left: 3%;
     }
 }
 

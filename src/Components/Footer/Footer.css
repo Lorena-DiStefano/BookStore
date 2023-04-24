@@ -13,7 +13,9 @@
     width: 100%;
     background-color: rgb(186, 200, 191);
     font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
     color: #3d463f;
+    margin-top: auto;
 }
 
 .footer_container {
@@ -101,7 +103,6 @@
 
     .footer_container {
         font-size: 1.2em;
-        font-weight: bold;
     }
 
     .data_redes ul {

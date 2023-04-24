@@ -7,8 +7,8 @@
     background: rgb(114, 132, 119);
     background: linear-gradient(180deg, rgb(197, 205, 199) 36%, rgb(219, 224, 221) 64%, rgb(240, 240, 240) 100%);
     width: 100%;
-    position: fixed;
-    z-index: 100;
+    /* position: fixed;
+    z-index: 100; */
 }
 
 .nav-link {
@@ -37,10 +37,10 @@
     width: 9em;    
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:768px) {
 
     .nav-link {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
     .dropdown-item {
@@ -53,10 +53,10 @@
     }
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:992px) {
 
     .nav-link {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .navbar-brand img {
