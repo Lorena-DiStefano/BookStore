@@ -1,3 +1,5 @@
+/*background-color: #afb5b1; */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +11,7 @@
 
 .footer {
     width: 100%;
-    background-color: rgb(175, 181, 177);
+    background-color: rgb(186, 200, 191);
     font-family: 'DM Sans', sans-serif;
     color: #3d463f;
 }
@@ -102,11 +104,11 @@
         font-weight: bold;
     }
 
-    .data_redes ul{
+    .data_redes ul {
         justify-content: space-around;
     }
 
-    .data_redes li i{
+    .data_redes li i {
         font-size: 1.2em;
     }
 
