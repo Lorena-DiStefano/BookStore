@@ -3,65 +3,52 @@
     padding: 0;
 }
 
-.greeting {
+.greeting_container {
     background-image: url(../../../public/images/bg_home_desk.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     filter: brightness(125%);
     color: #3d463f;
-    line-height: 1em;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
 }
 
-.greeting_text,
-.greeting_data {
-    width: 75%;
+.greeting {
     color: white;
     text-shadow: 2px 2px 3px black;
     font-family: 'Raleway', sans-serif;
-    margin-top: 80%;
-    margin-left: 2%;
+    align-self: flex-end;
+    margin-left: 1em;
 }
 
-.greeting_text {
-    line-height: 1em;
-    font-size: 1.9em;
+.greeting_quote {
+    font-size: 1.5em;
     font-weight: 500;
     text-align: left;
+    line-height: 0.5em;
 }
 
 .greeting_data {
-    margin-top: 0;
-    font-size: 0.9em;
+    font-size: 0.85em;
     font-weight: 400;
-
 }
 
 /* ===================================================== */
 
-@media (min-width:576px) {
-
-    .greeting_text,
-    .greeting_data {
-        width: 40%;
-        margin-left: 3%;
-    }
-}
-
 @media (min-width:768px) {
-    .greeting_text,
-    .greeting_data {
+    .greeting {
         font-family: 'Quintessential', cursive;
         color: #3d463f;
         text-shadow: none;
-        margin-top: 3%;
-        margin-left: 30%;
-        text-align: right;
+        margin-top: 2em;
+        margin-left: 40%;
+        align-self: flex-start;
+        line-height: 0.75em;
     }
 
-    .greeting_text {
+    .greeting_quote {
+        display: flex;
+        flex-direction: row;
         font-size: 1.5em;
         font-weight: 700;
     }
@@ -69,22 +56,26 @@
     .greeting_data {
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
-        margin-top: -0.8em;
+        margin-left: 30%;
     }
 }
 
 @media (min-width:992px) {
-    .greeting_text,
-    .greeting_data {
-        margin-top: 2%;
+    .greeting {
+        margin-left: 43%;
+    }
+}
+
+@media (min-width:1200px) {
+    .greeting{
+        margin-left: 47%;
     }
 
-    .greeting_text {
+    .greeting_quote {
         font-size: 1.8em;
     }
 
     .greeting_data {
-            margin-top: -0.8em;
         font-size: 1em;
     }
 }
