@@ -11,25 +11,18 @@
   background: rgba(195, 194, 184, 0.3);
 }
 
-/* .menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
 /* ===============ITEM DETAIL====================== */
 
 .card_detail {
   background-color: rgb(242, 242, 242);
-  width: 80%;  
+  width: 100vw;
   margin: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
   font-family: 'DM Sans', sans-serif;
   font-size: 1.1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   border-radius: 15px;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, .25);
 }
@@ -37,19 +30,19 @@
 .card_detail_bodyContainer {
   display: grid;
   grid-template-rows: minmax(600px) 1fr;
-  width: 50%;
-  margin: 2em;
+  width: 80%;
+  margin: 2em 1em;
 }
 
 .card_detail_img {
   width: 300px;
   height: 450px;
-  margin: 2em;
+  margin: 2em 1em 0.5em;
   border-radius: 10px;
 }
 
-.bi-box-arrow-left{
-  font-size: 2em;
+.bi-box-arrow-left {
+  font-size: 1em;
 }
 
 .card_detail_top {
@@ -62,6 +55,43 @@
   justify-content: right;
 }
 
+@media (min-width: 576px) {
+  .card_detail {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+  }
+}
+
+/* @media (min-width: 768px) {
+  .card_detail{
+    width: 95%;
+  }
+
+  .card_detail_img {
+    margin: 2em 0;
+  }
+
+  .card_detail_bodyContainer{
+    width: 50%;
+    margin: 2em 0;
+    padding: 1em;
+  }
+} */
+
+@media (min-width: 992px) {
+  .card_detail {
+    width: 80%;
+  }
+    .card_detail_bodyContainer {
+      width: 50%;
+      margin: 2em 0;
+      padding: 1em;
+    }
+}
+
 /* ===============ITEM LIST====================== */
 
 .itemList {
@@ -69,7 +99,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center; 
+  align-items: center;
 }
 
 /* =================ITEM======================== */
@@ -131,12 +161,12 @@
   padding: 5px;
 }
 
- .btn-counter {
-    background: linear-gradient(180deg, rgb(208, 217, 207) 25%, rgb(240, 240, 240) 100%);
-    border-color: rgb(167, 179, 166);
-    border-radius: 8px;
-    padding: 5px 7px;
-    font-size: 12px;
-    font-weight: 600;
-    text-align: center;
-} 
+.btn-counter {
+  background: linear-gradient(180deg, rgb(208, 217, 207) 25%, rgb(240, 240, 240) 100%);
+  border-color: rgb(167, 179, 166);
+  border-radius: 8px;
+  padding: 5px 7px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
