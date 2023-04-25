@@ -6,7 +6,7 @@ export const AppRouter = () => {
     return (
         <>
             <Routes>
-                <Route path={"/"} element={<Cover text1={'Sólo para locos,'} text2={'la entrada'} text3={'cuesta la razón.'} text4={'Hermann Hesse - El Lobo Estepario'} />} />
+                <Route path={"/"} element={<Cover text1={'Sólo para locos,'} text2={'la entrada cuesta la razón.'} text3={'Hermann Hesse'} />} />
                 <Route path={'/genre/:id'} element={<ItemListContainer />} />
                 <Route path={'/allBooks'} element={<ItemListContainer />} />
                 <Route path={'/id/:id'} element={<ItemDetailContainer />} />
