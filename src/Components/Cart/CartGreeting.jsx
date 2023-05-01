@@ -9,9 +9,6 @@ export const CartGreeting = () => {
       <div className="cartBody cartBody_greeting">
         <div className="cartGreeting">
           <div className="greetingContainer"> 
-            {/* <div >
-              <img className="cartGreeting_img" src='../images/greeting_b.png' alt='Hombre libro' />
-            </div> */}
             <div className="cartGreeting_info">
               <div className="cartGreeting_msg">
                 <h1>Muchas Gracias por tu Compra!</h1>
