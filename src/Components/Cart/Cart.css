@@ -38,7 +38,6 @@
 }
 
 /* CartDetail */
-
 .cartItem {
     width: 90%;
     margin: 0 auto;
@@ -66,6 +65,10 @@
     font-size: 1.6em;
     padding: 3px 10px;
     color: #3d463f;
+}
+
+.bi-trash{
+    font-size: 0.8em;
 }
 
 .cleanCart {
@@ -98,47 +101,46 @@
 }
 
 /* CartGreeting */
-.cartGreeting {
+.cartBody_greeting {
     font-family: 'Raleway', sans-serif;
     color: #3d463f;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 400px;
-}
-
-.greetingContainer {
+    width: 90%;
+    height: 400px;
     display: flex;
-    justify-content: space-between;
-    align-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
 }
 
-.cartGreeting_img {
+
+/* .cartGreeting_img {
     width: 530px;
     bottom: 0;
     margin-top: 3em;
     margin-left: 2em;
-}
+} */
 
-.cartGreeting_info {
-    margin: 3em;
+ .cartGreeting_info {  
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
     text-align: center;
-}
+    font-size: 1em;
+} 
 
-.bntGreeting {
+.btnGreeting {
     background: linear-gradient(180deg, rgb(208, 217, 207) 25%, rgb(240, 240, 240) 100%);
     border-color: rgb(167, 179, 166);
     border-radius: 8px;
     padding: 7px 13px;
-    font-size: 1.1em;
     text-align: center;
-    margin: 2em;
+     margin: 2em 0;
 }
 
 .cartGreetin_link {
     font-size: 1.5em;
     text-align: end;
     text-decoration: none;
-    margin-top: 7em;
 }
 
 .btn_salida {
@@ -149,8 +151,26 @@
 
 /* CartOrder */
 
+.order-table{
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.orderImg{
+    border-radius: 5px;
+    padding-right: 3px;
+}
+
 .form-control:focus {
     border: 2px solid #a6c5ad;
     outline: none;
     box-shadow: 3px 0px rgba(167, 179, 166, .3);
+}
+
+@media (min-width:576px){
+    .orderImg {
+           width: 100px;
+           margin-right: 2em;
+           padding-right: 0;
+        }
 }

@@ -65,22 +65,6 @@
   }
 }
 
-/* @media (min-width: 768px) {
-  .card_detail{
-    width: 95%;
-  }
-
-  .card_detail_img {
-    margin: 2em 0;
-  }
-
-  .card_detail_bodyContainer{
-    width: 50%;
-    margin: 2em 0;
-    padding: 1em;
-  }
-} */
-
 @media (min-width: 992px) {
   .card_detail {
     width: 80%;

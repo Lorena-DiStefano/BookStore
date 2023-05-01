@@ -59,11 +59,11 @@ export const CartOrder = () => {
             </form>
           </div>
           <div className="col-md-6">
-            <table className="table">
+            <table className="order-table">
               <tbody>
                 {cartList.map(item => (
                   <tr key={item.id}>
-                    <td><img src={item.image} alt={item.title} width={50} /></td>
+                    <td><img className="orderImg" src={item.image} alt={item.title} width={50} /></td>
                     <td className="align-middle">{item.title}</td>
                     <td className="align-middle text-center">{item.quantity}</td>
                     <td className="align-middle text-end">${(item.quantity * item.price).toLocaleString()}</td>
@@ -72,7 +72,7 @@ export const CartOrder = () => {
                 }
                 <tr>
                   <td colSpan={2}>&nbsp;</td>
-                  <td className="text-end"><b>Total a Pagar </b></td>
+                  <td className="mx-auto p-2"><b>Total</b></td>
                   <td className="text-end"><b>${fullPayment().toLocaleString()}</b></td>
                 </tr>
               </tbody>
